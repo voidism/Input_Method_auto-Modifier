@@ -1,8 +1,7 @@
-<center>自動切換輸入法程式<div style="font-size:0.5em">Modify Input Type Automatically</div></center>
+Modify Input Type Automatically 自動切換輸入法程式
 ===
 
-> [time=Mon, Jul 31, 2017 5:48 PM]
-> [TOC]
+> Mon, Jul 31, 2017 5:48 PM
 
 
 ## 程式效果
