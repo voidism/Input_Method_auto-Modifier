@@ -1,4 +1,4 @@
-<center>自動切換輸入法程式<div style="font-size:0.5em">*Modify Input Type Automatically*</div></center>
+<center>自動切換輸入法程式<div style="font-size:0.5em">Modify Input Type Automatically</div></center>
 ===
 
 > [time=Mon, Jul 31, 2017 5:48 PM]
@@ -42,12 +42,12 @@ p.s. 我是選英字撇捺中間的地方
 3. 用[Hook.py]()來查看該像素格的座標位置
 
     (Hook.py會不斷顯示滑鼠游標的座標位置及RGB值：)
-```python
----
-Position: (1361, 1002) #-->座標位置
-RGB: (270, 270, 270)   #-->RGB值
----
-```
+
+    ---
+    Position: (1361, 1002) #-->座標位置
+    RGB: (270, 270, 270)   #-->RGB值
+    ---
+
 4. 將[ModifyInputType.py]()程式碼128行的`pixel=(1683, 1063)`改成你自己取得的pixel位置
 5. If it's stupid but it works, it isn't stupid.
 
