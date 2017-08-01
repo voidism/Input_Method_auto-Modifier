@@ -75,7 +75,7 @@ cmd /k "cd /d C:\path\to\your\virtualenv_location\Scripts & activate & cd /d  C:
 ## 關於字庫
 - 取用自Mac及Linux的內建字庫，原有45000餘字，刪去"so", "up", "go"...等會與中文輸入混淆的字( so: "ㄋㄟ", up: "ㄧㄣ", go: "ㄕㄟ"...)
 - 當使用者使用中文輸入法打進一串英文字，但因英文字並不在字庫裡，所以沒有自動切換輸入法時，使用者通常會手動按shift切輸入法，這時剛剛所打的那串英文字會自動新增到字庫裡。因此使用者可藉此新增單字
-- 另外可藉由[Dictionary_Add&Del.py](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/Dictionary%20Add%26Del.py)的GUI介面來找查或新增刪除字庫內的字
+- 另外可藉由[Dictionary_Add&Del.py](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/Dictionary_Add%26Del.py)的GUI介面來找查或新增刪除字庫內的字
 
 ![](http://i.imgur.com/mxGEGIZ.gif)
 
