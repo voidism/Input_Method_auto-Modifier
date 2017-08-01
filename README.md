@@ -26,9 +26,10 @@ Modify Input Type Automatically 自動切換輸入法程式
 (下載 PyUserInput-0.1.11-py2-none-any.whl ，然後`pip install PyUserInput-0.1.11-py2-none-any.whl`)
 - PyAutoGUI
 (有內建，直接`pip install pyautogui`就好)
+<!--
 - requests
 (有內建，直接`pip install requests`就好)
-
+-->
 ※ 以上建議在[虛擬環境](https://hackmd.io/s/HycT9L68W)中裝設，會比較乾淨
 
 ## 前置作業
@@ -43,7 +44,7 @@ p.s. 我是選英字撇捺中間的地方
 <img src="https://i.imgur.com/Sj8buTE.png">
 </center>
 
-3. 用[Hook.py]()來查看該像素格的座標位置
+3. 用[Hook.py](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/Hook.py)來查看該像素格的座標位置
     (Hook.py需在環境建置好之後才能用)
     
 Hook.py會不斷更新顯示滑鼠游標的座標位置及RGB值：
@@ -53,7 +54,7 @@ Position: (1361, 1002) #-->座標位置
 RGB: (270, 270, 270)   #-->RGB值
 ---
 ```
-4. 將[ModifyInputType.py]()程式碼128行的`pixel=(1683, 1063)`改成你自己取得的pixel位置
+4. 將[ModifyInputType.py](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/ModifyInputType.py)程式碼126行的`pixel=(1683, 1063)`改成你自己取得的pixel位置
 5. If it's stupid but it works, it isn't stupid.
 
 ## 啟動
@@ -74,7 +75,7 @@ cmd /k "cd /d C:\path\to\your\virtualenv_location\Scripts & activate & cd /d  C:
 ## 關於字庫
 - 取用自Mac及Linux的內建字庫，原有45000餘字，刪去"so", "up", "go"...等會與中文輸入混淆的字( so: "ㄋㄟ", up: "ㄧㄣ", go: "ㄕㄟ"...)
 - 當使用者使用中文輸入法打進一串英文字，但因英文字並不在字庫裡，所以沒有自動切換輸入法時，使用者通常會手動按shift切輸入法，這時剛剛所打的那串英文字會自動新增到字庫裡。因此使用者可藉此新增單字
-- 另外可藉由[Dictionary_Add&Del.py]()的GUI介面來找查或新增刪除字庫內的字
+- 另外可藉由[Dictionary_Add&Del.py](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/Dictionary%20Add%26Del.py)的GUI介面來找查或新增刪除字庫內的字
 
 ![](http://i.imgur.com/mxGEGIZ.gif)
 
