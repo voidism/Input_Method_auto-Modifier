@@ -16,13 +16,11 @@ Modify Input Type Automatically 自動切換輸入法程式
 - 有[Python2.7](https://www.python.org/downloads/)
 - [PyHook](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook)
 (下載 pyHook‑1.5.1‑cp27‑cp27m‑win32.whl 
-*#如果你python裝的是64bit，可以載amd64的*
-
+*[#如果你python裝的是64bit，可以載amd64的]*
 然後在檔案目錄`pip install pyHook‑1.5.1‑cp27‑cp27m‑win32.whl`)
 - [pythoncom (附在pypiwin32裡面)](https://pypi.python.org/pypi/pypiwin32/219)
 (下載 pypiwin32-219-cp27-none-win32.whl
-*#如果你python裝的是64bit，可以載amd64的*
-
+*[#如果你python裝的是64bit，可以載amd64的]*
 然後在檔案目錄`pip install pypiwin32-219-cp27-none-win32.whl`)
 - [PyUserInput](https://pypi.python.org/pypi/PyUserInput/)
 (下載 PyUserInput-0.1.11-py2-none-any.whl ，然後`pip install PyUserInput-0.1.11-py2-none-any.whl`)
