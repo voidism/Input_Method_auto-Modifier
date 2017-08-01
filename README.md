@@ -58,7 +58,9 @@ RGB: (270, 270, 270)   #-->RGB值
 5. If it's stupid but it works, it isn't stupid.
 
 ## 啟動
-就直接執行 `ModifyInputType.py`
+需要把 [字庫](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/EnWordBase.json) 跟其它程式放到同一資料夾，才能運作
+
+然後就直接執行 `ModifyInputType.py`
 
 如果有使用virtualenv，可以寫一個bat檔，像這樣：
 ```dockerfile=
