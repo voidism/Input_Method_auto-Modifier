@@ -6,7 +6,7 @@ import ctypes
 import pyautogui
 import json
 import os
-import requests
+import sys
 
 
 def IsZhInput(words):
@@ -63,16 +63,8 @@ def IsZhInputs(alist):
 
 
 if not os.path.exists('./EnWordBase.json'):
-    web = requests.get(
-        "https://raw.githubusercontent.com/voidism/Modify-Input-Type-Automatically/master/EnWordBase.json")
-    dic = web.json()
-    for i in range(len(dic['words'])):
-        if not dic['words'][i].islower():
-            dic['words'][i] = dic['words'][i].lower()
-    with open('EnWordBase.json', 'w') as file1:
-        json.dump(dic, file1)
-    file1.close()
-    #print 'Dictionary Loaded!'
+    print 'EnWordBase.json not found!'
+    sys.exit()
 
 with open('EnWordBase.json', 'r') as file2:
     ewb = json.load(file2)
