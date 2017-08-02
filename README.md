@@ -36,7 +36,7 @@ Modify Input Type Automatically 自動切換輸入法程式
 由於微軟新注音輸入法不是什麼開源的軟體，一般情況下程式沒有方法可以取得當前的輸入法，所以要用PyAutoGUI來偷吃步：
 
 1. 找到工具列右下角顯示中英文輸入法的地方
-2. 找到一個像素位置，當中文輸入時是白色，英文輸入時是黑色(黑色的RGB值須分別皆大於200)
+2. 找到一個像素位置，當中文輸入時是白色，英文輸入時是黑色(白色的RGB值須分別皆大於200)
 p.s. 我是選英字撇捺中間的地方
 
 <center class="half">
@@ -51,7 +51,7 @@ Hook.py會不斷更新顯示滑鼠游標的座標位置及RGB值：
 ```
 ---
 Position: (1361, 1002) #-->座標位置
-RGB: (270, 270, 270)   #-->RGB值
+RGB: (250, 250, 250)   #-->RGB值
 ---
 ```
 4. 將[ModifyInputType.py](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/ModifyInputType.py)程式碼126行的`pixel=(1683, 1063)`改成你自己取得的pixel位置
