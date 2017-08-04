@@ -271,6 +271,10 @@ def OnKeyboardEvent(event):
 
 
 if __name__ == "__main__":
+    print '+-----------------------------------------------------------+'
+    print '|     The Program of Modifying Input Type Automatically     |'
+    print '|   Copyright (C) 2017 Jexus Chuang. All rights reserved.   |'
+    print '+-----------------------------------------------------------+'
     global k, InputType, ProgramPress, cur_words, cur_keys, susword, wn, shift_pressed#, alt_pressed
     InputType = 0
     ProgramPress = 0
