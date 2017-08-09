@@ -57,7 +57,7 @@ RGB: (250, 250, 250)   #-->RGB值
 4. 將[ModifyInputType.py](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/ModifyInputType.py)程式碼126行的`pixel=(1683, 1063)`改成你自己取得的pixel位置
 5. If it's stupid but it works, it isn't stupid.
 
-:::danger
+:::
 若使用電腦途中有調整螢幕解析度，除了上述pixel值要重新取得之外，需要登出一次，應用程式才會調整成新的解析度。如果是調小解析度還好，可能不會影響到。但如果調大解析度而未登出一次，會使應用程式抓不到超出原本小解析度範圍的pixel值，程式就會開始噴error。
 :::
 
