@@ -163,6 +163,8 @@ def OnKeyboardEvent(event):
                 del cur_words[-1]
             if len(susword) > 0:
                 susword=susword[:-1]
+            if len(cycle) > 0:
+                cycle=cycle[:-1]
         elif (event.Ascii == 8) and len(cur_words) == 0:
             #print event.Key
             return True
