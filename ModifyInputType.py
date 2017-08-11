@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 import pythoncom
 import pyHook
 from pymouse import *
@@ -109,7 +110,7 @@ def extEn(sus):
 
 
 def OnKeyboardEvent(event):
-    global InputType, ProgramPress, cur_words, cur_keys, susword, wn, shift_pressed#, alt_pressed
+    global InputType, ProgramPress, cur_words, cur_keys, cycle, susword, wn, shift_pressed#, alt_pressed
     if event.MessageName=='key up':# and not (event.KeyID in [161, 160]):event.Ascii != 0:
         if  (event.KeyID in [161, 160]):
             shift_pressed=0
@@ -129,6 +130,7 @@ def OnKeyboardEvent(event):
         cur_words = []
         cur_keys = []
         susword = ""
+        cycle = ""
     # Input is human
     if (ProgramPress == 0):
         #if (event.KeyID in [164, 165]):
@@ -154,10 +156,13 @@ def OnKeyboardEvent(event):
             cur_keys = []
             susword=""
             return True
-        elif (event.Ascii == 8) and len(cur_words) > 0:
-            del cur_keys[-1]
-            del cur_words[-1]
-            susword=susword[:-1]
+        elif (event.Ascii == 8):
+            if len(cur_keys) > 0:
+                del cur_keys[-1]
+            if len(cur_words) > 0:
+                del cur_words[-1]
+            if len(susword) > 0:
+                susword=susword[:-1]
         elif (event.Ascii == 8) and len(cur_words) == 0:
             #print event.Key
             return True
@@ -173,6 +178,9 @@ def OnKeyboardEvent(event):
             susword=''.join([susword,chr(event.Ascii)])
             if (event.KeyID in [32]):
                 susword = ""
+            cycle = ''.join([cycle, chr(event.Ascii)])
+            if len(cycle) > 20:
+                cycle = cycle[-20:]
         #print event, event.Ascii, cur_words
         #print susword, cur_keys
 
@@ -185,11 +193,19 @@ def OnKeyboardEvent(event):
         # Input is En
         if (InputType == 0):
             if len(cur_keys) > 0:
+                flag2=0
                 for i in range(len(susword)):
                     if extEn(susword[i:]):
                         cur_words = []
                         cur_keys = []
                         susword = ""
+                        flag2=1
+                if flag2==0:
+                    for i in range(len(cycle)):
+                        if extEn(cycle[i:]):
+                            cur_words = []
+                            cur_keys = []
+                            susword = ""
             if (cur_words == [122, 120, 99, 118]):
                 ctypes.windll.user32.PostQuitMessage(0)
 
@@ -245,7 +261,7 @@ def OnKeyboardEvent(event):
                 cur_keys = []
                 cur_words = []
             '''
-            if extEn(susword):
+            if extEn(susword) and len(cur_keys)>1:
                 #print susword,
                 #print 'Shift to En'
                 ProgramPress = (len(cur_keys)+2)
@@ -273,13 +289,14 @@ def OnKeyboardEvent(event):
 if __name__ == "__main__":
     print '+-----------------------------------------------------------+'
     print '|     The Program of Modifying Input Type Automatically     |'
-    print '|   Copyright (C) 2017 Jexus Chuang. All rights reserved.   |'
+    print "|   Copyright (C) 2017 Jexus Chuang. All rights reserved.   |"
     print '+-----------------------------------------------------------+'
-    global k, InputType, ProgramPress, cur_words, cur_keys, susword, wn, shift_pressed#, alt_pressed
+    global k, InputType, ProgramPress, cur_words, cur_keys, cycle, susword, wn, shift_pressed#, alt_pressed
     InputType = 0
     ProgramPress = 0
     cur_words = []
     cur_keys = []
+    cycle=''
     susword=''
     wn=''
     shift_pressed=0
