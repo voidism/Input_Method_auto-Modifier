@@ -91,9 +91,7 @@ def IsZhSingle(alist):
     if len(alist) >= 2:
         if IsZhInput(alist[-2:]):
             return True
-
     return False
-
 
 def extZh(alist):
     if len(alist) >= 6:
@@ -110,13 +108,14 @@ def extEn(sus):
 
 
 def OnKeyboardEvent(event):
-    global InputType, ProgramPress, cur_words, cur_keys, cycle, susword, wn, shift_pressed#, alt_pressed
+    global InputType, ProgramPress, cur_words, cur_keys, cycle, susword, wn, shift_pressed, ctrl_pressed
     if event.MessageName=='key up':# and not (event.KeyID in [161, 160]):event.Ascii != 0:
         if  (event.KeyID in [161, 160]):
             shift_pressed=0
             return True
-        #elif (event.KeyID in [164, 165]):
-            #alt_pressed=0
+        elif (event.KeyID in [162, 163]):
+            ctrl_pressed=0
+            return True
         else:
             return True
 
@@ -133,9 +132,9 @@ def OnKeyboardEvent(event):
         cycle = ""
     # Input is human
     if (ProgramPress == 0):
-        #if (event.KeyID in [164, 165]):
-            #alt_pressed = 1
-            #return True
+        if (event.KeyID in [162, 163]):
+            ctrl_pressed = 1
+            return True
         if (event.KeyID in [161, 160]):
             shift_pressed=1
         if (event.KeyID in [161, 160]) and len(susword) > 2:
@@ -173,7 +172,10 @@ def OnKeyboardEvent(event):
             cur_words = []
             cur_keys = []
             susword = ""
+            cycle = ""
             return True
+        elif ctrl_pressed == 1:
+            pass
         else:
             cur_words.append(event.Ascii)
             cur_keys.append(chr(event.Ascii))
@@ -293,7 +295,7 @@ if __name__ == "__main__":
     print '|     The Program of Modifying Input Type Automatically     |'
     print "|   Copyright (C) 2017 Jexus Chuang. All rights reserved.   |"
     print '+-----------------------------------------------------------+'
-    global k, InputType, ProgramPress, cur_words, cur_keys, cycle, susword, wn, shift_pressed#, alt_pressed
+    global k, InputType, ProgramPress, cur_words, cur_keys, cycle, susword, wn, shift_pressed, ctrl_pressed
     InputType = 0
     ProgramPress = 0
     cur_words = []
@@ -302,9 +304,8 @@ if __name__ == "__main__":
     susword=''
     wn=''
     shift_pressed=0
-    #alt_pressed=0
+    ctrl_pressed=0
 
-    # m = PyMouse()
     k = PyKeyboard()
 
     # create a hook manager
