@@ -196,6 +196,16 @@ def OnKeyboardEvent(event):
 
         # Input is En
         if (InputType == 0):
+            EnKey = [114, 102, 118, 98, 103, 116, 121,
+                     104, 110, 109, 106, 117, 105, 107, 108, 111, 112,
+                     122, 97, 113, 119, 115, 120, 99, 100, 101]
+            # NumKey=[48, 57, 56, 55, 54, 53, 52, 51, 50, 49]
+            if shift_pressed == 1:
+                cur_keys = []
+                cur_words = []
+                if event.Ascii not in EnKey:
+                    susword = ''
+                    
             if len(cur_keys) > 0:
                 flag2=0
                 for i in range(len(susword)):
