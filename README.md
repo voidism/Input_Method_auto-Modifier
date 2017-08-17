@@ -80,7 +80,14 @@ cmd /k "cd /d C:\path\to\your\virtualenv_location\Scripts & activate & cd /d  C:
 
 ## 關於字庫
 - 取用自Linux的內建字庫，原有45000餘字，刪去"so", "up", "go"...等會與中文輸入混淆的字( so: "ㄋㄟ", up: "ㄧㄣ", go: "ㄕㄟ"...)
-- 當使用者使用中文輸入法打進一串英文字，但因英文字並不在字庫裡，所以沒有自動切換輸入法時，使用者通常會手動按shift切輸入法，這時剛剛所打的那串英文字會自動新增到字庫裡。因此使用者可藉此新增單字
+- 當使用者使用中文輸入法打進一串英文字，但因英文字並不在字庫裡，所以沒有自動切換輸入法時，使用者通常會手動按shift切輸入法，這時剛剛所打的那串英文字會自動新增到字庫裡。因此使用者可藉此新增單字 (單字長度需大於3個字元)
+>
+>2017.08.17更新
+>- 目前程式已更新為可以吃go,so等字，但需在go,so後面打一個空白才能辨別。
+>- 請下載最新版程式碼[ModifyInputType.py](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/ModifyInputType.py)，並將字庫透過[Dictionary_Add&Del.py](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/Dictionary_Add%26Del.py)自行增加"go+空白","so+空白"等新字。(或是直接載新版字庫[EnWordBase.json](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/EnWordBase.json)也可)
+>- 自行增加"- "入字庫可讓你使用HackMD更方便(在輸入Generic List的時候)，但必須確定你平常打字沒有使用一聲"ㄦ"的習慣。
+>- up: “ㄧㄣ” -> 因為中文打一聲ㄧㄣ也會用到空白，會衝突沒辦法加，如果我哪一天學會ML幫我判斷上下文再加這功能好了QAQ
+>
 - 另外可藉由[Dictionary_Add&Del.py](https://github.com/voidism/Modify-Input-Type-Automatically/blob/master/Dictionary_Add%26Del.py)的GUI介面來找查或新增刪除字庫內的字
 
 ![](http://i.imgur.com/mxGEGIZ.gif)
