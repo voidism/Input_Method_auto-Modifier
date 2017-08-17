@@ -177,11 +177,12 @@ def OnKeyboardEvent(event):
         elif ctrl_pressed == 1:
             pass
         else:
+            if len(susword)>0:
+                if susword[-1]==' ':
+                    susword = ""
             cur_words.append(event.Ascii)
             cur_keys.append(chr(event.Ascii))
             susword=''.join([susword,chr(event.Ascii)])
-            if (event.KeyID in [32]):
-                susword = ""
             cycle = ''.join([cycle, chr(event.Ascii)])
             if len(cycle) > 20:
                 cycle = cycle[-20:]
@@ -205,7 +206,7 @@ def OnKeyboardEvent(event):
                 cur_words = []
                 if event.Ascii not in EnKey:
                     susword = ''
-                    
+
             if len(cur_keys) > 0:
                 flag2=0
                 for i in range(len(susword)):
@@ -261,6 +262,19 @@ def OnKeyboardEvent(event):
             '''
             if (cur_words == [122, 120, 99, 118]):
                 ctypes.windll.user32.PostQuitMessage(0)
+            if extEn(susword) and len(cur_keys)>1:
+                #print susword,
+                #print 'Shift to En'
+                ProgramPress = (len(cur_keys)+2)
+                k.tap_key(k.escape_key)
+                k.tap_key(k.shift_key)
+                #pyautogui.typewrite(susword)
+                for i in cur_keys:
+                    k.tap_key(i)
+                cur_keys = []
+                cur_words = []
+                susword = ""
+                return False
             if len(cur_keys) > 0:
                 for i in range(len(cur_words)):
                     if IsZhInput(cur_words[i:]):
