@@ -6,12 +6,21 @@ Modify Input Type Automatically 自動切換輸入法程式
 ## 程式效果
 - 使用英文輸入法鍵入兩個中文字之按鍵組合時，會自動切換成中文輸入法，並幫你刪錯字再重新輸入原本想打的字
 - 英文效果亦同，但為避免誤換輸入法，只有在輸入字庫中的單字時，才會轉換成英文輸入法，字庫會自動新增單字 (詳見 [關於字庫](./README.md#關於字庫) )
-- 應該有比[微軟內建自動切換](https://answers.microsoft.com/zh-hant/windows/forum/windows_10-ime/windows-10/cda818ad-1081-4165-89cd-6d43349c4b9a)好用87倍
+- 應該有比[微軟內建自動切換](https://answers.microsoft.com/zh-hant/windows/forum/windows_10-ime/windows-10/cda818ad-1081-4165-89cd-6d43349c4b9a)好用87倍(內建是只要輸入沒有對應合法中文就直接跳成英文)
 <!--
 (內建是只要輸入沒有對應合法中文就直接跳成英文QQ)
 -->
 
 ![GIF](http://i.imgur.com/s8SDrcZ.gif)
+
+> Thu, Sep 27, 2018 5:48 PM
+> 新增 autohotkey 版本：
+> 如果有裝 [autohotkey](https://autohotkey.com/)，可直接使用_changer.ahk_這個檔。
+> 跟原本差異: 
+> 1. 是輸入一個中文字就會自動轉，而非兩個
+> 2. 英文部分則是輸入三個字母時就會轉(為節省判斷時間及檔案大小)
+> 3. 不會自動記錄新詞
+
 ## 環境需求(Windows)
 - 有[Python2.7](https://www.python.org/downloads/)
 - [PyHook](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook)
