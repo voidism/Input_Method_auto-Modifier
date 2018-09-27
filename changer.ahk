@@ -1,0 +1,13159 @@
+output(text){
+    if(isEng()){
+        len := StrLen(text)
+        Send {Backspace %len%}{Shift}%text%
+    }
+return
+}
+
+outputEng(text){
+    if(!isEng()){
+        len := StrLen(text)
+        Send {Shift}%text%
+    }
+return
+}
+
+isEng(X:=1694, Y:=1075){
+PixelGetColor, color, X, Y
+if (color > 0xAAAAAA ){
+    return 0
+} 
+else {
+    return 1
+}
+}
+:B0*?:18 ::
+    output("18 ")
+return
+:B0*?:186::
+    output("186")
+return
+:B0*?:183::
+    output("183")
+return
+:B0*?:184::
+    output("184")
+return
+:B0*?:187::
+    output("187")
+return
+:B0*?:1i ::
+    output("1i ")
+return
+:B0*?:1i6::
+    output("1i6")
+return
+:B0*?:1i3::
+    output("1i3")
+return
+:B0*?:1i4::
+    output("1i4")
+return
+:B0*?:1i7::
+    output("1i7")
+return
+:B0*?:19 ::
+    output("19 ")
+return
+:B0*?:196::
+    output("196")
+return
+:B0*?:193::
+    output("193")
+return
+:B0*?:194::
+    output("194")
+return
+:B0*?:1o ::
+    output("1o ")
+return
+:B0*?:1o3::
+    output("1o3")
+return
+:B0*?:1o4::
+    output("1o4")
+return
+:B0*?:1o7::
+    output("1o7")
+return
+:B0*?:1l ::
+    output("1l ")
+return
+:B0*?:1l6::
+    output("1l6")
+return
+:B0*?:1l3::
+    output("1l3")
+return
+:B0*?:1l4::
+    output("1l4")
+return
+:B0*?:10 ::
+    output("10 ")
+return
+:B0*?:103::
+    output("103")
+return
+:B0*?:104::
+    output("104")
+return
+:B0*?:1p ::
+    output("1p ")
+return
+:B0*?:1p3::
+    output("1p3")
+return
+:B0*?:1p4::
+    output("1p4")
+return
+:B0*?:1; ::
+    output("1; ")
+return
+:B0*?:1;3::
+    output("1;3")
+return
+:B0*?:1;4::
+    output("1;4")
+return
+:B0*?:1/ ::
+    output("1/ ")
+return
+:B0*?:1/6::
+    output("1/6")
+return
+:B0*?:1/3::
+    output("1/3")
+return
+:B0*?:1/4::
+    output("1/4")
+return
+:B0*?:1u ::
+    output("1u ")
+return
+:B0*?:1u6::
+    output("1u6")
+return
+:B0*?:1u3::
+    output("1u3")
+return
+:B0*?:1u4::
+    output("1u4")
+return
+:B0*?:1u, ::
+    output("1u, ")
+return
+:B0*?:1u,6::
+    output("1u,6")
+return
+:B0*?:1u,3::
+    output("1u,3")
+return
+:B0*?:1u,4::
+    output("1u,4")
+return
+:B0*?:1ul ::
+    output("1ul ")
+return
+:B0*?:1ul3::
+    output("1ul3")
+return
+:B0*?:1ul4::
+    output("1ul4")
+return
+:B0*?:1u0 ::
+    output("1u0 ")
+return
+:B0*?:1u03::
+    output("1u03")
+return
+:B0*?:1u04::
+    output("1u04")
+return
+:B0*?:1up ::
+    output("1up ")
+return
+:B0*?:1up3::
+    output("1up3")
+return
+:B0*?:1up4::
+    output("1up4")
+return
+:B0*?:1u/ ::
+    output("1u/ ")
+return
+:B0*?:1u/3::
+    output("1u/3")
+return
+:B0*?:1u/4::
+    output("1u/4")
+return
+:B0*?:1j ::
+    output("1j ")
+return
+:B0*?:1j6::
+    output("1j6")
+return
+:B0*?:1j3::
+    output("1j3")
+return
+:B0*?:1j4::
+    output("1j4")
+return
+:B0*?:q8 ::
+    output("q8 ")
+return
+:B0*?:q86::
+    output("q86")
+return
+:B0*?:q84::
+    output("q84")
+return
+:B0*?:q87::
+    output("q87")
+return
+:B0*?:qi ::
+    output("qi ")
+return
+:B0*?:qi6::
+    output("qi6")
+return
+:B0*?:qi3::
+    output("qi3")
+return
+:B0*?:qi4::
+    output("qi4")
+return
+:B0*?:q9 ::
+    output("q9 ")
+return
+:B0*?:q96::
+    output("q96")
+return
+:B0*?:q93::
+    output("q93")
+return
+:B0*?:q94::
+    output("q94")
+return
+:B0*?:qo ::
+    output("qo ")
+return
+:B0*?:qo6::
+    output("qo6")
+return
+:B0*?:qo4::
+    output("qo4")
+return
+:B0*?:ql ::
+    output("ql ")
+return
+:B0*?:ql6::
+    output("ql6")
+return
+:B0*?:ql3::
+    output("ql3")
+return
+:B0*?:ql4::
+    output("ql4")
+return
+:B0*?:q. ::
+    output("q. ")
+return
+:B0*?:q.6::
+    output("q.6")
+return
+:B0*?:q.3::
+    output("q.3")
+return
+:B0*?:q0 ::
+    output("q0 ")
+return
+:B0*?:q06::
+    output("q06")
+return
+:B0*?:q04::
+    output("q04")
+return
+:B0*?:qp ::
+    output("qp ")
+return
+:B0*?:qp6::
+    output("qp6")
+return
+:B0*?:qp3::
+    output("qp3")
+return
+:B0*?:qp4::
+    output("qp4")
+return
+:B0*?:q; ::
+    output("q; ")
+return
+:B0*?:q;6::
+    output("q;6")
+return
+:B0*?:q;3::
+    output("q;3")
+return
+:B0*?:q;4::
+    output("q;4")
+return
+:B0*?:q/ ::
+    output("q/ ")
+return
+:B0*?:q/6::
+    output("q/6")
+return
+:B0*?:q/3::
+    output("q/3")
+return
+:B0*?:q/4::
+    output("q/4")
+return
+:B0*?:qu ::
+    output("qu ")
+return
+:B0*?:qu6::
+    output("qu6")
+return
+:B0*?:qu3::
+    output("qu3")
+return
+:B0*?:qu4::
+    output("qu4")
+return
+:B0*?:qu8 ::
+    output("qu8 ")
+return
+:B0*?:qu, ::
+    output("qu, ")
+return
+:B0*?:qu,3::
+    output("qu,3")
+return
+:B0*?:qu,4::
+    output("qu,4")
+return
+:B0*?:qul ::
+    output("qul ")
+return
+:B0*?:qul6::
+    output("qul6")
+return
+:B0*?:qul3::
+    output("qul3")
+return
+:B0*?:qul4::
+    output("qul4")
+return
+:B0*?:qu0 ::
+    output("qu0 ")
+return
+:B0*?:qu06::
+    output("qu06")
+return
+:B0*?:qu03::
+    output("qu03")
+return
+:B0*?:qu04::
+    output("qu04")
+return
+:B0*?:qup ::
+    output("qup ")
+return
+:B0*?:qup6::
+    output("qup6")
+return
+:B0*?:qup3::
+    output("qup3")
+return
+:B0*?:qup4::
+    output("qup4")
+return
+:B0*?:qu/ ::
+    output("qu/ ")
+return
+:B0*?:qu/6::
+    output("qu/6")
+return
+:B0*?:qu/4::
+    output("qu/4")
+return
+:B0*?:qj ::
+    output("qj ")
+return
+:B0*?:qj6::
+    output("qj6")
+return
+:B0*?:qj3::
+    output("qj3")
+return
+:B0*?:qj4::
+    output("qj4")
+return
+:B0*?:a8 ::
+    output("a8 ")
+return
+:B0*?:a86::
+    output("a86")
+return
+:B0*?:a83::
+    output("a83")
+return
+:B0*?:a84::
+    output("a84")
+return
+:B0*?:a87::
+    output("a87")
+return
+:B0*?:ai ::
+    output("ai ")
+return
+:B0*?:ai6::
+    output("ai6")
+return
+:B0*?:ai3::
+    output("ai3")
+return
+:B0*?:ai4::
+    output("ai4")
+return
+:B0*?:ak7::
+    output("ak7")
+return
+:B0*?:a96::
+    output("a96")
+return
+:B0*?:a93::
+    output("a93")
+return
+:B0*?:a94::
+    output("a94")
+return
+:B0*?:ao6::
+    output("ao6")
+return
+:B0*?:ao3::
+    output("ao3")
+return
+:B0*?:ao4::
+    output("ao4")
+return
+:B0*?:al6::
+    output("al6")
+return
+:B0*?:al3::
+    output("al3")
+return
+:B0*?:al4::
+    output("al4")
+return
+:B0*?:a.6::
+    output("a.6")
+return
+:B0*?:a.3::
+    output("a.3")
+return
+:B0*?:a.4::
+    output("a.4")
+return
+:B0*?:a0 ::
+    output("a0 ")
+return
+:B0*?:a06::
+    output("a06")
+return
+:B0*?:a03::
+    output("a03")
+return
+:B0*?:a04::
+    output("a04")
+return
+:B0*?:ap ::
+    output("ap ")
+return
+:B0*?:ap6::
+    output("ap6")
+return
+:B0*?:ap3::
+    output("ap3")
+return
+:B0*?:ap4::
+    output("ap4")
+return
+:B0*?:ap7::
+    output("ap7")
+return
+:B0*?:a;6::
+    output("a;6")
+return
+:B0*?:a;3::
+    output("a;3")
+return
+:B0*?:a/ ::
+    output("a/ ")
+return
+:B0*?:a/6::
+    output("a/6")
+return
+:B0*?:a/3::
+    output("a/3")
+return
+:B0*?:a/4::
+    output("a/4")
+return
+:B0*?:au ::
+    output("au ")
+return
+:B0*?:au6::
+    output("au6")
+return
+:B0*?:au3::
+    output("au3")
+return
+:B0*?:au4::
+    output("au4")
+return
+:B0*?:au, ::
+    output("au, ")
+return
+:B0*?:au,4::
+    output("au,4")
+return
+:B0*?:aul ::
+    output("aul ")
+return
+:B0*?:aul6::
+    output("aul6")
+return
+:B0*?:aul3::
+    output("aul3")
+return
+:B0*?:aul4::
+    output("aul4")
+return
+:B0*?:au.4::
+    output("au.4")
+return
+:B0*?:au06::
+    output("au06")
+return
+:B0*?:au03::
+    output("au03")
+return
+:B0*?:au04::
+    output("au04")
+return
+:B0*?:aup6::
+    output("aup6")
+return
+:B0*?:aup3::
+    output("aup3")
+return
+:B0*?:au/6::
+    output("au/6")
+return
+:B0*?:au/3::
+    output("au/3")
+return
+:B0*?:au/4::
+    output("au/4")
+return
+:B0*?:aj6::
+    output("aj6")
+return
+:B0*?:aj3::
+    output("aj3")
+return
+:B0*?:aj4::
+    output("aj4")
+return
+:B0*?:z8 ::
+    output("z8 ")
+return
+:B0*?:z86::
+    output("z86")
+return
+:B0*?:z83::
+    output("z83")
+return
+:B0*?:z84::
+    output("z84")
+return
+:B0*?:zi6::
+    output("zi6")
+return
+:B0*?:zi4::
+    output("zi4")
+return
+:B0*?:zo ::
+    output("zo ")
+return
+:B0*?:zo6::
+    output("zo6")
+return
+:B0*?:zo3::
+    output("zo3")
+return
+:B0*?:zo4::
+    output("zo4")
+return
+:B0*?:z. ::
+    output("z. ")
+return
+:B0*?:z.6::
+    output("z.6")
+return
+:B0*?:z.3::
+    output("z.3")
+return
+:B0*?:z.4::
+    output("z.4")
+return
+:B0*?:z0 ::
+    output("z0 ")
+return
+:B0*?:z06::
+    output("z06")
+return
+:B0*?:z03::
+    output("z03")
+return
+:B0*?:z04::
+    output("z04")
+return
+:B0*?:zp ::
+    output("zp ")
+return
+:B0*?:zp6::
+    output("zp6")
+return
+:B0*?:zp3::
+    output("zp3")
+return
+:B0*?:zp4::
+    output("zp4")
+return
+:B0*?:z; ::
+    output("z; ")
+return
+:B0*?:z;6::
+    output("z;6")
+return
+:B0*?:z;3::
+    output("z;3")
+return
+:B0*?:z;4::
+    output("z;4")
+return
+:B0*?:z/ ::
+    output("z/ ")
+return
+:B0*?:z/6::
+    output("z/6")
+return
+:B0*?:z/3::
+    output("z/3")
+return
+:B0*?:z/4::
+    output("z/4")
+return
+:B0*?:zj ::
+    output("zj ")
+return
+:B0*?:zj6::
+    output("zj6")
+return
+:B0*?:zj3::
+    output("zj3")
+return
+:B0*?:zj4::
+    output("zj4")
+return
+:B0*?:28 ::
+    output("28 ")
+return
+:B0*?:286::
+    output("286")
+return
+:B0*?:283::
+    output("283")
+return
+:B0*?:284::
+    output("284")
+return
+:B0*?:287::
+    output("287")
+return
+:B0*?:2k ::
+    output("2k ")
+return
+:B0*?:2k6::
+    output("2k6")
+return
+:B0*?:2k7::
+    output("2k7")
+return
+:B0*?:29 ::
+    output("29 ")
+return
+:B0*?:293::
+    output("293")
+return
+:B0*?:294::
+    output("294")
+return
+:B0*?:2o3::
+    output("2o3")
+return
+:B0*?:2l ::
+    output("2l ")
+return
+:B0*?:2l6::
+    output("2l6")
+return
+:B0*?:2l3::
+    output("2l3")
+return
+:B0*?:2l4::
+    output("2l4")
+return
+:B0*?:2. ::
+    output("2. ")
+return
+:B0*?:2.3::
+    output("2.3")
+return
+:B0*?:2.4::
+    output("2.4")
+return
+:B0*?:20 ::
+    output("20 ")
+return
+:B0*?:203::
+    output("203")
+return
+:B0*?:204::
+    output("204")
+return
+:B0*?:2p4::
+    output("2p4")
+return
+:B0*?:2; ::
+    output("2; ")
+return
+:B0*?:2;3::
+    output("2;3")
+return
+:B0*?:2;4::
+    output("2;4")
+return
+:B0*?:2/ ::
+    output("2/ ")
+return
+:B0*?:2/3::
+    output("2/3")
+return
+:B0*?:2/4::
+    output("2/4")
+return
+:B0*?:2u ::
+    output("2u ")
+return
+:B0*?:2u6::
+    output("2u6")
+return
+:B0*?:2u3::
+    output("2u3")
+return
+:B0*?:2u4::
+    output("2u4")
+return
+:B0*?:2u, ::
+    output("2u, ")
+return
+:B0*?:2u,6::
+    output("2u,6")
+return
+:B0*?:2ul ::
+    output("2ul ")
+return
+:B0*?:2ul3::
+    output("2ul3")
+return
+:B0*?:2ul4::
+    output("2ul4")
+return
+:B0*?:2u. ::
+    output("2u. ")
+return
+:B0*?:2u0 ::
+    output("2u0 ")
+return
+:B0*?:2u03::
+    output("2u03")
+return
+:B0*?:2u04::
+    output("2u04")
+return
+:B0*?:2u; ::
+    output("2u; ")
+return
+:B0*?:2u/ ::
+    output("2u/ ")
+return
+:B0*?:2u/3::
+    output("2u/3")
+return
+:B0*?:2u/4::
+    output("2u/4")
+return
+:B0*?:2j ::
+    output("2j ")
+return
+:B0*?:2j6::
+    output("2j6")
+return
+:B0*?:2j3::
+    output("2j3")
+return
+:B0*?:2j4::
+    output("2j4")
+return
+:B0*?:2ji ::
+    output("2ji ")
+return
+:B0*?:2ji6::
+    output("2ji6")
+return
+:B0*?:2ji3::
+    output("2ji3")
+return
+:B0*?:2ji4::
+    output("2ji4")
+return
+:B0*?:2jo ::
+    output("2jo ")
+return
+:B0*?:2jo4::
+    output("2jo4")
+return
+:B0*?:2j0 ::
+    output("2j0 ")
+return
+:B0*?:2j03::
+    output("2j03")
+return
+:B0*?:2j04::
+    output("2j04")
+return
+:B0*?:2jp ::
+    output("2jp ")
+return
+:B0*?:2jp3::
+    output("2jp3")
+return
+:B0*?:2jp4::
+    output("2jp4")
+return
+:B0*?:2j/ ::
+    output("2j/ ")
+return
+:B0*?:2j/3::
+    output("2j/3")
+return
+:B0*?:2j/4::
+    output("2j/4")
+return
+:B0*?:w8 ::
+    output("w8 ")
+return
+:B0*?:w83::
+    output("w83")
+return
+:B0*?:w84::
+    output("w84")
+return
+:B0*?:wk ::
+    output("wk ")
+return
+:B0*?:wk4::
+    output("wk4")
+return
+:B0*?:w9 ::
+    output("w9 ")
+return
+:B0*?:w96::
+    output("w96")
+return
+:B0*?:w94::
+    output("w94")
+return
+:B0*?:w97::
+    output("w97")
+return
+:B0*?:wl ::
+    output("wl ")
+return
+:B0*?:wl6::
+    output("wl6")
+return
+:B0*?:wl3::
+    output("wl3")
+return
+:B0*?:wl4::
+    output("wl4")
+return
+:B0*?:wl7::
+    output("wl7")
+return
+:B0*?:w. ::
+    output("w. ")
+return
+:B0*?:w.6::
+    output("w.6")
+return
+:B0*?:w.3::
+    output("w.3")
+return
+:B0*?:w.4::
+    output("w.4")
+return
+:B0*?:w.7::
+    output("w.7")
+return
+:B0*?:w0 ::
+    output("w0 ")
+return
+:B0*?:w06::
+    output("w06")
+return
+:B0*?:w03::
+    output("w03")
+return
+:B0*?:w04::
+    output("w04")
+return
+:B0*?:w; ::
+    output("w; ")
+return
+:B0*?:w;6::
+    output("w;6")
+return
+:B0*?:w;3::
+    output("w;3")
+return
+:B0*?:w;4::
+    output("w;4")
+return
+:B0*?:w/ ::
+    output("w/ ")
+return
+:B0*?:w/6::
+    output("w/6")
+return
+:B0*?:wu ::
+    output("wu ")
+return
+:B0*?:wu6::
+    output("wu6")
+return
+:B0*?:wu3::
+    output("wu3")
+return
+:B0*?:wu4::
+    output("wu4")
+return
+:B0*?:wu, ::
+    output("wu, ")
+return
+:B0*?:wu,3::
+    output("wu,3")
+return
+:B0*?:wu,4::
+    output("wu,4")
+return
+:B0*?:wul ::
+    output("wul ")
+return
+:B0*?:wul6::
+    output("wul6")
+return
+:B0*?:wul3::
+    output("wul3")
+return
+:B0*?:wul4::
+    output("wul4")
+return
+:B0*?:wu0 ::
+    output("wu0 ")
+return
+:B0*?:wu06::
+    output("wu06")
+return
+:B0*?:wu03::
+    output("wu03")
+return
+:B0*?:wu04::
+    output("wu04")
+return
+:B0*?:wu/ ::
+    output("wu/ ")
+return
+:B0*?:wu/6::
+    output("wu/6")
+return
+:B0*?:wu/3::
+    output("wu/3")
+return
+:B0*?:wu/4::
+    output("wu/4")
+return
+:B0*?:wj ::
+    output("wj ")
+return
+:B0*?:wj6::
+    output("wj6")
+return
+:B0*?:wj3::
+    output("wj3")
+return
+:B0*?:wj4::
+    output("wj4")
+return
+:B0*?:wji ::
+    output("wji ")
+return
+:B0*?:wji6::
+    output("wji6")
+return
+:B0*?:wji3::
+    output("wji3")
+return
+:B0*?:wji4::
+    output("wji4")
+return
+:B0*?:wjo ::
+    output("wjo ")
+return
+:B0*?:wjo6::
+    output("wjo6")
+return
+:B0*?:wjo3::
+    output("wjo3")
+return
+:B0*?:wjo4::
+    output("wjo4")
+return
+:B0*?:wj0 ::
+    output("wj0 ")
+return
+:B0*?:wj06::
+    output("wj06")
+return
+:B0*?:wj03::
+    output("wj03")
+return
+:B0*?:wj04::
+    output("wj04")
+return
+:B0*?:wjp ::
+    output("wjp ")
+return
+:B0*?:wjp6::
+    output("wjp6")
+return
+:B0*?:wjp3::
+    output("wjp3")
+return
+:B0*?:wjp4::
+    output("wjp4")
+return
+:B0*?:wj/ ::
+    output("wj/ ")
+return
+:B0*?:wj/6::
+    output("wj/6")
+return
+:B0*?:wj/3::
+    output("wj/3")
+return
+:B0*?:wj/4::
+    output("wj/4")
+return
+:B0*?:s8 ::
+    output("s8 ")
+return
+:B0*?:s86::
+    output("s86")
+return
+:B0*?:s83::
+    output("s83")
+return
+:B0*?:s84::
+    output("s84")
+return
+:B0*?:s87::
+    output("s87")
+return
+:B0*?:sk6::
+    output("sk6")
+return
+:B0*?:sk4::
+    output("sk4")
+return
+:B0*?:sk7::
+    output("sk7")
+return
+:B0*?:s,4::
+    output("s,4")
+return
+:B0*?:s96::
+    output("s96")
+return
+:B0*?:s93::
+    output("s93")
+return
+:B0*?:s94::
+    output("s94")
+return
+:B0*?:so3::
+    output("so3")
+return
+:B0*?:so4::
+    output("so4")
+return
+:B0*?:sl ::
+    output("sl ")
+return
+:B0*?:sl6::
+    output("sl6")
+return
+:B0*?:sl3::
+    output("sl3")
+return
+:B0*?:sl4::
+    output("sl4")
+return
+:B0*?:s.6::
+    output("s.6")
+return
+:B0*?:s.4::
+    output("s.4")
+return
+:B0*?:s.7::
+    output("s.7")
+return
+:B0*?:s0 ::
+    output("s0 ")
+return
+:B0*?:s06::
+    output("s06")
+return
+:B0*?:s03::
+    output("s03")
+return
+:B0*?:s04::
+    output("s04")
+return
+:B0*?:sp4::
+    output("sp4")
+return
+:B0*?:s;6::
+    output("s;6")
+return
+:B0*?:s;3::
+    output("s;3")
+return
+:B0*?:s;4::
+    output("s;4")
+return
+:B0*?:s;7::
+    output("s;7")
+return
+:B0*?:s/6::
+    output("s/6")
+return
+:B0*?:s/4::
+    output("s/4")
+return
+:B0*?:su6::
+    output("su6")
+return
+:B0*?:su3::
+    output("su3")
+return
+:B0*?:su4::
+    output("su4")
+return
+:B0*?:su, ::
+    output("su, ")
+return
+:B0*?:su,6::
+    output("su,6")
+return
+:B0*?:su,4::
+    output("su,4")
+return
+:B0*?:sul3::
+    output("sul3")
+return
+:B0*?:sul4::
+    output("sul4")
+return
+:B0*?:su. ::
+    output("su. ")
+return
+:B0*?:su.6::
+    output("su.6")
+return
+:B0*?:su.3::
+    output("su.3")
+return
+:B0*?:su.4::
+    output("su.4")
+return
+:B0*?:su0 ::
+    output("su0 ")
+return
+:B0*?:su06::
+    output("su06")
+return
+:B0*?:su03::
+    output("su03")
+return
+:B0*?:su04::
+    output("su04")
+return
+:B0*?:sup6::
+    output("sup6")
+return
+:B0*?:su;6::
+    output("su;6")
+return
+:B0*?:su;4::
+    output("su;4")
+return
+:B0*?:su/6::
+    output("su/6")
+return
+:B0*?:su/3::
+    output("su/3")
+return
+:B0*?:su/4::
+    output("su/4")
+return
+:B0*?:sj6::
+    output("sj6")
+return
+:B0*?:sj3::
+    output("sj3")
+return
+:B0*?:sj4::
+    output("sj4")
+return
+:B0*?:sji6::
+    output("sji6")
+return
+:B0*?:sji3::
+    output("sji3")
+return
+:B0*?:sji4::
+    output("sji4")
+return
+:B0*?:sj06::
+    output("sj06")
+return
+:B0*?:sj03::
+    output("sj03")
+return
+:B0*?:sjp6::
+    output("sjp6")
+return
+:B0*?:sjp4::
+    output("sjp4")
+return
+:B0*?:sj/6::
+    output("sj/6")
+return
+:B0*?:sj/4::
+    output("sj/4")
+return
+:B0*?:sm3::
+    output("sm3")
+return
+:B0*?:sm4::
+    output("sm4")
+return
+:B0*?:sm,4::
+    output("sm,4")
+return
+:B0*?:x8 ::
+    output("x8 ")
+return
+:B0*?:x86::
+    output("x86")
+return
+:B0*?:x83::
+    output("x83")
+return
+:B0*?:x84::
+    output("x84")
+return
+:B0*?:x87::
+    output("x87")
+return
+:B0*?:xi7::
+    output("xi7")
+return
+:B0*?:xk ::
+    output("xk ")
+return
+:B0*?:xk4::
+    output("xk4")
+return
+:B0*?:xk7::
+    output("xk7")
+return
+:B0*?:x96::
+    output("x96")
+return
+:B0*?:x94::
+    output("x94")
+return
+:B0*?:xo ::
+    output("xo ")
+return
+:B0*?:xo6::
+    output("xo6")
+return
+:B0*?:xo3::
+    output("xo3")
+return
+:B0*?:xo4::
+    output("xo4")
+return
+:B0*?:xl ::
+    output("xl ")
+return
+:B0*?:xl6::
+    output("xl6")
+return
+:B0*?:xl3::
+    output("xl3")
+return
+:B0*?:xl4::
+    output("xl4")
+return
+:B0*?:x. ::
+    output("x. ")
+return
+:B0*?:x.6::
+    output("x.6")
+return
+:B0*?:x.3::
+    output("x.3")
+return
+:B0*?:x.4::
+    output("x.4")
+return
+:B0*?:x.7::
+    output("x.7")
+return
+:B0*?:x06::
+    output("x06")
+return
+:B0*?:x03::
+    output("x03")
+return
+:B0*?:x04::
+    output("x04")
+return
+:B0*?:x; ::
+    output("x; ")
+return
+:B0*?:x;6::
+    output("x;6")
+return
+:B0*?:x;3::
+    output("x;3")
+return
+:B0*?:x;4::
+    output("x;4")
+return
+:B0*?:x/ ::
+    output("x/ ")
+return
+:B0*?:x/6::
+    output("x/6")
+return
+:B0*?:x/3::
+    output("x/3")
+return
+:B0*?:x/4::
+    output("x/4")
+return
+:B0*?:xu ::
+    output("xu ")
+return
+:B0*?:xu6::
+    output("xu6")
+return
+:B0*?:xu3::
+    output("xu3")
+return
+:B0*?:xu4::
+    output("xu4")
+return
+:B0*?:xu7::
+    output("xu7")
+return
+:B0*?:xu83::
+    output("xu83")
+return
+:B0*?:xu, ::
+    output("xu, ")
+return
+:B0*?:xu,6::
+    output("xu,6")
+return
+:B0*?:xu,3::
+    output("xu,3")
+return
+:B0*?:xu,4::
+    output("xu,4")
+return
+:B0*?:xul ::
+    output("xul ")
+return
+:B0*?:xul6::
+    output("xul6")
+return
+:B0*?:xul3::
+    output("xul3")
+return
+:B0*?:xul4::
+    output("xul4")
+return
+:B0*?:xu. ::
+    output("xu. ")
+return
+:B0*?:xu.6::
+    output("xu.6")
+return
+:B0*?:xu.3::
+    output("xu.3")
+return
+:B0*?:xu.4::
+    output("xu.4")
+return
+:B0*?:xu06::
+    output("xu06")
+return
+:B0*?:xu03::
+    output("xu03")
+return
+:B0*?:xu04::
+    output("xu04")
+return
+:B0*?:xup6::
+    output("xup6")
+return
+:B0*?:xup3::
+    output("xup3")
+return
+:B0*?:xup4::
+    output("xup4")
+return
+:B0*?:xu;6::
+    output("xu;6")
+return
+:B0*?:xu;3::
+    output("xu;3")
+return
+:B0*?:xu;4::
+    output("xu;4")
+return
+:B0*?:xu/ ::
+    output("xu/ ")
+return
+:B0*?:xu/6::
+    output("xu/6")
+return
+:B0*?:xu/3::
+    output("xu/3")
+return
+:B0*?:xu/4::
+    output("xu/4")
+return
+:B0*?:xj ::
+    output("xj ")
+return
+:B0*?:xj6::
+    output("xj6")
+return
+:B0*?:xj3::
+    output("xj3")
+return
+:B0*?:xj4::
+    output("xj4")
+return
+:B0*?:xji ::
+    output("xji ")
+return
+:B0*?:xji6::
+    output("xji6")
+return
+:B0*?:xji3::
+    output("xji3")
+return
+:B0*?:xji4::
+    output("xji4")
+return
+:B0*?:xj06::
+    output("xj06")
+return
+:B0*?:xj03::
+    output("xj03")
+return
+:B0*?:xj04::
+    output("xj04")
+return
+:B0*?:xjp ::
+    output("xjp ")
+return
+:B0*?:xjp6::
+    output("xjp6")
+return
+:B0*?:xjp3::
+    output("xjp3")
+return
+:B0*?:xjp4::
+    output("xjp4")
+return
+:B0*?:xj/6::
+    output("xj/6")
+return
+:B0*?:xj/3::
+    output("xj/3")
+return
+:B0*?:xj/4::
+    output("xj/4")
+return
+:B0*?:xm6::
+    output("xm6")
+return
+:B0*?:xm3::
+    output("xm3")
+return
+:B0*?:xm4::
+    output("xm4")
+return
+:B0*?:xm,4::
+    output("xm,4")
+return
+:B0*?:xm06::
+    output("xm06")
+return
+:B0*?:xm03::
+    output("xm03")
+return
+:B0*?:xmp6::
+    output("xmp6")
+return
+:B0*?:e8 ::
+    output("e8 ")
+return
+:B0*?:e86::
+    output("e86")
+return
+:B0*?:e83::
+    output("e83")
+return
+:B0*?:e84::
+    output("e84")
+return
+:B0*?:e87::
+    output("e87")
+return
+:B0*?:ek ::
+    output("ek ")
+return
+:B0*?:ek6::
+    output("ek6")
+return
+:B0*?:ek3::
+    output("ek3")
+return
+:B0*?:ek4::
+    output("ek4")
+return
+:B0*?:ek7::
+    output("ek7")
+return
+:B0*?:e9 ::
+    output("e9 ")
+return
+:B0*?:e93::
+    output("e93")
+return
+:B0*?:e94::
+    output("e94")
+return
+:B0*?:eo3::
+    output("eo3")
+return
+:B0*?:el ::
+    output("el ")
+return
+:B0*?:el3::
+    output("el3")
+return
+:B0*?:el4::
+    output("el4")
+return
+:B0*?:e. ::
+    output("e. ")
+return
+:B0*?:e.3::
+    output("e.3")
+return
+:B0*?:e.4::
+    output("e.4")
+return
+:B0*?:e0 ::
+    output("e0 ")
+return
+:B0*?:e03::
+    output("e03")
+return
+:B0*?:e04::
+    output("e04")
+return
+:B0*?:ep ::
+    output("ep ")
+return
+:B0*?:ep6::
+    output("ep6")
+return
+:B0*?:ep3::
+    output("ep3")
+return
+:B0*?:ep4::
+    output("ep4")
+return
+:B0*?:e; ::
+    output("e; ")
+return
+:B0*?:e;3::
+    output("e;3")
+return
+:B0*?:e;4::
+    output("e;4")
+return
+:B0*?:e/ ::
+    output("e/ ")
+return
+:B0*?:e/3::
+    output("e/3")
+return
+:B0*?:e/4::
+    output("e/4")
+return
+:B0*?:ej ::
+    output("ej ")
+return
+:B0*?:ej6::
+    output("ej6")
+return
+:B0*?:ej3::
+    output("ej3")
+return
+:B0*?:ej4::
+    output("ej4")
+return
+:B0*?:ej8 ::
+    output("ej8 ")
+return
+:B0*?:ej83::
+    output("ej83")
+return
+:B0*?:ej84::
+    output("ej84")
+return
+:B0*?:eji ::
+    output("eji ")
+return
+:B0*?:eji6::
+    output("eji6")
+return
+:B0*?:eji3::
+    output("eji3")
+return
+:B0*?:eji4::
+    output("eji4")
+return
+:B0*?:eji7::
+    output("eji7")
+return
+:B0*?:ej9 ::
+    output("ej9 ")
+return
+:B0*?:ej93::
+    output("ej93")
+return
+:B0*?:ej94::
+    output("ej94")
+return
+:B0*?:ejo ::
+    output("ejo ")
+return
+:B0*?:ejo3::
+    output("ejo3")
+return
+:B0*?:ejo4::
+    output("ejo4")
+return
+:B0*?:ej0 ::
+    output("ej0 ")
+return
+:B0*?:ej03::
+    output("ej03")
+return
+:B0*?:ej04::
+    output("ej04")
+return
+:B0*?:ejp3::
+    output("ejp3")
+return
+:B0*?:ejp4::
+    output("ejp4")
+return
+:B0*?:ej; ::
+    output("ej; ")
+return
+:B0*?:ej;3::
+    output("ej;3")
+return
+:B0*?:ej;4::
+    output("ej;4")
+return
+:B0*?:ej/ ::
+    output("ej/ ")
+return
+:B0*?:ej/3::
+    output("ej/3")
+return
+:B0*?:ej/4::
+    output("ej/4")
+return
+:B0*?:d8 ::
+    output("d8 ")
+return
+:B0*?:d83::
+    output("d83")
+return
+:B0*?:d84::
+    output("d84")
+return
+:B0*?:dk ::
+    output("dk ")
+return
+:B0*?:dk6::
+    output("dk6")
+return
+:B0*?:dk3::
+    output("dk3")
+return
+:B0*?:dk4::
+    output("dk4")
+return
+:B0*?:d9 ::
+    output("d9 ")
+return
+:B0*?:d93::
+    output("d93")
+return
+:B0*?:d94::
+    output("d94")
+return
+:B0*?:dl ::
+    output("dl ")
+return
+:B0*?:dl3::
+    output("dl3")
+return
+:B0*?:dl4::
+    output("dl4")
+return
+:B0*?:d. ::
+    output("d. ")
+return
+:B0*?:d.3::
+    output("d.3")
+return
+:B0*?:d.4::
+    output("d.4")
+return
+:B0*?:d0 ::
+    output("d0 ")
+return
+:B0*?:d03::
+    output("d03")
+return
+:B0*?:d04::
+    output("d04")
+return
+:B0*?:dp3::
+    output("dp3")
+return
+:B0*?:dp4::
+    output("dp4")
+return
+:B0*?:d; ::
+    output("d; ")
+return
+:B0*?:d;6::
+    output("d;6")
+return
+:B0*?:d;3::
+    output("d;3")
+return
+:B0*?:d;4::
+    output("d;4")
+return
+:B0*?:d/ ::
+    output("d/ ")
+return
+:B0*?:d/3::
+    output("d/3")
+return
+:B0*?:dj ::
+    output("dj ")
+return
+:B0*?:dj3::
+    output("dj3")
+return
+:B0*?:dj4::
+    output("dj4")
+return
+:B0*?:dj8 ::
+    output("dj8 ")
+return
+:B0*?:dj83::
+    output("dj83")
+return
+:B0*?:dj84::
+    output("dj84")
+return
+:B0*?:dji4::
+    output("dji4")
+return
+:B0*?:dj9 ::
+    output("dj9 ")
+return
+:B0*?:dj93::
+    output("dj93")
+return
+:B0*?:dj94::
+    output("dj94")
+return
+:B0*?:djo ::
+    output("djo ")
+return
+:B0*?:djo6::
+    output("djo6")
+return
+:B0*?:djo3::
+    output("djo3")
+return
+:B0*?:djo4::
+    output("djo4")
+return
+:B0*?:dj0 ::
+    output("dj0 ")
+return
+:B0*?:dj03::
+    output("dj03")
+return
+:B0*?:djp ::
+    output("djp ")
+return
+:B0*?:djp3::
+    output("djp3")
+return
+:B0*?:djp4::
+    output("djp4")
+return
+:B0*?:dj; ::
+    output("dj; ")
+return
+:B0*?:dj;6::
+    output("dj;6")
+return
+:B0*?:dj;3::
+    output("dj;3")
+return
+:B0*?:dj;4::
+    output("dj;4")
+return
+:B0*?:dj/ ::
+    output("dj/ ")
+return
+:B0*?:dj/3::
+    output("dj/3")
+return
+:B0*?:dj/4::
+    output("dj/4")
+return
+:B0*?:c8 ::
+    output("c8 ")
+return
+:B0*?:c86::
+    output("c86")
+return
+:B0*?:c83::
+    output("c83")
+return
+:B0*?:ck ::
+    output("ck ")
+return
+:B0*?:ck6::
+    output("ck6")
+return
+:B0*?:ck4::
+    output("ck4")
+return
+:B0*?:c9 ::
+    output("c9 ")
+return
+:B0*?:c96::
+    output("c96")
+return
+:B0*?:c93::
+    output("c93")
+return
+:B0*?:c94::
+    output("c94")
+return
+:B0*?:co ::
+    output("co ")
+return
+:B0*?:co3::
+    output("co3")
+return
+:B0*?:cl ::
+    output("cl ")
+return
+:B0*?:cl6::
+    output("cl6")
+return
+:B0*?:cl3::
+    output("cl3")
+return
+:B0*?:cl4::
+    output("cl4")
+return
+:B0*?:c. ::
+    output("c. ")
+return
+:B0*?:c.6::
+    output("c.6")
+return
+:B0*?:c.3::
+    output("c.3")
+return
+:B0*?:c.4::
+    output("c.4")
+return
+:B0*?:c0 ::
+    output("c0 ")
+return
+:B0*?:c06::
+    output("c06")
+return
+:B0*?:c03::
+    output("c03")
+return
+:B0*?:c04::
+    output("c04")
+return
+:B0*?:cp6::
+    output("cp6")
+return
+:B0*?:cp3::
+    output("cp3")
+return
+:B0*?:cp4::
+    output("cp4")
+return
+:B0*?:c; ::
+    output("c; ")
+return
+:B0*?:c;6::
+    output("c;6")
+return
+:B0*?:c;4::
+    output("c;4")
+return
+:B0*?:c/ ::
+    output("c/ ")
+return
+:B0*?:c/6::
+    output("c/6")
+return
+:B0*?:c/4::
+    output("c/4")
+return
+:B0*?:c/7::
+    output("c/7")
+return
+:B0*?:cj ::
+    output("cj ")
+return
+:B0*?:cj6::
+    output("cj6")
+return
+:B0*?:cj3::
+    output("cj3")
+return
+:B0*?:cj4::
+    output("cj4")
+return
+:B0*?:cj8 ::
+    output("cj8 ")
+return
+:B0*?:cj86::
+    output("cj86")
+return
+:B0*?:cj84::
+    output("cj84")
+return
+:B0*?:cji ::
+    output("cji ")
+return
+:B0*?:cji6::
+    output("cji6")
+return
+:B0*?:cji3::
+    output("cji3")
+return
+:B0*?:cji4::
+    output("cji4")
+return
+:B0*?:cji7::
+    output("cji7")
+return
+:B0*?:cj96::
+    output("cj96")
+return
+:B0*?:cj94::
+    output("cj94")
+return
+:B0*?:cjo ::
+    output("cjo ")
+return
+:B0*?:cjo6::
+    output("cjo6")
+return
+:B0*?:cjo3::
+    output("cjo3")
+return
+:B0*?:cjo4::
+    output("cjo4")
+return
+:B0*?:cj0 ::
+    output("cj0 ")
+return
+:B0*?:cj06::
+    output("cj06")
+return
+:B0*?:cj03::
+    output("cj03")
+return
+:B0*?:cj04::
+    output("cj04")
+return
+:B0*?:cjp ::
+    output("cjp ")
+return
+:B0*?:cjp6::
+    output("cjp6")
+return
+:B0*?:cjp3::
+    output("cjp3")
+return
+:B0*?:cjp4::
+    output("cjp4")
+return
+:B0*?:cj; ::
+    output("cj; ")
+return
+:B0*?:cj;6::
+    output("cj;6")
+return
+:B0*?:cj;3::
+    output("cj;3")
+return
+:B0*?:cj;4::
+    output("cj;4")
+return
+:B0*?:cj;7::
+    output("cj;7")
+return
+:B0*?:cj/ ::
+    output("cj/ ")
+return
+:B0*?:cj/6::
+    output("cj/6")
+return
+:B0*?:cj/3::
+    output("cj/3")
+return
+:B0*?:cj/4::
+    output("cj/4")
+return
+:B0*?:ru ::
+    output("ru ")
+return
+:B0*?:ru6::
+    output("ru6")
+return
+:B0*?:ru3::
+    output("ru3")
+return
+:B0*?:ru4::
+    output("ru4")
+return
+:B0*?:ru8 ::
+    output("ru8 ")
+return
+:B0*?:ru86::
+    output("ru86")
+return
+:B0*?:ru83::
+    output("ru83")
+return
+:B0*?:ru84::
+    output("ru84")
+return
+:B0*?:ru, ::
+    output("ru, ")
+return
+:B0*?:ru,6::
+    output("ru,6")
+return
+:B0*?:ru,3::
+    output("ru,3")
+return
+:B0*?:ru,4::
+    output("ru,4")
+return
+:B0*?:rul ::
+    output("rul ")
+return
+:B0*?:rul6::
+    output("rul6")
+return
+:B0*?:rul3::
+    output("rul3")
+return
+:B0*?:rul4::
+    output("rul4")
+return
+:B0*?:ru. ::
+    output("ru. ")
+return
+:B0*?:ru.3::
+    output("ru.3")
+return
+:B0*?:ru.4::
+    output("ru.4")
+return
+:B0*?:ru0 ::
+    output("ru0 ")
+return
+:B0*?:ru03::
+    output("ru03")
+return
+:B0*?:ru04::
+    output("ru04")
+return
+:B0*?:rup ::
+    output("rup ")
+return
+:B0*?:rup3::
+    output("rup3")
+return
+:B0*?:rup4::
+    output("rup4")
+return
+:B0*?:ru; ::
+    output("ru; ")
+return
+:B0*?:ru;3::
+    output("ru;3")
+return
+:B0*?:ru;4::
+    output("ru;4")
+return
+:B0*?:ru/ ::
+    output("ru/ ")
+return
+:B0*?:ru/3::
+    output("ru/3")
+return
+:B0*?:ru/4::
+    output("ru/4")
+return
+:B0*?:rm ::
+    output("rm ")
+return
+:B0*?:rm6::
+    output("rm6")
+return
+:B0*?:rm3::
+    output("rm3")
+return
+:B0*?:rm4::
+    output("rm4")
+return
+:B0*?:rm, ::
+    output("rm, ")
+return
+:B0*?:rm,6::
+    output("rm,6")
+return
+:B0*?:rm,3::
+    output("rm,3")
+return
+:B0*?:rm,4::
+    output("rm,4")
+return
+:B0*?:rm0 ::
+    output("rm0 ")
+return
+:B0*?:rm03::
+    output("rm03")
+return
+:B0*?:rm04::
+    output("rm04")
+return
+:B0*?:rmp ::
+    output("rmp ")
+return
+:B0*?:rmp3::
+    output("rmp3")
+return
+:B0*?:rmp4::
+    output("rmp4")
+return
+:B0*?:rm/ ::
+    output("rm/ ")
+return
+:B0*?:rm/3::
+    output("rm/3")
+return
+:B0*?:fu ::
+    output("fu ")
+return
+:B0*?:fu6::
+    output("fu6")
+return
+:B0*?:fu3::
+    output("fu3")
+return
+:B0*?:fu4::
+    output("fu4")
+return
+:B0*?:fu8 ::
+    output("fu8 ")
+return
+:B0*?:fu86::
+    output("fu86")
+return
+:B0*?:fu83::
+    output("fu83")
+return
+:B0*?:fu84::
+    output("fu84")
+return
+:B0*?:fu, ::
+    output("fu, ")
+return
+:B0*?:fu,6::
+    output("fu,6")
+return
+:B0*?:fu,3::
+    output("fu,3")
+return
+:B0*?:fu,4::
+    output("fu,4")
+return
+:B0*?:ful ::
+    output("ful ")
+return
+:B0*?:ful6::
+    output("ful6")
+return
+:B0*?:ful3::
+    output("ful3")
+return
+:B0*?:ful4::
+    output("ful4")
+return
+:B0*?:fu. ::
+    output("fu. ")
+return
+:B0*?:fu.6::
+    output("fu.6")
+return
+:B0*?:fu.3::
+    output("fu.3")
+return
+:B0*?:fu0 ::
+    output("fu0 ")
+return
+:B0*?:fu06::
+    output("fu06")
+return
+:B0*?:fu03::
+    output("fu03")
+return
+:B0*?:fu04::
+    output("fu04")
+return
+:B0*?:fup ::
+    output("fup ")
+return
+:B0*?:fup6::
+    output("fup6")
+return
+:B0*?:fup3::
+    output("fup3")
+return
+:B0*?:fup4::
+    output("fup4")
+return
+:B0*?:fu; ::
+    output("fu; ")
+return
+:B0*?:fu;6::
+    output("fu;6")
+return
+:B0*?:fu;3::
+    output("fu;3")
+return
+:B0*?:fu;4::
+    output("fu;4")
+return
+:B0*?:fu/ ::
+    output("fu/ ")
+return
+:B0*?:fu/6::
+    output("fu/6")
+return
+:B0*?:fu/3::
+    output("fu/3")
+return
+:B0*?:fu/4::
+    output("fu/4")
+return
+:B0*?:fm ::
+    output("fm ")
+return
+:B0*?:fm6::
+    output("fm6")
+return
+:B0*?:fm3::
+    output("fm3")
+return
+:B0*?:fm4::
+    output("fm4")
+return
+:B0*?:fm, ::
+    output("fm, ")
+return
+:B0*?:fm,6::
+    output("fm,6")
+return
+:B0*?:fm,4::
+    output("fm,4")
+return
+:B0*?:fm0 ::
+    output("fm0 ")
+return
+:B0*?:fm06::
+    output("fm06")
+return
+:B0*?:fm03::
+    output("fm03")
+return
+:B0*?:fm04::
+    output("fm04")
+return
+:B0*?:fmp ::
+    output("fmp ")
+return
+:B0*?:fmp6::
+    output("fmp6")
+return
+:B0*?:fm/ ::
+    output("fm/ ")
+return
+:B0*?:fm/6::
+    output("fm/6")
+return
+:B0*?:vu ::
+    output("vu ")
+return
+:B0*?:vu6::
+    output("vu6")
+return
+:B0*?:vu3::
+    output("vu3")
+return
+:B0*?:vu4::
+    output("vu4")
+return
+:B0*?:vu8 ::
+    output("vu8 ")
+return
+:B0*?:vu86::
+    output("vu86")
+return
+:B0*?:vu83::
+    output("vu83")
+return
+:B0*?:vu84::
+    output("vu84")
+return
+:B0*?:vu, ::
+    output("vu, ")
+return
+:B0*?:vu,6::
+    output("vu,6")
+return
+:B0*?:vu,3::
+    output("vu,3")
+return
+:B0*?:vu,4::
+    output("vu,4")
+return
+:B0*?:vul ::
+    output("vul ")
+return
+:B0*?:vul6::
+    output("vul6")
+return
+:B0*?:vul3::
+    output("vul3")
+return
+:B0*?:vul4::
+    output("vul4")
+return
+:B0*?:vu. ::
+    output("vu. ")
+return
+:B0*?:vu.3::
+    output("vu.3")
+return
+:B0*?:vu.4::
+    output("vu.4")
+return
+:B0*?:vu0 ::
+    output("vu0 ")
+return
+:B0*?:vu06::
+    output("vu06")
+return
+:B0*?:vu03::
+    output("vu03")
+return
+:B0*?:vu04::
+    output("vu04")
+return
+:B0*?:vup ::
+    output("vup ")
+return
+:B0*?:vup6::
+    output("vup6")
+return
+:B0*?:vup3::
+    output("vup3")
+return
+:B0*?:vup4::
+    output("vup4")
+return
+:B0*?:vu; ::
+    output("vu; ")
+return
+:B0*?:vu;6::
+    output("vu;6")
+return
+:B0*?:vu;3::
+    output("vu;3")
+return
+:B0*?:vu;4::
+    output("vu;4")
+return
+:B0*?:vu/ ::
+    output("vu/ ")
+return
+:B0*?:vu/6::
+    output("vu/6")
+return
+:B0*?:vu/3::
+    output("vu/3")
+return
+:B0*?:vu/4::
+    output("vu/4")
+return
+:B0*?:vm ::
+    output("vm ")
+return
+:B0*?:vm6::
+    output("vm6")
+return
+:B0*?:vm3::
+    output("vm3")
+return
+:B0*?:vm4::
+    output("vm4")
+return
+:B0*?:vm, ::
+    output("vm, ")
+return
+:B0*?:vm,6::
+    output("vm,6")
+return
+:B0*?:vm,3::
+    output("vm,3")
+return
+:B0*?:vm,4::
+    output("vm,4")
+return
+:B0*?:vm0 ::
+    output("vm0 ")
+return
+:B0*?:vm06::
+    output("vm06")
+return
+:B0*?:vm03::
+    output("vm03")
+return
+:B0*?:vm04::
+    output("vm04")
+return
+:B0*?:vmp ::
+    output("vmp ")
+return
+:B0*?:vmp6::
+    output("vmp6")
+return
+:B0*?:vmp4::
+    output("vmp4")
+return
+:B0*?:vm/ ::
+    output("vm/ ")
+return
+:B0*?:vm/6::
+    output("vm/6")
+return
+:B0*?:vm/3::
+    output("vm/3")
+return
+:B0*?:vm/4::
+    output("vm/4")
+return
+:B0*?:58 ::
+    output("58 ")
+return
+:B0*?:586::
+    output("586")
+return
+:B0*?:583::
+    output("583")
+return
+:B0*?:584::
+    output("584")
+return
+:B0*?:5k ::
+    output("5k ")
+return
+:B0*?:5k6::
+    output("5k6")
+return
+:B0*?:5k3::
+    output("5k3")
+return
+:B0*?:5k4::
+    output("5k4")
+return
+:B0*?:5k7::
+    output("5k7")
+return
+:B0*?:59 ::
+    output("59 ")
+return
+:B0*?:596::
+    output("596")
+return
+:B0*?:593::
+    output("593")
+return
+:B0*?:594::
+    output("594")
+return
+:B0*?:5o4::
+    output("5o4")
+return
+:B0*?:5l ::
+    output("5l ")
+return
+:B0*?:5l6::
+    output("5l6")
+return
+:B0*?:5l3::
+    output("5l3")
+return
+:B0*?:5l4::
+    output("5l4")
+return
+:B0*?:5. ::
+    output("5. ")
+return
+:B0*?:5.6::
+    output("5.6")
+return
+:B0*?:5.3::
+    output("5.3")
+return
+:B0*?:5.4::
+    output("5.4")
+return
+:B0*?:50 ::
+    output("50 ")
+return
+:B0*?:503::
+    output("503")
+return
+:B0*?:504::
+    output("504")
+return
+:B0*?:5p ::
+    output("5p ")
+return
+:B0*?:5p3::
+    output("5p3")
+return
+:B0*?:5p4::
+    output("5p4")
+return
+:B0*?:5; ::
+    output("5; ")
+return
+:B0*?:5;3::
+    output("5;3")
+return
+:B0*?:5;4::
+    output("5;4")
+return
+:B0*?:5/ ::
+    output("5/ ")
+return
+:B0*?:5/3::
+    output("5/3")
+return
+:B0*?:5/4::
+    output("5/4")
+return
+:B0*?:5j ::
+    output("5j ")
+return
+:B0*?:5j6::
+    output("5j6")
+return
+:B0*?:5j3::
+    output("5j3")
+return
+:B0*?:5j4::
+    output("5j4")
+return
+:B0*?:5j8 ::
+    output("5j8 ")
+return
+:B0*?:5j83::
+    output("5j83")
+return
+:B0*?:5ji ::
+    output("5ji ")
+return
+:B0*?:5ji6::
+    output("5ji6")
+return
+:B0*?:5j9 ::
+    output("5j9 ")
+return
+:B0*?:5j93::
+    output("5j93")
+return
+:B0*?:5j94::
+    output("5j94")
+return
+:B0*?:5jo ::
+    output("5jo ")
+return
+:B0*?:5jo4::
+    output("5jo4")
+return
+:B0*?:5j0 ::
+    output("5j0 ")
+return
+:B0*?:5j03::
+    output("5j03")
+return
+:B0*?:5j04::
+    output("5j04")
+return
+:B0*?:5jp ::
+    output("5jp ")
+return
+:B0*?:5jp3::
+    output("5jp3")
+return
+:B0*?:5jp4::
+    output("5jp4")
+return
+:B0*?:5j; ::
+    output("5j; ")
+return
+:B0*?:5j;3::
+    output("5j;3")
+return
+:B0*?:5j;4::
+    output("5j;4")
+return
+:B0*?:5j/ ::
+    output("5j/ ")
+return
+:B0*?:5j/3::
+    output("5j/3")
+return
+:B0*?:5j/4::
+    output("5j/4")
+return
+:B0*?:t8 ::
+    output("t8 ")
+return
+:B0*?:t86::
+    output("t86")
+return
+:B0*?:t83::
+    output("t83")
+return
+:B0*?:t84::
+    output("t84")
+return
+:B0*?:tk ::
+    output("tk ")
+return
+:B0*?:tk3::
+    output("tk3")
+return
+:B0*?:tk4::
+    output("tk4")
+return
+:B0*?:t9 ::
+    output("t9 ")
+return
+:B0*?:t96::
+    output("t96")
+return
+:B0*?:t93::
+    output("t93")
+return
+:B0*?:t94::
+    output("t94")
+return
+:B0*?:tl ::
+    output("tl ")
+return
+:B0*?:tl6::
+    output("tl6")
+return
+:B0*?:tl3::
+    output("tl3")
+return
+:B0*?:tl4::
+    output("tl4")
+return
+:B0*?:t. ::
+    output("t. ")
+return
+:B0*?:t.6::
+    output("t.6")
+return
+:B0*?:t.3::
+    output("t.3")
+return
+:B0*?:t.4::
+    output("t.4")
+return
+:B0*?:t0 ::
+    output("t0 ")
+return
+:B0*?:t06::
+    output("t06")
+return
+:B0*?:t03::
+    output("t03")
+return
+:B0*?:t04::
+    output("t04")
+return
+:B0*?:tp ::
+    output("tp ")
+return
+:B0*?:tp6::
+    output("tp6")
+return
+:B0*?:tp3::
+    output("tp3")
+return
+:B0*?:tp4::
+    output("tp4")
+return
+:B0*?:t; ::
+    output("t; ")
+return
+:B0*?:t;6::
+    output("t;6")
+return
+:B0*?:t;3::
+    output("t;3")
+return
+:B0*?:t;4::
+    output("t;4")
+return
+:B0*?:t/ ::
+    output("t/ ")
+return
+:B0*?:t/6::
+    output("t/6")
+return
+:B0*?:t/3::
+    output("t/3")
+return
+:B0*?:t/4::
+    output("t/4")
+return
+:B0*?:tj ::
+    output("tj ")
+return
+:B0*?:tj6::
+    output("tj6")
+return
+:B0*?:tj3::
+    output("tj3")
+return
+:B0*?:tj4::
+    output("tj4")
+return
+:B0*?:tj8 ::
+    output("tj8 ")
+return
+:B0*?:tj83::
+    output("tj83")
+return
+:B0*?:tj84::
+    output("tj84")
+return
+:B0*?:tji ::
+    output("tji ")
+return
+:B0*?:tji4::
+    output("tji4")
+return
+:B0*?:tj9 ::
+    output("tj9 ")
+return
+:B0*?:tj96::
+    output("tj96")
+return
+:B0*?:tj93::
+    output("tj93")
+return
+:B0*?:tj94::
+    output("tj94")
+return
+:B0*?:tjo ::
+    output("tjo ")
+return
+:B0*?:tjo6::
+    output("tjo6")
+return
+:B0*?:tjo4::
+    output("tjo4")
+return
+:B0*?:tj0 ::
+    output("tj0 ")
+return
+:B0*?:tj06::
+    output("tj06")
+return
+:B0*?:tj03::
+    output("tj03")
+return
+:B0*?:tj04::
+    output("tj04")
+return
+:B0*?:tjp ::
+    output("tjp ")
+return
+:B0*?:tjp6::
+    output("tjp6")
+return
+:B0*?:tjp3::
+    output("tjp3")
+return
+:B0*?:tj; ::
+    output("tj; ")
+return
+:B0*?:tj;6::
+    output("tj;6")
+return
+:B0*?:tj;3::
+    output("tj;3")
+return
+:B0*?:tj;4::
+    output("tj;4")
+return
+:B0*?:tj/ ::
+    output("tj/ ")
+return
+:B0*?:tj/6::
+    output("tj/6")
+return
+:B0*?:tj/3::
+    output("tj/3")
+return
+:B0*?:tj/4::
+    output("tj/4")
+return
+:B0*?:g8 ::
+    output("g8 ")
+return
+:B0*?:g86::
+    output("g86")
+return
+:B0*?:g83::
+    output("g83")
+return
+:B0*?:g84::
+    output("g84")
+return
+:B0*?:g87::
+    output("g87")
+return
+:B0*?:gk ::
+    output("gk ")
+return
+:B0*?:gk6::
+    output("gk6")
+return
+:B0*?:gk3::
+    output("gk3")
+return
+:B0*?:gk4::
+    output("gk4")
+return
+:B0*?:g9 ::
+    output("g9 ")
+return
+:B0*?:g93::
+    output("g93")
+return
+:B0*?:g94::
+    output("g94")
+return
+:B0*?:go6::
+    output("go6")
+return
+:B0*?:gl ::
+    output("gl ")
+return
+:B0*?:gl6::
+    output("gl6")
+return
+:B0*?:gl3::
+    output("gl3")
+return
+:B0*?:gl4::
+    output("gl4")
+return
+:B0*?:g. ::
+    output("g. ")
+return
+:B0*?:g.6::
+    output("g.6")
+return
+:B0*?:g.3::
+    output("g.3")
+return
+:B0*?:g.4::
+    output("g.4")
+return
+:B0*?:g0 ::
+    output("g0 ")
+return
+:B0*?:g03::
+    output("g03")
+return
+:B0*?:g04::
+    output("g04")
+return
+:B0*?:gp ::
+    output("gp ")
+return
+:B0*?:gp6::
+    output("gp6")
+return
+:B0*?:gp3::
+    output("gp3")
+return
+:B0*?:gp4::
+    output("gp4")
+return
+:B0*?:g; ::
+    output("g; ")
+return
+:B0*?:g;3::
+    output("g;3")
+return
+:B0*?:g;4::
+    output("g;4")
+return
+:B0*?:g;7::
+    output("g;7")
+return
+:B0*?:g/ ::
+    output("g/ ")
+return
+:B0*?:g/6::
+    output("g/6")
+return
+:B0*?:g/3::
+    output("g/3")
+return
+:B0*?:g/4::
+    output("g/4")
+return
+:B0*?:gj ::
+    output("gj ")
+return
+:B0*?:gj6::
+    output("gj6")
+return
+:B0*?:gj3::
+    output("gj3")
+return
+:B0*?:gj4::
+    output("gj4")
+return
+:B0*?:gj8 ::
+    output("gj8 ")
+return
+:B0*?:gj83::
+    output("gj83")
+return
+:B0*?:gj84::
+    output("gj84")
+return
+:B0*?:gji ::
+    output("gji ")
+return
+:B0*?:gji4::
+    output("gji4")
+return
+:B0*?:gj9 ::
+    output("gj9 ")
+return
+:B0*?:gj93::
+    output("gj93")
+return
+:B0*?:gj94::
+    output("gj94")
+return
+:B0*?:gjo6::
+    output("gjo6")
+return
+:B0*?:gjo3::
+    output("gjo3")
+return
+:B0*?:gjo4::
+    output("gjo4")
+return
+:B0*?:gj0 ::
+    output("gj0 ")
+return
+:B0*?:gj04::
+    output("gj04")
+return
+:B0*?:gjp3::
+    output("gjp3")
+return
+:B0*?:gjp4::
+    output("gjp4")
+return
+:B0*?:gj; ::
+    output("gj; ")
+return
+:B0*?:gj;3::
+    output("gj;3")
+return
+:B0*?:gj;4::
+    output("gj;4")
+return
+:B0*?:bk3::
+    output("bk3")
+return
+:B0*?:bk4::
+    output("bk4")
+return
+:B0*?:bl6::
+    output("bl6")
+return
+:B0*?:bl3::
+    output("bl3")
+return
+:B0*?:bl4::
+    output("bl4")
+return
+:B0*?:b.6::
+    output("b.6")
+return
+:B0*?:b.3::
+    output("b.3")
+return
+:B0*?:b.4::
+    output("b.4")
+return
+:B0*?:b06::
+    output("b06")
+return
+:B0*?:b03::
+    output("b03")
+return
+:B0*?:bp6::
+    output("bp6")
+return
+:B0*?:bp3::
+    output("bp3")
+return
+:B0*?:bp4::
+    output("bp4")
+return
+:B0*?:b; ::
+    output("b; ")
+return
+:B0*?:b;6::
+    output("b;6")
+return
+:B0*?:b;3::
+    output("b;3")
+return
+:B0*?:b;4::
+    output("b;4")
+return
+:B0*?:b/ ::
+    output("b/ ")
+return
+:B0*?:b/6::
+    output("b/6")
+return
+:B0*?:b/3::
+    output("b/3")
+return
+:B0*?:b/4::
+    output("b/4")
+return
+:B0*?:bj6::
+    output("bj6")
+return
+:B0*?:bj3::
+    output("bj3")
+return
+:B0*?:bj4::
+    output("bj4")
+return
+:B0*?:bji6::
+    output("bji6")
+return
+:B0*?:bji4::
+    output("bji4")
+return
+:B0*?:bjo6::
+    output("bjo6")
+return
+:B0*?:bjo3::
+    output("bjo3")
+return
+:B0*?:bjo4::
+    output("bjo4")
+return
+:B0*?:bj06::
+    output("bj06")
+return
+:B0*?:bj03::
+    output("bj03")
+return
+:B0*?:bj04::
+    output("bj04")
+return
+:B0*?:bjp6::
+    output("bjp6")
+return
+:B0*?:bjp4::
+    output("bjp4")
+return
+:B0*?:bj/6::
+    output("bj/6")
+return
+:B0*?:bj/3::
+    output("bj/3")
+return
+:B0*?:y8 ::
+    output("y8 ")
+return
+:B0*?:y86::
+    output("y86")
+return
+:B0*?:y83::
+    output("y83")
+return
+:B0*?:yk6::
+    output("yk6")
+return
+:B0*?:yk3::
+    output("yk3")
+return
+:B0*?:yk4::
+    output("yk4")
+return
+:B0*?:y9 ::
+    output("y9 ")
+return
+:B0*?:y93::
+    output("y93")
+return
+:B0*?:y94::
+    output("y94")
+return
+:B0*?:yo6::
+    output("yo6")
+return
+:B0*?:yl ::
+    output("yl ")
+return
+:B0*?:yl6::
+    output("yl6")
+return
+:B0*?:yl3::
+    output("yl3")
+return
+:B0*?:yl4::
+    output("yl4")
+return
+:B0*?:y. ::
+    output("y. ")
+return
+:B0*?:y.3::
+    output("y.3")
+return
+:B0*?:y.4::
+    output("y.4")
+return
+:B0*?:y0 ::
+    output("y0 ")
+return
+:B0*?:y06::
+    output("y06")
+return
+:B0*?:y03::
+    output("y03")
+return
+:B0*?:y04::
+    output("y04")
+return
+:B0*?:yp ::
+    output("yp ")
+return
+:B0*?:yp3::
+    output("yp3")
+return
+:B0*?:yp4::
+    output("yp4")
+return
+:B0*?:y; ::
+    output("y; ")
+return
+:B0*?:y;3::
+    output("y;3")
+return
+:B0*?:y;4::
+    output("y;4")
+return
+:B0*?:y/ ::
+    output("y/ ")
+return
+:B0*?:y/4::
+    output("y/4")
+return
+:B0*?:yj ::
+    output("yj ")
+return
+:B0*?:yj6::
+    output("yj6")
+return
+:B0*?:yj3::
+    output("yj3")
+return
+:B0*?:yj4::
+    output("yj4")
+return
+:B0*?:yji ::
+    output("yji ")
+return
+:B0*?:yji6::
+    output("yji6")
+return
+:B0*?:yji3::
+    output("yji3")
+return
+:B0*?:yji4::
+    output("yji4")
+return
+:B0*?:yjo ::
+    output("yjo ")
+return
+:B0*?:yjo3::
+    output("yjo3")
+return
+:B0*?:yjo4::
+    output("yjo4")
+return
+:B0*?:yj0 ::
+    output("yj0 ")
+return
+:B0*?:yj03::
+    output("yj03")
+return
+:B0*?:yj04::
+    output("yj04")
+return
+:B0*?:yjp ::
+    output("yjp ")
+return
+:B0*?:yjp3::
+    output("yjp3")
+return
+:B0*?:yjp4::
+    output("yjp4")
+return
+:B0*?:yj/ ::
+    output("yj/ ")
+return
+:B0*?:yj/3::
+    output("yj/3")
+return
+:B0*?:yj/4::
+    output("yj/4")
+return
+:B0*?:h8 ::
+    output("h8 ")
+return
+:B0*?:h83::
+    output("h83")
+return
+:B0*?:h84::
+    output("h84")
+return
+:B0*?:hk4::
+    output("hk4")
+return
+:B0*?:h9 ::
+    output("h9 ")
+return
+:B0*?:h96::
+    output("h96")
+return
+:B0*?:h93::
+    output("h93")
+return
+:B0*?:h94::
+    output("h94")
+return
+:B0*?:hl ::
+    output("hl ")
+return
+:B0*?:hl6::
+    output("hl6")
+return
+:B0*?:hl3::
+    output("hl3")
+return
+:B0*?:hl4::
+    output("hl4")
+return
+:B0*?:h.4::
+    output("h.4")
+return
+:B0*?:h0 ::
+    output("h0 ")
+return
+:B0*?:h06::
+    output("h06")
+return
+:B0*?:h03::
+    output("h03")
+return
+:B0*?:h04::
+    output("h04")
+return
+:B0*?:hp ::
+    output("hp ")
+return
+:B0*?:hp6::
+    output("hp6")
+return
+:B0*?:h; ::
+    output("h; ")
+return
+:B0*?:h;6::
+    output("h;6")
+return
+:B0*?:h;3::
+    output("h;3")
+return
+:B0*?:h/ ::
+    output("h/ ")
+return
+:B0*?:h/6::
+    output("h/6")
+return
+:B0*?:h/3::
+    output("h/3")
+return
+:B0*?:h/4::
+    output("h/4")
+return
+:B0*?:hj ::
+    output("hj ")
+return
+:B0*?:hj6::
+    output("hj6")
+return
+:B0*?:hj4::
+    output("hj4")
+return
+:B0*?:hji ::
+    output("hji ")
+return
+:B0*?:hji6::
+    output("hji6")
+return
+:B0*?:hji3::
+    output("hji3")
+return
+:B0*?:hji4::
+    output("hji4")
+return
+:B0*?:hjo ::
+    output("hjo ")
+return
+:B0*?:hjo6::
+    output("hjo6")
+return
+:B0*?:hjo3::
+    output("hjo3")
+return
+:B0*?:hjo4::
+    output("hjo4")
+return
+:B0*?:hj0 ::
+    output("hj0 ")
+return
+:B0*?:hj06::
+    output("hj06")
+return
+:B0*?:hj04::
+    output("hj04")
+return
+:B0*?:hjp ::
+    output("hjp ")
+return
+:B0*?:hjp6::
+    output("hjp6")
+return
+:B0*?:hjp3::
+    output("hjp3")
+return
+:B0*?:hjp4::
+    output("hjp4")
+return
+:B0*?:hj/ ::
+    output("hj/ ")
+return
+:B0*?:hj/6::
+    output("hj/6")
+return
+:B0*?:hj/4::
+    output("hj/4")
+return
+:B0*?:n8 ::
+    output("n8 ")
+return
+:B0*?:n83::
+    output("n83")
+return
+:B0*?:n84::
+    output("n84")
+return
+:B0*?:n87::
+    output("n87")
+return
+:B0*?:nk4::
+    output("nk4")
+return
+:B0*?:n9 ::
+    output("n9 ")
+return
+:B0*?:n96::
+    output("n96")
+return
+:B0*?:n94::
+    output("n94")
+return
+:B0*?:no ::
+    output("no ")
+return
+:B0*?:nl ::
+    output("nl ")
+return
+:B0*?:nl3::
+    output("nl3")
+return
+:B0*?:nl4::
+    output("nl4")
+return
+:B0*?:n. ::
+    output("n. ")
+return
+:B0*?:n.3::
+    output("n.3")
+return
+:B0*?:n.4::
+    output("n.4")
+return
+:B0*?:n0 ::
+    output("n0 ")
+return
+:B0*?:n03::
+    output("n03")
+return
+:B0*?:n04::
+    output("n04")
+return
+:B0*?:np ::
+    output("np ")
+return
+:B0*?:n; ::
+    output("n; ")
+return
+:B0*?:n;3::
+    output("n;3")
+return
+:B0*?:n;4::
+    output("n;4")
+return
+:B0*?:n/ ::
+    output("n/ ")
+return
+:B0*?:nj ::
+    output("nj ")
+return
+:B0*?:nj6::
+    output("nj6")
+return
+:B0*?:nj4::
+    output("nj4")
+return
+:B0*?:nji ::
+    output("nji ")
+return
+:B0*?:nji6::
+    output("nji6")
+return
+:B0*?:nji3::
+    output("nji3")
+return
+:B0*?:nji4::
+    output("nji4")
+return
+:B0*?:njo ::
+    output("njo ")
+return
+:B0*?:njo6::
+    output("njo6")
+return
+:B0*?:njo3::
+    output("njo3")
+return
+:B0*?:njo4::
+    output("njo4")
+return
+:B0*?:nj0 ::
+    output("nj0 ")
+return
+:B0*?:nj03::
+    output("nj03")
+return
+:B0*?:nj04::
+    output("nj04")
+return
+:B0*?:njp ::
+    output("njp ")
+return
+:B0*?:njp3::
+    output("njp3")
+return
+:B0*?:njp4::
+    output("njp4")
+return
+:B0*?:nj/ ::
+    output("nj/ ")
+return
+:B0*?:nj/6::
+    output("nj/6")
+return
+:B0*?:nj/3::
+    output("nj/3")
+return
+:B0*?:nj/4::
+    output("nj/4")
+return
+:B0*?:u8 ::
+    output("u8 ")
+return
+:B0*?:u86::
+    output("u86")
+return
+:B0*?:u83::
+    output("u83")
+return
+:B0*?:u84::
+    output("u84")
+return
+:B0*?:ui ::
+    output("ui ")
+return
+:B0*?:u, ::
+    output("u, ")
+return
+:B0*?:u,6::
+    output("u,6")
+return
+:B0*?:u,3::
+    output("u,3")
+return
+:B0*?:u,4::
+    output("u,4")
+return
+:B0*?:u,7::
+    output("u,7")
+return
+:B0*?:u96::
+    output("u96")
+return
+:B0*?:ul ::
+    output("ul ")
+return
+:B0*?:ul6::
+    output("ul6")
+return
+:B0*?:ul3::
+    output("ul3")
+return
+:B0*?:ul4::
+    output("ul4")
+return
+:B0*?:u. ::
+    output("u. ")
+return
+:B0*?:u.6::
+    output("u.6")
+return
+:B0*?:u.3::
+    output("u.3")
+return
+:B0*?:u.4::
+    output("u.4")
+return
+:B0*?:u0 ::
+    output("u0 ")
+return
+:B0*?:u06::
+    output("u06")
+return
+:B0*?:u03::
+    output("u03")
+return
+:B0*?:u04::
+    output("u04")
+return
+:B0*?:up6::
+    output("up6")
+return
+:B0*?:up3::
+    output("up3")
+return
+:B0*?:up4::
+    output("up4")
+return
+:B0*?:u; ::
+    output("u; ")
+return
+:B0*?:u;6::
+    output("u;6")
+return
+:B0*?:u;3::
+    output("u;3")
+return
+:B0*?:u;4::
+    output("u;4")
+return
+:B0*?:u/ ::
+    output("u/ ")
+return
+:B0*?:u/6::
+    output("u/6")
+return
+:B0*?:u/3::
+    output("u/3")
+return
+:B0*?:u/4::
+    output("u/4")
+return
+:B0*?:j8 ::
+    output("j8 ")
+return
+:B0*?:j86::
+    output("j86")
+return
+:B0*?:j83::
+    output("j83")
+return
+:B0*?:j84::
+    output("j84")
+return
+:B0*?:j87::
+    output("j87")
+return
+:B0*?:ji3::
+    output("ji3")
+return
+:B0*?:ji4::
+    output("ji4")
+return
+:B0*?:j9 ::
+    output("j9 ")
+return
+:B0*?:j93::
+    output("j93")
+return
+:B0*?:j94::
+    output("j94")
+return
+:B0*?:jo ::
+    output("jo ")
+return
+:B0*?:jo6::
+    output("jo6")
+return
+:B0*?:jo3::
+    output("jo3")
+return
+:B0*?:jo4::
+    output("jo4")
+return
+:B0*?:j0 ::
+    output("j0 ")
+return
+:B0*?:j06::
+    output("j06")
+return
+:B0*?:j03::
+    output("j03")
+return
+:B0*?:j04::
+    output("j04")
+return
+:B0*?:jp ::
+    output("jp ")
+return
+:B0*?:jp6::
+    output("jp6")
+return
+:B0*?:jp3::
+    output("jp3")
+return
+:B0*?:jp4::
+    output("jp4")
+return
+:B0*?:j; ::
+    output("j; ")
+return
+:B0*?:j;6::
+    output("j;6")
+return
+:B0*?:j;3::
+    output("j;3")
+return
+:B0*?:j;4::
+    output("j;4")
+return
+:B0*?:j/ ::
+    output("j/ ")
+return
+:B0*?:j/3::
+    output("j/3")
+return
+:B0*?:j/4::
+    output("j/4")
+return
+:B0*?:m, ::
+    output("m, ")
+return
+:B0*?:m,4::
+    output("m,4")
+return
+:B0*?:m0 ::
+    output("m0 ")
+return
+:B0*?:m06::
+    output("m06")
+return
+:B0*?:m03::
+    output("m03")
+return
+:B0*?:m04::
+    output("m04")
+return
+:B0*?:mp ::
+    output("mp ")
+return
+:B0*?:mp6::
+    output("mp6")
+return
+:B0*?:mp3::
+    output("mp3")
+return
+:B0*?:mp4::
+    output("mp4")
+return
+:B0*?:m/ ::
+    output("m/ ")
+return
+:B0*?:m/6::
+    output("m/6")
+return
+:B0*?:m/3::
+    output("m/3")
+return
+:B0*?:m/4::
+    output("m/4")
+return
+:B0*:f7::
+    output("f7")
+return
+:B0*:5 ::
+    output("5 ")
+return
+:B0*:56::
+    output("56")
+return
+:B0*:53::
+    output("53")
+return
+:B0*:54::
+    output("54")
+return
+:B0*:t ::
+    output("t ")
+return
+:B0*:t6::
+    output("t6")
+return
+:B0*:t3::
+    output("t3")
+return
+:B0*:t4::
+    output("t4")
+return
+:B0*:g ::
+    output("g ")
+return
+:B0*:g6::
+    output("g6")
+return
+:B0*:g3::
+    output("g3")
+return
+:B0*:g4::
+    output("g4")
+return
+:B0*:g7::
+    output("g7")
+return
+:B0*:b4::
+    output("b4")
+return
+:B0*:y ::
+    output("y ")
+return
+:B0*:y3::
+    output("y3")
+return
+:B0*:y4::
+    output("y4")
+return
+:B0*:y7::
+    output("y7")
+return
+:B0*:h ::
+    output("h ")
+return
+:B0*:h6::
+    output("h6")
+return
+:B0*:h3::
+    output("h3")
+return
+:B0*:h4::
+    output("h4")
+return
+:B0*:n ::
+    output("n ")
+return
+:B0*:n3::
+    output("n3")
+return
+:B0*:n4::
+    output("n4")
+return
+:B0*:8 ::
+    output("8 ")
+return
+:B0*:86::
+    output("86")
+return
+:B0*:83::
+    output("83")
+return
+:B0*:84::
+    output("84")
+return
+:B0*:87::
+    output("87")
+return
+:B0*:i ::
+    output("i ")
+return
+:B0*:i6::
+    output("i6")
+return
+:B0*:i3::
+    output("i3")
+return
+:B0*:k ::
+    output("k ")
+return
+:B0*:k6::
+    output("k6")
+return
+:B0*:k3::
+    output("k3")
+return
+:B0*:k4::
+    output("k4")
+return
+:B0*:,4::
+    output(",4")
+return
+:B0*:9 ::
+    output("9 ")
+return
+:B0*:96::
+    output("96")
+return
+:B0*:93::
+    output("93")
+return
+:B0*:94::
+    output("94")
+return
+:B0*:o3::
+    output("o3")
+return
+:B0*:o4::
+    output("o4")
+return
+:B0*:l ::
+    output("l ")
+return
+:B0*:l6::
+    output("l6")
+return
+:B0*:l3::
+    output("l3")
+return
+:B0*:l4::
+    output("l4")
+return
+:B0*:. ::
+    output(". ")
+return
+:B0*:.6::
+    output(".6")
+return
+:B0*:.3::
+    output(".3")
+return
+:B0*:.4::
+    output(".4")
+return
+:B0*:0 ::
+    output("0 ")
+return
+:B0*:06::
+    output("06")
+return
+:B0*:03::
+    output("03")
+return
+:B0*:04::
+    output("04")
+return
+:B0*:p ::
+    output("p ")
+return
+:B0*:p3::
+    output("p3")
+return
+:B0*:p4::
+    output("p4")
+return
+:B0*:p7::
+    output("p7")
+return
+:B0*:; ::
+    output("; ")
+return
+:B0*:;6::
+    output(";6")
+return
+:B0*:;3::
+    output(";3")
+return
+:B0*:;4::
+    output(";4")
+return
+:B0*:/ ::
+    output("/ ")
+return
+:B0*:-6::
+    output("-6")
+return
+:B0*:-3::
+    output("-3")
+return
+:B0*:-4::
+    output("-4")
+return
+:B0*:u ::
+    output("u ")
+return
+:B0*:u6::
+    output("u6")
+return
+:B0*:u3::
+    output("u3")
+return
+:B0*:u4::
+    output("u4")
+return
+:B0*:j6::
+    output("j6")
+return
+:B0*:j3::
+    output("j3")
+return
+:B0*:j4::
+    output("j4")
+return
+:B0*:m ::
+    output("m ")
+return
+:B0*:m6::
+    output("m6")
+return
+:B0*:m3::
+    output("m3")
+return
+:B0*:m4::
+    output("m4")
+return
+:B0*?:adu::
+    outputEng("adu")
+return
+:B0*?:nib::
+    outputEng("nib")
+return
+:B0*?:enj::
+    outputEng("enj")
+return
+:B0*?:phy::
+    outputEng("phy")
+return
+:B0*?:noc::
+    outputEng("noc")
+return
+:B0*?:ova::
+    outputEng("ova")
+return
+:B0*?:kic::
+    outputEng("kic")
+return
+:B0*?:kas::
+    outputEng("kas")
+return
+:B0*?:riy::
+    outputEng("riy")
+return
+:B0*?:rap::
+    outputEng("rap")
+return
+:B0*?:exc::
+    outputEng("exc")
+return
+:B0*?:cst::
+    outputEng("cst")
+return
+:B0*?:jan::
+    outputEng("jan")
+return
+:B0*?:hib::
+    outputEng("hib")
+return
+:B0*?:hiv::
+    outputEng("hiv")
+return
+:B0*?:gad::
+    outputEng("gad")
+return
+:B0*?:edu::
+    outputEng("edu")
+return
+:B0*?:tri::
+    outputEng("tri")
+return
+:B0*?:rop::
+    outputEng("rop")
+return
+:B0*?:kri::
+    outputEng("kri")
+return
+:B0*?:tev::
+    outputEng("tev")
+return
+:B0*?:usi::
+    outputEng("usi")
+return
+:B0*?:orb::
+    outputEng("orb")
+return
+:B0*?:soi::
+    outputEng("soi")
+return
+:B0*?:sey::
+    outputEng("sey")
+return
+:B0*?:smo::
+    outputEng("smo")
+return
+:B0*?:lah::
+    outputEng("lah")
+return
+:B0*?:min::
+    outputEng("min")
+return
+:B0*?:lir::
+    outputEng("lir")
+return
+:B0*?:sve::
+    outputEng("sve")
+return
+:B0*?:enr::
+    outputEng("enr")
+return
+:B0*?:ego::
+    outputEng("ego")
+return
+:B0*?:roi::
+    outputEng("roi")
+return
+:B0*?:ecz::
+    outputEng("ecz")
+return
+:B0*?:yal::
+    outputEng("yal")
+return
+:B0*?:gyp::
+    outputEng("gyp")
+return
+:B0*?:agn::
+    outputEng("agn")
+return
+:B0*?:ade::
+    outputEng("ade")
+return
+:B0*?:chr::
+    outputEng("chr")
+return
+:B0*?:ech::
+    outputEng("ech")
+return
+:B0*?:vim::
+    outputEng("vim")
+return
+:B0*?:eon::
+    outputEng("eon")
+return
+:B0*?:liq::
+    outputEng("liq")
+return
+:B0*?:dri::
+    outputEng("dri")
+return
+:B0*?:alv::
+    outputEng("alv")
+return
+:B0*?:vcr::
+    outputEng("vcr")
+return
+:B0*?:jim::
+    outputEng("jim")
+return
+:B0*?:oar::
+    outputEng("oar")
+return
+:B0*?:enk::
+    outputEng("enk")
+return
+:B0*?:dai::
+    outputEng("dai")
+return
+:B0*?:geh::
+    outputEng("geh")
+return
+:B0*?:wap::
+    outputEng("wap")
+return
+:B0*?:hur::
+    outputEng("hur")
+return
+:B0*?:vin::
+    outputEng("vin")
+return
+:B0*?:eff::
+    outputEng("eff")
+return
+:B0*?:tsu::
+    outputEng("tsu")
+return
+:B0*?:uns::
+    outputEng("uns")
+return
+:B0*?:lis::
+    outputEng("lis")
+return
+:B0*?:oms::
+    outputEng("oms")
+return
+:B0*?:ann::
+    outputEng("ann")
+return
+:B0*?:usa::
+    outputEng("usa")
+return
+:B0*?:gub::
+    outputEng("gub")
+return
+:B0*?:izv::
+    outputEng("izv")
+return
+:B0*?:nov::
+    outputEng("nov")
+return
+:B0*?:lil::
+    outputEng("lil")
+return
+:B0*?:koo::
+    outputEng("koo")
+return
+:B0*?:pre::
+    outputEng("pre")
+return
+:B0*?:aes::
+    outputEng("aes")
+return
+:B0*?:sla::
+    outputEng("sla")
+return
+:B0*?:ila::
+    outputEng("ila")
+return
+:B0*?:gil::
+    outputEng("gil")
+return
+:B0*?:ecu::
+    outputEng("ecu")
+return
+:B0*?:has::
+    outputEng("has")
+return
+:B0*?:pse::
+    outputEng("pse")
+return
+:B0*?:gef::
+    outputEng("gef")
+return
+:B0*?:gan::
+    outputEng("gan")
+return
+:B0*?:leb::
+    outputEng("leb")
+return
+:B0*?:gee::
+    outputEng("gee")
+return
+:B0*?:lif::
+    outputEng("lif")
+return
+:B0*?:kho::
+    outputEng("kho")
+return
+:B0*?:erh::
+    outputEng("erh")
+return
+:B0*?:mee::
+    outputEng("mee")
+return
+:B0*?:ibs::
+    outputEng("ibs")
+return
+:B0*?:jiu::
+    outputEng("jiu")
+return
+:B0*?:bei::
+    outputEng("bei")
+return
+:B0*?:hop::
+    outputEng("hop")
+return
+:B0*?:iqa::
+    outputEng("iqa")
+return
+:B0*?:ahe::
+    outputEng("ahe")
+return
+:B0*?:hig::
+    outputEng("hig")
+return
+:B0*?:hys::
+    outputEng("hys")
+return
+:B0*?:upa::
+    outputEng("upa")
+return
+:B0*?:dog::
+    outputEng("dog")
+return
+:B0*?:szy::
+    outputEng("szy")
+return
+:B0*?:ato::
+    outputEng("ato")
+return
+:B0*?:tow::
+    outputEng("tow")
+return
+:B0*?:ail::
+    outputEng("ail")
+return
+:B0*?:war::
+    outputEng("war")
+return
+:B0*?:onr::
+    outputEng("onr")
+return
+:B0*?:seq::
+    outputEng("seq")
+return
+:B0*?:ema::
+    outputEng("ema")
+return
+:B0*?:cfc::
+    outputEng("cfc")
+return
+:B0*?:hip::
+    outputEng("hip")
+return
+:B0*?:imu::
+    outputEng("imu")
+return
+:B0*?:hau::
+    outputEng("hau")
+return
+:B0*?:pso::
+    outputEng("pso")
+return
+:B0*?:lea::
+    outputEng("lea")
+return
+:B0*?:ico::
+    outputEng("ico")
+return
+:B0*?:how::
+    outputEng("how")
+return
+:B0*?:abn::
+    outputEng("abn")
+return
+:B0*?:bin::
+    outputEng("bin")
+return
+:B0*?:mom::
+    outputEng("mom")
+return
+:B0*?:ran::
+    outputEng("ran")
+return
+:B0*?:rem::
+    outputEng("rem")
+return
+:B0*?:unm::
+    outputEng("unm")
+return
+:B0*?:oed::
+    outputEng("oed")
+return
+:B0*?:elg::
+    outputEng("elg")
+return
+:B0*?:kyl::
+    outputEng("kyl")
+return
+:B0*?:cok::
+    outputEng("cok")
+return
+:B0*?:ewe::
+    outputEng("ewe")
+return
+:B0*?:goi::
+    outputEng("goi")
+return
+:B0*?:cav::
+    outputEng("cav")
+return
+:B0*?:pav::
+    outputEng("pav")
+return
+:B0*?:eke::
+    outputEng("eke")
+return
+:B0*?:buk::
+    outputEng("buk")
+return
+:B0*?:tik::
+    outputEng("tik")
+return
+:B0*?:bek::
+    outputEng("bek")
+return
+:B0*?:imp::
+    outputEng("imp")
+return
+:B0*?:gop::
+    outputEng("gop")
+return
+:B0*?:fad::
+    outputEng("fad")
+return
+:B0*?:unp::
+    outputEng("unp")
+return
+:B0*?:zyr::
+    outputEng("zyr")
+return
+:B0*?:mao::
+    outputEng("mao")
+return
+:B0*?:tep::
+    outputEng("tep")
+return
+:B0*?:mif::
+    outputEng("mif")
+return
+:B0*?:ega::
+    outputEng("ega")
+return
+:B0*?:aor::
+    outputEng("aor")
+return
+:B0*?:owi::
+    outputEng("owi")
+return
+:B0*?:aze::
+    outputEng("aze")
+return
+:B0*?:bor::
+    outputEng("bor")
+return
+:B0*?:tig::
+    outputEng("tig")
+return
+:B0*?:ivy::
+    outputEng("ivy")
+return
+:B0*?:mod::
+    outputEng("mod")
+return
+:B0*?:cem::
+    outputEng("cem")
+return
+:B0*?:amr::
+    outputEng("amr")
+return
+:B0*?:aph::
+    outputEng("aph")
+return
+:B0*?:cuv::
+    outputEng("cuv")
+return
+:B0*?:med::
+    outputEng("med")
+return
+:B0*?:aby::
+    outputEng("aby")
+return
+:B0*?:tee::
+    outputEng("tee")
+return
+:B0*?:kir::
+    outputEng("kir")
+return
+:B0*?:nya::
+    outputEng("nya")
+return
+:B0*?:oll::
+    outputEng("oll")
+return
+:B0*?:pop::
+    outputEng("pop")
+return
+:B0*?:coe::
+    outputEng("coe")
+return
+:B0*?:ell::
+    outputEng("ell")
+return
+:B0*?:gue::
+    outputEng("gue")
+return
+:B0*?:xin::
+    outputEng("xin")
+return
+:B0*?:gna::
+    outputEng("gna")
+return
+:B0*?:cra::
+    outputEng("cra")
+return
+:B0*?:rut::
+    outputEng("rut")
+return
+:B0*?:moe::
+    outputEng("moe")
+return
+:B0*?:yaw::
+    outputEng("yaw")
+return
+:B0*?:vij::
+    outputEng("vij")
+return
+:B0*?:ded::
+    outputEng("ded")
+return
+:B0*?:rar::
+    outputEng("rar")
+return
+:B0*?:kie::
+    outputEng("kie")
+return
+:B0*?:anc::
+    outputEng("anc")
+return
+:B0*?:nom::
+    outputEng("nom")
+return
+:B0*?:urb::
+    outputEng("urb")
+return
+:B0*?:kam::
+    outputEng("kam")
+return
+:B0*?:ecl::
+    outputEng("ecl")
+return
+:B0*?:sta::
+    outputEng("sta")
+return
+:B0*?:sud::
+    outputEng("sud")
+return
+:B0*?:tap::
+    outputEng("tap")
+return
+:B0*?:aff::
+    outputEng("aff")
+return
+:B0*?:dyl::
+    outputEng("dyl")
+return
+:B0*?:aac::
+    outputEng("aac")
+return
+:B0*?:alm::
+    outputEng("alm")
+return
+:B0*?:bop::
+    outputEng("bop")
+return
+:B0*?:amh::
+    outputEng("amh")
+return
+:B0*?:piq::
+    outputEng("piq")
+return
+:B0*?:dwe::
+    outputEng("dwe")
+return
+:B0*?:hot::
+    outputEng("hot")
+return
+:B0*?:exa::
+    outputEng("exa")
+return
+:B0*?:tug::
+    outputEng("tug")
+return
+:B0*?:orw::
+    outputEng("orw")
+return
+:B0*?:ope::
+    outputEng("ope")
+return
+:B0*?:bav::
+    outputEng("bav")
+return
+:B0*?:kuo::
+    outputEng("kuo")
+return
+:B0*?:fio::
+    outputEng("fio")
+return
+:B0*?:ugl::
+    outputEng("ugl")
+return
+:B0*?:apo::
+    outputEng("apo")
+return
+:B0*?:kyu::
+    outputEng("kyu")
+return
+:B0*?:ivo::
+    outputEng("ivo")
+return
+:B0*?:tsw::
+    outputEng("tsw")
+return
+:B0*?:eoc::
+    outputEng("eoc")
+return
+:B0*?:wow::
+    outputEng("wow")
+return
+:B0*?:vow::
+    outputEng("vow")
+return
+:B0*?:iss::
+    outputEng("iss")
+return
+:B0*?:lua::
+    outputEng("lua")
+return
+:B0*?:shr::
+    outputEng("shr")
+return
+:B0*?:imb::
+    outputEng("imb")
+return
+:B0*?:jej::
+    outputEng("jej")
+return
+:B0*?:adv::
+    outputEng("adv")
+return
+:B0*?:chl::
+    outputEng("chl")
+return
+:B0*?:wef::
+    outputEng("wef")
+return
+:B0*?:dew::
+    outputEng("dew")
+return
+:B0*?:elr::
+    outputEng("elr")
+return
+:B0*?:afi::
+    outputEng("afi")
+return
+:B0*?:upt::
+    outputEng("upt")
+return
+:B0*?:amt::
+    outputEng("amt")
+return
+:B0*?:swo::
+    outputEng("swo")
+return
+:B0*?:meg::
+    outputEng("meg")
+return
+:B0*?:pyg::
+    outputEng("pyg")
+return
+:B0*?:int::
+    outputEng("int")
+return
+:B0*?:enh::
+    outputEng("enh")
+return
+:B0*?:ijs::
+    outputEng("ijs")
+return
+:B0*?:lem::
+    outputEng("lem")
+return
+:B0*?:acr::
+    outputEng("acr")
+return
+:B0*?:esk::
+    outputEng("esk")
+return
+:B0*?:ily::
+    outputEng("ily")
+return
+:B0*?:sav::
+    outputEng("sav")
+return
+:B0*?:cun::
+    outputEng("cun")
+return
+:B0*?:epo::
+    outputEng("epo")
+return
+:B0*?:ith::
+    outputEng("ith")
+return
+:B0*?:kos::
+    outputEng("kos")
+return
+:B0*?:duo::
+    outputEng("duo")
+return
+:B0*?:eth::
+    outputEng("eth")
+return
+:B0*?:sow::
+    outputEng("sow")
+return
+:B0*?:isf::
+    outputEng("isf")
+return
+:B0*?:doy::
+    outputEng("doy")
+return
+:B0*?:epa::
+    outputEng("epa")
+return
+:B0*?:pto::
+    outputEng("pto")
+return
+:B0*?:hsb::
+    outputEng("hsb")
+return
+:B0*?:igo::
+    outputEng("igo")
+return
+:B0*?:orl::
+    outputEng("orl")
+return
+:B0*?:sau::
+    outputEng("sau")
+return
+:B0*?:das::
+    outputEng("das")
+return
+:B0*?:hil::
+    outputEng("hil")
+return
+:B0*?:tol::
+    outputEng("tol")
+return
+:B0*?:iph::
+    outputEng("iph")
+return
+:B0*?:agr::
+    outputEng("agr")
+return
+:B0*?:hod::
+    outputEng("hod")
+return
+:B0*?:izo::
+    outputEng("izo")
+return
+:B0*?:fet::
+    outputEng("fet")
+return
+:B0*?:gur::
+    outputEng("gur")
+return
+:B0*?:irs::
+    outputEng("irs")
+return
+:B0*?:obe::
+    outputEng("obe")
+return
+:B0*?:eun::
+    outputEng("eun")
+return
+:B0*?:cha::
+    outputEng("cha")
+return
+:B0*?:mit::
+    outputEng("mit")
+return
+:B0*?:fia::
+    outputEng("fia")
+return
+:B0*?:jax::
+    outputEng("jax")
+return
+:B0*?:muk::
+    outputEng("muk")
+return
+:B0*?:ero::
+    outputEng("ero")
+return
+:B0*?:fli::
+    outputEng("fli")
+return
+:B0*?:laz::
+    outputEng("laz")
+return
+:B0*?:rev::
+    outputEng("rev")
+return
+:B0*?:ete::
+    outputEng("ete")
+return
+:B0*?:dex::
+    outputEng("dex")
+return
+:B0*?:lyo::
+    outputEng("lyo")
+return
+:B0*?:sku::
+    outputEng("sku")
+return
+:B0*?:nac::
+    outputEng("nac")
+return
+:B0*?:coh::
+    outputEng("coh")
+return
+:B0*?:ozz::
+    outputEng("ozz")
+return
+:B0*?:tyk::
+    outputEng("tyk")
+return
+:B0*?:byl::
+    outputEng("byl")
+return
+:B0*?:ruf::
+    outputEng("ruf")
+return
+:B0*?:alw::
+    outputEng("alw")
+return
+:B0*?:btu::
+    outputEng("btu")
+return
+:B0*?:vei::
+    outputEng("vei")
+return
+:B0*?:ahr::
+    outputEng("ahr")
+return
+:B0*?:fdr::
+    outputEng("fdr")
+return
+:B0*?:phe::
+    outputEng("phe")
+return
+:B0*?:jak::
+    outputEng("jak")
+return
+:B0*?:kab::
+    outputEng("kab")
+return
+:B0*?:dau::
+    outputEng("dau")
+return
+:B0*?:tib::
+    outputEng("tib")
+return
+:B0*?:hew::
+    outputEng("hew")
+return
+:B0*?:pus::
+    outputEng("pus")
+return
+:B0*?:gou::
+    outputEng("gou")
+return
+:B0*?:bug::
+    outputEng("bug")
+return
+:B0*?:aty::
+    outputEng("aty")
+return
+:B0*?:bao::
+    outputEng("bao")
+return
+:B0*?:osv::
+    outputEng("osv")
+return
+:B0*?:egg::
+    outputEng("egg")
+return
+:B0*?:ine::
+    outputEng("ine")
+return
+:B0*?:inw::
+    outputEng("inw")
+return
+:B0*?:coz::
+    outputEng("coz")
+return
+:B0*?:jaz::
+    outputEng("jaz")
+return
+:B0*?:ifs::
+    outputEng("ifs")
+return
+:B0*?:gib::
+    outputEng("gib")
+return
+:B0*?:lob::
+    outputEng("lob")
+return
+:B0*?:xio::
+    outputEng("xio")
+return
+:B0*?:sch::
+    outputEng("sch")
+return
+:B0*?:ety::
+    outputEng("ety")
+return
+:B0*?:via::
+    outputEng("via")
+return
+:B0*?:ads::
+    outputEng("ads")
+return
+:B0*?:joa::
+    outputEng("joa")
+return
+:B0*?:amp::
+    outputEng("amp")
+return
+:B0*?:rov::
+    outputEng("rov")
+return
+:B0*?:bie::
+    outputEng("bie")
+return
+:B0*?:gle::
+    outputEng("gle")
+return
+:B0*?:kaw::
+    outputEng("kaw")
+return
+:B0*?:exo::
+    outputEng("exo")
+return
+:B0*?:jup::
+    outputEng("jup")
+return
+:B0*?:apt::
+    outputEng("apt")
+return
+:B0*?:hum::
+    outputEng("hum")
+return
+:B0*?:tux::
+    outputEng("tux")
+return
+:B0*?:chi::
+    outputEng("chi")
+return
+:B0*?:glo::
+    outputEng("glo")
+return
+:B0*?:ren::
+    outputEng("ren")
+return
+:B0*?:cak::
+    outputEng("cak")
+return
+:B0*?:tie::
+    outputEng("tie")
+return
+:B0*?:leo::
+    outputEng("leo")
+return
+:B0*?:iey::
+    outputEng("iey")
+return
+:B0*?:lux::
+    outputEng("lux")
+return
+:B0*?:jah::
+    outputEng("jah")
+return
+:B0*?:jop::
+    outputEng("jop")
+return
+:B0*?:pis::
+    outputEng("pis")
+return
+:B0*?:zai::
+    outputEng("zai")
+return
+:B0*?:tso::
+    outputEng("tso")
+return
+:B0*?:ida::
+    outputEng("ida")
+return
+:B0*?:sou::
+    outputEng("sou")
+return
+:B0*?:nia::
+    outputEng("nia")
+return
+:B0*?:nor::
+    outputEng("nor")
+return
+:B0*?:kau::
+    outputEng("kau")
+return
+:B0*?:utr::
+    outputEng("utr")
+return
+:B0*?:kng::
+    outputEng("kng")
+return
+:B0*?:kyr::
+    outputEng("kyr")
+return
+:B0*?:khy::
+    outputEng("khy")
+return
+:B0*?:jay::
+    outputEng("jay")
+return
+:B0*?:sic::
+    outputEng("sic")
+return
+:B0*?:lap::
+    outputEng("lap")
+return
+:B0*?:got::
+    outputEng("got")
+return
+:B0*?:dom::
+    outputEng("dom")
+return
+:B0*?:mue::
+    outputEng("mue")
+return
+:B0*?:mot::
+    outputEng("mot")
+return
+:B0*?:say::
+    outputEng("say")
+return
+:B0*?:lao::
+    outputEng("lao")
+return
+:B0*?:wee::
+    outputEng("wee")
+return
+:B0*?:vou::
+    outputEng("vou")
+return
+:B0*?:uke::
+    outputEng("uke")
+return
+:B0*?:etc::
+    outputEng("etc")
+return
+:B0*?:rup::
+    outputEng("rup")
+return
+:B0*?:esm::
+    outputEng("esm")
+return
+:B0*?:fiv::
+    outputEng("fiv")
+return
+:B0*?:brr::
+    outputEng("brr")
+return
+:B0*?:bik::
+    outputEng("bik")
+return
+:B0*?:unt::
+    outputEng("unt")
+return
+:B0*?:oax::
+    outputEng("oax")
+return
+:B0*?:kuw::
+    outputEng("kuw")
+return
+:B0*?:tes::
+    outputEng("tes")
+return
+:B0*?:guz::
+    outputEng("guz")
+return
+:B0*?:inj::
+    outputEng("inj")
+return
+:B0*?:alo::
+    outputEng("alo")
+return
+:B0*?:ela::
+    outputEng("ela")
+return
+:B0*?:few::
+    outputEng("few")
+return
+:B0*?:man::
+    outputEng("man")
+return
+:B0*?:opo::
+    outputEng("opo")
+return
+:B0*?:gom::
+    outputEng("gom")
+return
+:B0*?:hel::
+    outputEng("hel")
+return
+:B0*?:iqb::
+    outputEng("iqb")
+return
+:B0*?:jes::
+    outputEng("jes")
+return
+:B0*?:cep::
+    outputEng("cep")
+return
+:B0*?:nev::
+    outputEng("nev")
+return
+:B0*?:nol::
+    outputEng("nol")
+return
+:B0*?:teo::
+    outputEng("teo")
+return
+:B0*?:aux::
+    outputEng("aux")
+return
+:B0*?:byb::
+    outputEng("byb")
+return
+:B0*?:six::
+    outputEng("six")
+return
+:B0*?:unh::
+    outputEng("unh")
+return
+:B0*?:sif::
+    outputEng("sif")
+return
+:B0*?:enm::
+    outputEng("enm")
+return
+:B0*?:hyi::
+    outputEng("hyi")
+return
+:B0*?:yps::
+    outputEng("yps")
+return
+:B0*?:bri::
+    outputEng("bri")
+return
+:B0*?:cir::
+    outputEng("cir")
+return
+:B0*?:unc::
+    outputEng("unc")
+return
+:B0*?:jot::
+    outputEng("jot")
+return
+:B0*?:bum::
+    outputEng("bum")
+return
+:B0*?:dat::
+    outputEng("dat")
+return
+:B0*?:brz::
+    outputEng("brz")
+return
+:B0*?:cof::
+    outputEng("cof")
+return
+:B0*?:buc::
+    outputEng("buc")
+return
+:B0*?:wed::
+    outputEng("wed")
+return
+:B0*?:dei::
+    outputEng("dei")
+return
+:B0*?:gda::
+    outputEng("gda")
+return
+:B0*?:ali::
+    outputEng("ali")
+return
+:B0*?:opi::
+    outputEng("opi")
+return
+:B0*?:cit::
+    outputEng("cit")
+return
+:B0*?:zwo::
+    outputEng("zwo")
+return
+:B0*?:hob::
+    outputEng("hob")
+return
+:B0*?:opa::
+    outputEng("opa")
+return
+:B0*?:god::
+    outputEng("god")
+return
+:B0*?:oaf::
+    outputEng("oaf")
+return
+:B0*?:sax::
+    outputEng("sax")
+return
+:B0*?:wri::
+    outputEng("wri")
+return
+:B0*?:ump::
+    outputEng("ump")
+return
+:B0*?:lun::
+    outputEng("lun")
+return
+:B0*?:rab::
+    outputEng("rab")
+return
+:B0*?:exh::
+    outputEng("exh")
+return
+:B0*?:hym::
+    outputEng("hym")
+return
+:B0*?:ogi::
+    outputEng("ogi")
+return
+:B0*?:szi::
+    outputEng("szi")
+return
+:B0*?:pyx::
+    outputEng("pyx")
+return
+:B0*?:roe::
+    outputEng("roe")
+return
+:B0*?:hof::
+    outputEng("hof")
+return
+:B0*?:hif::
+    outputEng("hif")
+return
+:B0*?:ced::
+    outputEng("ced")
+return
+:B0*?:icb::
+    outputEng("icb")
+return
+:B0*?:les::
+    outputEng("les")
+return
+:B0*?:sov::
+    outputEng("sov")
+return
+:B0*?:gru::
+    outputEng("gru")
+return
+:B0*?:jos::
+    outputEng("jos")
+return
+:B0*?:bet::
+    outputEng("bet")
+return
+:B0*?:mix::
+    outputEng("mix")
+return
+:B0*?:sap::
+    outputEng("sap")
+return
+:B0*?:mir::
+    outputEng("mir")
+return
+:B0*?:peo::
+    outputEng("peo")
+return
+:B0*?:faf::
+    outputEng("faf")
+return
+:B0*?:jum::
+    outputEng("jum")
+return
+:B0*?:uvu::
+    outputEng("uvu")
+return
+:B0*?:emm::
+    outputEng("emm")
+return
+:B0*?:vor::
+    outputEng("vor")
+return
+:B0*?:wor::
+    outputEng("wor")
+return
+:B0*?:juj::
+    outputEng("juj")
+return
+:B0*?:oxi::
+    outputEng("oxi")
+return
+:B0*?:els::
+    outputEng("els")
+return
+:B0*?:siz::
+    outputEng("siz")
+return
+:B0*?:cig::
+    outputEng("cig")
+return
+:B0*?:nep::
+    outputEng("nep")
+return
+:B0*?:pie::
+    outputEng("pie")
+return
+:B0*?:esc::
+    outputEng("esc")
+return
+:B0*?:zwi::
+    outputEng("zwi")
+return
+:B0*?:ozo::
+    outputEng("ozo")
+return
+:B0*?:ver::
+    outputEng("ver")
+return
+:B0*?:cel::
+    outputEng("cel")
+return
+:B0*?:soa::
+    outputEng("soa")
+return
+:B0*?:ist::
+    outputEng("ist")
+return
+:B0*?:adr::
+    outputEng("adr")
+return
+:B0*?:baz::
+    outputEng("baz")
+return
+:B0*?:doi::
+    outputEng("doi")
+return
+:B0*?:dow::
+    outputEng("dow")
+return
+:B0*?:coi::
+    outputEng("coi")
+return
+:B0*?:igl::
+    outputEng("igl")
+return
+:B0*?:dsc::
+    outputEng("dsc")
+return
+:B0*?:rhy::
+    outputEng("rhy")
+return
+:B0*?:fea::
+    outputEng("fea")
+return
+:B0*?:jux::
+    outputEng("jux")
+return
+:B0*?:uro::
+    outputEng("uro")
+return
+:B0*?:sle::
+    outputEng("sle")
+return
+:B0*?:joy::
+    outputEng("joy")
+return
+:B0*?:toc::
+    outputEng("toc")
+return
+:B0*?:cil::
+    outputEng("cil")
+return
+:B0*?:aer::
+    outputEng("aer")
+return
+:B0*?:pst::
+    outputEng("pst")
+return
+:B0*?:nav::
+    outputEng("nav")
+return
+:B0*?:gov::
+    outputEng("gov")
+return
+:B0*?:zub::
+    outputEng("zub")
+return
+:B0*?:deg::
+    outputEng("deg")
+return
+:B0*?:pon::
+    outputEng("pon")
+return
+:B0*?:org::
+    outputEng("org")
+return
+:B0*?:jas::
+    outputEng("jas")
+return
+:B0*?:kao::
+    outputEng("kao")
+return
+:B0*?:fur::
+    outputEng("fur")
+return
+:B0*?:hay::
+    outputEng("hay")
+return
+:B0*?:arr::
+    outputEng("arr")
+return
+:B0*?:mer::
+    outputEng("mer")
+return
+:B0*?:cyt::
+    outputEng("cyt")
+return
+:B0*?:nud::
+    outputEng("nud")
+return
+:B0*?:ire::
+    outputEng("ire")
+return
+:B0*?:rim::
+    outputEng("rim")
+return
+:B0*?:pox::
+    outputEng("pox")
+return
+:B0*?:ood::
+    outputEng("ood")
+return
+:B0*?:uss::
+    outputEng("uss")
+return
+:B0*?:mey::
+    outputEng("mey")
+return
+:B0*?:lan::
+    outputEng("lan")
+return
+:B0*?:gip::
+    outputEng("gip")
+return
+:B0*?:hed::
+    outputEng("hed")
+return
+:B0*?:elo::
+    outputEng("elo")
+return
+:B0*?:scu::
+    outputEng("scu")
+return
+:B0*?:ron::
+    outputEng("ron")
+return
+:B0*?:maj::
+    outputEng("maj")
+return
+:B0*?:fev::
+    outputEng("fev")
+return
+:B0*?:ain::
+    outputEng("ain")
+return
+:B0*?:tag::
+    outputEng("tag")
+return
+:B0*?:qiq::
+    outputEng("qiq")
+return
+:B0*?:typ::
+    outputEng("typ")
+return
+:B0*?:oho::
+    outputEng("oho")
+return
+:B0*?:cet::
+    outputEng("cet")
+return
+:B0*?:obi::
+    outputEng("obi")
+return
+:B0*?:thi::
+    outputEng("thi")
+return
+:B0*?:taw::
+    outputEng("taw")
+return
+:B0*?:zom::
+    outputEng("zom")
+return
+:B0*?:mam::
+    outputEng("mam")
+return
+:B0*?:led::
+    outputEng("led")
+return
+:B0*?:adj::
+    outputEng("adj")
+return
+:B0*?:pal::
+    outputEng("pal")
+return
+:B0*?:cou::
+    outputEng("cou")
+return
+:B0*?:gne::
+    outputEng("gne")
+return
+:B0*?:wes::
+    outputEng("wes")
+return
+:B0*?:scy::
+    outputEng("scy")
+return
+:B0*?:qan::
+    outputEng("qan")
+return
+:B0*?:fir::
+    outputEng("fir")
+return
+:B0*?:ska::
+    outputEng("ska")
+return
+:B0*?:ape::
+    outputEng("ape")
+return
+:B0*?:koc::
+    outputEng("koc")
+return
+:B0*?:lit::
+    outputEng("lit")
+return
+:B0*?:ecs::
+    outputEng("ecs")
+return
+:B0*?:mej::
+    outputEng("mej")
+return
+:B0*?:raq::
+    outputEng("raq")
+return
+:B0*?:sky::
+    outputEng("sky")
+return
+:B0*?:pay::
+    outputEng("pay")
+return
+:B0*?:asw::
+    outputEng("asw")
+return
+:B0*?:spl::
+    outputEng("spl")
+return
+:B0*?:ngu::
+    outputEng("ngu")
+return
+:B0*?:aye::
+    outputEng("aye")
+return
+:B0*?:pau::
+    outputEng("pau")
+return
+:B0*?:cah::
+    outputEng("cah")
+return
+:B0*?:veg::
+    outputEng("veg")
+return
+:B0*?:cic::
+    outputEng("cic")
+return
+:B0*?:jua::
+    outputEng("jua")
+return
+:B0*?:fid::
+    outputEng("fid")
+return
+:B0*?:upj::
+    outputEng("upj")
+return
+:B0*?:htm::
+    outputEng("htm")
+return
+:B0*?:elw::
+    outputEng("elw")
+return
+:B0*?:aro::
+    outputEng("aro")
+return
+:B0*?:mri::
+    outputEng("mri")
+return
+:B0*?:dar::
+    outputEng("dar")
+return
+:B0*?:ayy::
+    outputEng("ayy")
+return
+:B0*?:mcm::
+    outputEng("mcm")
+return
+:B0*?:weh::
+    outputEng("weh")
+return
+:B0*?:foc::
+    outputEng("foc")
+return
+:B0*?:onc::
+    outputEng("onc")
+return
+:B0*?:utt::
+    outputEng("utt")
+return
+:B0*?:qua::
+    outputEng("qua")
+return
+:B0*?:eli::
+    outputEng("eli")
+return
+:B0*?:nok::
+    outputEng("nok")
+return
+:B0*?:sob::
+    outputEng("sob")
+return
+:B0*?:tai::
+    outputEng("tai")
+return
+:B0*?:abr::
+    outputEng("abr")
+return
+:B0*?:inv::
+    outputEng("inv")
+return
+:B0*?:swa::
+    outputEng("swa")
+return
+:B0*?:kum::
+    outputEng("kum")
+return
+:B0*?:fus::
+    outputEng("fus")
+return
+:B0*?:iac::
+    outputEng("iac")
+return
+:B0*?:msg::
+    outputEng("msg")
+return
+:B0*?:shl::
+    outputEng("shl")
+return
+:B0*?:mav::
+    outputEng("mav")
+return
+:B0*?:pid::
+    outputEng("pid")
+return
+:B0*?:koi::
+    outputEng("koi")
+return
+:B0*?:cpr::
+    outputEng("cpr")
+return
+:B0*?:adl::
+    outputEng("adl")
+return
+:B0*?:ecm::
+    outputEng("ecm")
+return
+:B0*?:tem::
+    outputEng("tem")
+return
+:B0*?:hol::
+    outputEng("hol")
+return
+:B0*?:pic::
+    outputEng("pic")
+return
+:B0*?:sno::
+    outputEng("sno")
+return
+:B0*?:reu::
+    outputEng("reu")
+return
+:B0*?:upr::
+    outputEng("upr")
+return
+:B0*?:cad::
+    outputEng("cad")
+return
+:B0*?:het::
+    outputEng("het")
+return
+:B0*?:yup::
+    outputEng("yup")
+return
+:B0*?:and::
+    outputEng("and")
+return
+:B0*?:sei::
+    outputEng("sei")
+return
+:B0*?:ica::
+    outputEng("ica")
+return
+:B0*?:azu::
+    outputEng("azu")
+return
+:B0*?:ceb::
+    outputEng("ceb")
+return
+:B0*?:zhu::
+    outputEng("zhu")
+return
+:B0*?:som::
+    outputEng("som")
+return
+:B0*?:ukr::
+    outputEng("ukr")
+return
+:B0*?:jok::
+    outputEng("jok")
+return
+:B0*?:sib::
+    outputEng("sib")
+return
+:B0*?:yao::
+    outputEng("yao")
+return
+:B0*?:beb::
+    outputEng("beb")
+return
+:B0*?:aki::
+    outputEng("aki")
+return
+:B0*?:ike::
+    outputEng("ike")
+return
+:B0*?:mig::
+    outputEng("mig")
+return
+:B0*?:ari::
+    outputEng("ari")
+return
+:B0*?:com::
+    outputEng("com")
+return
+:B0*?:nes::
+    outputEng("nes")
+return
+:B0*?:zon::
+    outputEng("zon")
+return
+:B0*?:amm::
+    outputEng("amm")
+return
+:B0*?:wyo::
+    outputEng("wyo")
+return
+:B0*?:oba::
+    outputEng("oba")
+return
+:B0*?:mew::
+    outputEng("mew")
+return
+:B0*?:lib::
+    outputEng("lib")
+return
+:B0*?:eze::
+    outputEng("eze")
+return
+:B0*?:eng::
+    outputEng("eng")
+return
+:B0*?:pta::
+    outputEng("pta")
+return
+:B0*?:kiw::
+    outputEng("kiw")
+return
+:B0*?:mys::
+    outputEng("mys")
+return
+:B0*?:jer::
+    outputEng("jer")
+return
+:B0*?:bif::
+    outputEng("bif")
+return
+:B0*?:era::
+    outputEng("era")
+return
+:B0*?:gnu::
+    outputEng("gnu")
+return
+:B0*?:ndj::
+    outputEng("ndj")
+return
+:B0*?:dmi::
+    outputEng("dmi")
+return
+:B0*?:sca::
+    outputEng("sca")
+return
+:B0*?:gas::
+    outputEng("gas")
+return
+:B0*?:yoc::
+    outputEng("yoc")
+return
+:B0*?:hae::
+    outputEng("hae")
+return
+:B0*?:bio::
+    outputEng("bio")
+return
+:B0*?:cze::
+    outputEng("cze")
+return
+:B0*?:nym::
+    outputEng("nym")
+return
+:B0*?:cea::
+    outputEng("cea")
+return
+:B0*?:dro::
+    outputEng("dro")
+return
+:B0*?:www::
+    outputEng("www")
+return
+:B0*?:eic::
+    outputEng("eic")
+return
+:B0*?:bil::
+    outputEng("bil")
+return
+:B0*?:cor::
+    outputEng("cor")
+return
+:B0*?:kou::
+    outputEng("kou")
+return
+:B0*?:tlc::
+    outputEng("tlc")
+return
+:B0*?:zap::
+    outputEng("zap")
+return
+:B0*?:loe::
+    outputEng("loe")
+return
+:B0*?:tad::
+    outputEng("tad")
+return
+:B0*?:kru::
+    outputEng("kru")
+return
+:B0*?:lot::
+    outputEng("lot")
+return
+:B0*?:gaf::
+    outputEng("gaf")
+return
+:B0*?:cov::
+    outputEng("cov")
+return
+:B0*?:abe::
+    outputEng("abe")
+return
+:B0*?:ryd::
+    outputEng("ryd")
+return
+:B0*?:lax::
+    outputEng("lax")
+return
+:B0*?:agu::
+    outputEng("agu")
+return
+:B0*?:jai::
+    outputEng("jai")
+return
+:B0*?:hai::
+    outputEng("hai")
+return
+:B0*?:blt::
+    outputEng("blt")
+return
+:B0*?:ian::
+    outputEng("ian")
+return
+:B0*?:exx::
+    outputEng("exx")
+return
+:B0*?:suz::
+    outputEng("suz")
+return
+:B0*?:you::
+    outputEng("you")
+return
+:B0*?:lip::
+    outputEng("lip")
+return
+:B0*?:okr::
+    outputEng("okr")
+return
+:B0*?:kle::
+    outputEng("kle")
+return
+:B0*?:zef::
+    outputEng("zef")
+return
+:B0*?:enu::
+    outputEng("enu")
+return
+:B0*?:rwa::
+    outputEng("rwa")
+return
+:B0*?:lei::
+    outputEng("lei")
+return
+:B0*?:noa::
+    outputEng("noa")
+return
+:B0*?:enc::
+    outputEng("enc")
+return
+:B0*?:ido::
+    outputEng("ido")
+return
+:B0*?:lio::
+    outputEng("lio")
+return
+:B0*?:zsi::
+    outputEng("zsi")
+return
+:B0*?:ito::
+    outputEng("ito")
+return
+:B0*?:kaa::
+    outputEng("kaa")
+return
+:B0*?:yeo::
+    outputEng("yeo")
+return
+:B0*?:oui::
+    outputEng("oui")
+return
+:B0*?:nip::
+    outputEng("nip")
+return
+:B0*?:gio::
+    outputEng("gio")
+return
+:B0*?:xoc::
+    outputEng("xoc")
+return
+:B0*?:jut::
+    outputEng("jut")
+return
+:B0*?:ypr::
+    outputEng("ypr")
+return
+:B0*?:oct::
+    outputEng("oct")
+return
+:B0*?:giz::
+    outputEng("giz")
+return
+:B0*?:opp::
+    outputEng("opp")
+return
+:B0*?:kub::
+    outputEng("kub")
+return
+:B0*?:toa::
+    outputEng("toa")
+return
+:B0*?:cho::
+    outputEng("cho")
+return
+:B0*?:upg::
+    outputEng("upg")
+return
+:B0*?:sah::
+    outputEng("sah")
+return
+:B0*?:pup::
+    outputEng("pup")
+return
+:B0*?:ful::
+    outputEng("ful")
+return
+:B0*?:suv::
+    outputEng("suv")
+return
+:B0*?:ole::
+    outputEng("ole")
+return
+:B0*?:tum::
+    outputEng("tum")
+return
+:B0*?:ult::
+    outputEng("ult")
+return
+:B0*?:xma::
+    outputEng("xma")
+return
+:B0*?:cud::
+    outputEng("cud")
+return
+:B0*?:art::
+    outputEng("art")
+return
+:B0*?:sva::
+    outputEng("sva")
+return
+:B0*?:tav::
+    outputEng("tav")
+return
+:B0*?:rca::
+    outputEng("rca")
+return
+:B0*?:mex::
+    outputEng("mex")
+return
+:B0*?:gam::
+    outputEng("gam")
+return
+:B0*?:ons::
+    outputEng("ons")
+return
+:B0*?:pab::
+    outputEng("pab")
+return
+:B0*?:cut::
+    outputEng("cut")
+return
+:B0*?:oat::
+    outputEng("oat")
+return
+:B0*?:oor::
+    outputEng("oor")
+return
+:B0*?:wep::
+    outputEng("wep")
+return
+:B0*?:aid::
+    outputEng("aid")
+return
+:B0*?:soj::
+    outputEng("soj")
+return
+:B0*?:oer::
+    outputEng("oer")
+return
+:B0*?:fla::
+    outputEng("fla")
+return
+:B0*?:rer::
+    outputEng("rer")
+return
+:B0*?:orc::
+    outputEng("orc")
+return
+:B0*?:ger::
+    outputEng("ger")
+return
+:B0*?:bey::
+    outputEng("bey")
+return
+:B0*?:gwy::
+    outputEng("gwy")
+return
+:B0*?:ehr::
+    outputEng("ehr")
+return
+:B0*?:wal::
+    outputEng("wal")
+return
+:B0*?:utm::
+    outputEng("utm")
+return
+:B0*?:ins::
+    outputEng("ins")
+return
+:B0*?:cer::
+    outputEng("cer")
+return
+:B0*?:doc::
+    outputEng("doc")
+return
+:B0*?:kra::
+    outputEng("kra")
+return
+:B0*?:hog::
+    outputEng("hog")
+return
+:B0*?:faw::
+    outputEng("faw")
+return
+:B0*?:fjo::
+    outputEng("fjo")
+return
+:B0*?:sor::
+    outputEng("sor")
+return
+:B0*?:huy::
+    outputEng("huy")
+return
+:B0*?:mcd::
+    outputEng("mcd")
+return
+:B0*?:qad::
+    outputEng("qad")
+return
+:B0*?:fam::
+    outputEng("fam")
+return
+:B0*?:hou::
+    outputEng("hou")
+return
+:B0*?:lol::
+    outputEng("lol")
+return
+:B0*?:erl::
+    outputEng("erl")
+return
+:B0*?:yev::
+    outputEng("yev")
+return
+:B0*?:aso::
+    outputEng("aso")
+return
+:B0*?:exp::
+    outputEng("exp")
+return
+:B0*?:osg::
+    outputEng("osg")
+return
+:B0*?:gla::
+    outputEng("gla")
+return
+:B0*?:aun::
+    outputEng("aun")
+return
+:B0*?:rai::
+    outputEng("rai")
+return
+:B0*?:pes::
+    outputEng("pes")
+return
+:B0*?:asc::
+    outputEng("asc")
+return
+:B0*?:don::
+    outputEng("don")
+return
+:B0*?:qin::
+    outputEng("qin")
+return
+:B0*?:gar::
+    outputEng("gar")
+return
+:B0*?:wab::
+    outputEng("wab")
+return
+:B0*?:mum::
+    outputEng("mum")
+return
+:B0*?:ars::
+    outputEng("ars")
+return
+:B0*?:fin::
+    outputEng("fin")
+return
+:B0*?:dut::
+    outputEng("dut")
+return
+:B0*?:upe::
+    outputEng("upe")
+return
+:B0*?:dra::
+    outputEng("dra")
+return
+:B0*?:mar::
+    outputEng("mar")
+return
+:B0*?:sox::
+    outputEng("sox")
+return
+:B0*?:enf::
+    outputEng("enf")
+return
+:B0*?:atk::
+    outputEng("atk")
+return
+:B0*?:aft::
+    outputEng("aft")
+return
+:B0*?:mau::
+    outputEng("mau")
+return
+:B0*?:ohs::
+    outputEng("ohs")
+return
+:B0*?:muz::
+    outputEng("muz")
+return
+:B0*?:sal::
+    outputEng("sal")
+return
+:B0*?:hoi::
+    outputEng("hoi")
+return
+:B0*?:loh::
+    outputEng("loh")
+return
+:B0*?:zyg::
+    outputEng("zyg")
+return
+:B0*?:ymi::
+    outputEng("ymi")
+return
+:B0*?:pun::
+    outputEng("pun")
+return
+:B0*?:bip::
+    outputEng("bip")
+return
+:B0*?:eas::
+    outputEng("eas")
+return
+:B0*?:kio::
+    outputEng("kio")
+return
+:B0*?:obo::
+    outputEng("obo")
+return
+:B0*?:zar::
+    outputEng("zar")
+return
+:B0*?:lie::
+    outputEng("lie")
+return
+:B0*?:paw::
+    outputEng("paw")
+return
+:B0*?:iri::
+    outputEng("iri")
+return
+:B0*?:iko::
+    outputEng("iko")
+return
+:B0*?:ufo::
+    outputEng("ufo")
+return
+:B0*?:sht::
+    outputEng("sht")
+return
+:B0*?:flu::
+    outputEng("flu")
+return
+:B0*?:dof::
+    outputEng("dof")
+return
+:B0*?:naz::
+    outputEng("naz")
+return
+:B0*?:ack::
+    outputEng("ack")
+return
+:B0*?:dup::
+    outputEng("dup")
+return
+:B0*?:pyn::
+    outputEng("pyn")
+return
+:B0*?:nop::
+    outputEng("nop")
+return
+:B0*?:atw::
+    outputEng("atw")
+return
+:B0*?:poa::
+    outputEng("poa")
+return
+:B0*?:ytt::
+    outputEng("ytt")
+return
+:B0*?:itu::
+    outputEng("itu")
+return
+:B0*?:eso::
+    outputEng("eso")
+return
+:B0*?:hid::
+    outputEng("hid")
+return
+:B0*?:ray::
+    outputEng("ray")
+return
+:B0*?:ach::
+    outputEng("ach")
+return
+:B0*?:obl::
+    outputEng("obl")
+return
+:B0*?:pel::
+    outputEng("pel")
+return
+:B0*?:kip::
+    outputEng("kip")
+return
+:B0*?:reh::
+    outputEng("reh")
+return
+:B0*?:pyr::
+    outputEng("pyr")
+return
+:B0*?:who::
+    outputEng("who")
+return
+:B0*?:ahm::
+    outputEng("ahm")
+return
+:B0*?:dea::
+    outputEng("dea")
+return
+:B0*?:lal::
+    outputEng("lal")
+return
+:B0*?:pim::
+    outputEng("pim")
+return
+:B0*?:ruh::
+    outputEng("ruh")
+return
+:B0*?:tko::
+    outputEng("tko")
+return
+:B0*?:neb::
+    outputEng("neb")
+return
+:B0*?:jel::
+    outputEng("jel")
+return
+:B0*?:jab::
+    outputEng("jab")
+return
+:B0*?:keb::
+    outputEng("keb")
+return
+:B0*?:cys::
+    outputEng("cys")
+return
+:B0*?:tic::
+    outputEng("tic")
+return
+:B0*?:zea::
+    outputEng("zea")
+return
+:B0*?:pry::
+    outputEng("pry")
+return
+:B0*?:ges::
+    outputEng("ges")
+return
+:B0*?:hia::
+    outputEng("hia")
+return
+:B0*?:row::
+    outputEng("row")
+return
+:B0*?:mea::
+    outputEng("mea")
+return
+:B0*?:baw::
+    outputEng("baw")
+return
+:B0*?:kma::
+    outputEng("kma")
+return
+:B0*?:elv::
+    outputEng("elv")
+return
+:B0*?:rej::
+    outputEng("rej")
+return
+:B0*?:eyi::
+    outputEng("eyi")
+return
+:B0*?:beu::
+    outputEng("beu")
+return
+:B0*?:bad::
+    outputEng("bad")
+return
+:B0*?:aja::
+    outputEng("aja")
+return
+:B0*?:fie::
+    outputEng("fie")
+return
+:B0*?:why::
+    outputEng("why")
+return
+:B0*?:tyr::
+    outputEng("tyr")
+return
+:B0*?:soy::
+    outputEng("soy")
+return
+:B0*?:osw::
+    outputEng("osw")
+return
+:B0*?:pkw::
+    outputEng("pkw")
+return
+:B0*?:too::
+    outputEng("too")
+return
+:B0*?:psh::
+    outputEng("psh")
+return
+:B0*?:guc::
+    outputEng("guc")
+return
+:B0*?:zan::
+    outputEng("zan")
+return
+:B0*?:dug::
+    outputEng("dug")
+return
+:B0*?:qui::
+    outputEng("qui")
+return
+:B0*?:ice::
+    outputEng("ice")
+return
+:B0*?:opu::
+    outputEng("opu")
+return
+:B0*?:won::
+    outputEng("won")
+return
+:B0*?:hyu::
+    outputEng("hyu")
+return
+:B0*?:ris::
+    outputEng("ris")
+return
+:B0*?:gol::
+    outputEng("gol")
+return
+:B0*?:moh::
+    outputEng("moh")
+return
+:B0*?:jfk::
+    outputEng("jfk")
+return
+:B0*?:vad::
+    outputEng("vad")
+return
+:B0*?:peu::
+    outputEng("peu")
+return
+:B0*?:loo::
+    outputEng("loo")
+return
+:B0*?:lig::
+    outputEng("lig")
+return
+:B0*?:odd::
+    outputEng("odd")
+return
+:B0*?:yua::
+    outputEng("yua")
+return
+:B0*?:hav::
+    outputEng("hav")
+return
+:B0*?:mop::
+    outputEng("mop")
+return
+:B0*?:okt::
+    outputEng("okt")
+return
+:B0*?:inh::
+    outputEng("inh")
+return
+:B0*?:mio::
+    outputEng("mio")
+return
+:B0*?:sol::
+    outputEng("sol")
+return
+:B0*?:dni::
+    outputEng("dni")
+return
+:B0*?:cip::
+    outputEng("cip")
+return
+:B0*?:asl::
+    outputEng("asl")
+return
+:B0*?:sti::
+    outputEng("sti")
+return
+:B0*?:gly::
+    outputEng("gly")
+return
+:B0*?:rak::
+    outputEng("rak")
+return
+:B0*?:dej::
+    outputEng("dej")
+return
+:B0*?:dae::
+    outputEng("dae")
+return
+:B0*?:obd::
+    outputEng("obd")
+return
+:B0*?:liz::
+    outputEng("liz")
+return
+:B0*?:mag::
+    outputEng("mag")
+return
+:B0*?:syb::
+    outputEng("syb")
+return
+:B0*?:ent::
+    outputEng("ent")
+return
+:B0*?:vio::
+    outputEng("vio")
+return
+:B0*?:hoe::
+    outputEng("hoe")
+return
+:B0*?:shc::
+    outputEng("shc")
+return
+:B0*?:foy::
+    outputEng("foy")
+return
+:B0*?:afg::
+    outputEng("afg")
+return
+:B0*?:vog::
+    outputEng("vog")
+return
+:B0*?:lud::
+    outputEng("lud")
+return
+:B0*?:car::
+    outputEng("car")
+return
+:B0*?:ksh::
+    outputEng("ksh")
+return
+:B0*?:feu::
+    outputEng("feu")
+return
+:B0*?:jow::
+    outputEng("jow")
+return
+:B0*?:oti::
+    outputEng("oti")
+return
+:B0*?:fib::
+    outputEng("fib")
+return
+:B0*?:bam::
+    outputEng("bam")
+return
+:B0*?:edd::
+    outputEng("edd")
+return
+:B0*?:kom::
+    outputEng("kom")
+return
+:B0*?:ner::
+    outputEng("ner")
+return
+:B0*?:unj::
+    outputEng("unj")
+return
+:B0*?:wah::
+    outputEng("wah")
+return
+:B0*?:ous::
+    outputEng("ous")
+return
+:B0*?:nil::
+    outputEng("nil")
+return
+:B0*?:lug::
+    outputEng("lug")
+return
+:B0*?:unk::
+    outputEng("unk")
+return
+:B0*?:rha::
+    outputEng("rha")
+return
+:B0*?:owe::
+    outputEng("owe")
+return
+:B0*?:kur::
+    outputEng("kur")
+return
+:B0*?:ghq::
+    outputEng("ghq")
+return
+:B0*?:uca::
+    outputEng("uca")
+return
+:B0*?:add::
+    outputEng("add")
+return
+:B0*?:pne::
+    outputEng("pne")
+return
+:B0*?:cup::
+    outputEng("cup")
+return
+:B0*?:cyl::
+    outputEng("cyl")
+return
+:B0*?:ton::
+    outputEng("ton")
+return
+:B0*?:mcq::
+    outputEng("mcq")
+return
+:B0*?:amy::
+    outputEng("amy")
+return
+:B0*?:tac::
+    outputEng("tac")
+return
+:B0*?:clo::
+    outputEng("clo")
+return
+:B0*?:ata::
+    outputEng("ata")
+return
+:B0*?:fha::
+    outputEng("fha")
+return
+:B0*?:coc::
+    outputEng("coc")
+return
+:B0*?:ele::
+    outputEng("ele")
+return
+:B0*?:cue::
+    outputEng("cue")
+return
+:B0*?:kev::
+    outputEng("kev")
+return
+:B0*?:swi::
+    outputEng("swi")
+return
+:B0*?:bem::
+    outputEng("bem")
+return
+:B0*?:rom::
+    outputEng("rom")
+return
+:B0*?:rye::
+    outputEng("rye")
+return
+:B0*?:beo::
+    outputEng("beo")
+return
+:B0*?:gow::
+    outputEng("gow")
+return
+:B0*?:oop::
+    outputEng("oop")
+return
+:B0*?:har::
+    outputEng("har")
+return
+:B0*?:zed::
+    outputEng("zed")
+return
+:B0*?:vap::
+    outputEng("vap")
+return
+:B0*?:bec::
+    outputEng("bec")
+return
+:B0*?:rau::
+    outputEng("rau")
+return
+:B0*?:fay::
+    outputEng("fay")
+return
+:B0*?:elf::
+    outputEng("elf")
+return
+:B0*?:bli::
+    outputEng("bli")
+return
+:B0*?:hux::
+    outputEng("hux")
+return
+:B0*?:ovi::
+    outputEng("ovi")
+return
+:B0*?:ibm::
+    outputEng("ibm")
+return
+:B0*?:idi::
+    outputEng("idi")
+return
+:B0*?:ure::
+    outputEng("ure")
+return
+:B0*?:jor::
+    outputEng("jor")
+return
+:B0*?:tod::
+    outputEng("tod")
+return
+:B0*?:lid::
+    outputEng("lid")
+return
+:B0*?:fav::
+    outputEng("fav")
+return
+:B0*?:nkr::
+    outputEng("nkr")
+return
+:B0*?:noz::
+    outputEng("noz")
+return
+:B0*?:mil::
+    outputEng("mil")
+return
+:B0*?:att::
+    outputEng("att")
+return
+:B0*?:phl::
+    outputEng("phl")
+return
+:B0*?:non::
+    outputEng("non")
+return
+:B0*?:whi::
+    outputEng("whi")
+return
+:B0*?:jud::
+    outputEng("jud")
+return
+:B0*?:nag::
+    outputEng("nag")
+return
+:B0*?:juv::
+    outputEng("juv")
+return
+:B0*?:det::
+    outputEng("det")
+return
+:B0*?:hor::
+    outputEng("hor")
+return
+:B0*?:mce::
+    outputEng("mce")
+return
+:B0*?:exi::
+    outputEng("exi")
+return
+:B0*?:las::
+    outputEng("las")
+return
+:B0*?:yen::
+    outputEng("yen")
+return
+:B0*?:eno::
+    outputEng("eno")
+return
+:B0*?:jam::
+    outputEng("jam")
+return
+:B0*?:mon::
+    outputEng("mon")
+return
+:B0*?:kai::
+    outputEng("kai")
+return
+:B0*?:asm::
+    outputEng("asm")
+return
+:B0*?:fes::
+    outputEng("fes")
+return
+:B0*?:fue::
+    outputEng("fue")
+return
+:B0*?:jul::
+    outputEng("jul")
+return
+:B0*?:yol::
+    outputEng("yol")
+return
+:B0*?:buf::
+    outputEng("buf")
+return
+:B0*?:use::
+    outputEng("use")
+return
+:B0*?:pea::
+    outputEng("pea")
+return
+:B0*?:bic::
+    outputEng("bic")
+return
+:B0*?:oin::
+    outputEng("oin")
+return
+:B0*?:seg::
+    outputEng("seg")
+return
+:B0*?:eve::
+    outputEng("eve")
+return
+:B0*?:bru::
+    outputEng("bru")
+return
+:B0*?:rie::
+    outputEng("rie")
+return
+:B0*?:wur::
+    outputEng("wur")
+return
+:B0*?:dji::
+    outputEng("dji")
+return
+:B0*?:gho::
+    outputEng("gho")
+return
+:B0*?:ony::
+    outputEng("ony")
+return
+:B0*?:cuc::
+    outputEng("cuc")
+return
+:B0*?:bai::
+    outputEng("bai")
+return
+:B0*?:wry::
+    outputEng("wry")
+return
+:B0*?:gof::
+    outputEng("gof")
+return
+:B0*?:yip::
+    outputEng("yip")
+return
+:B0*?:han::
+    outputEng("han")
+return
+:B0*?:roy::
+    outputEng("roy")
+return
+:B0*?:rao::
+    outputEng("rao")
+return
+:B0*?:wod::
+    outputEng("wod")
+return
+:B0*?:ivi::
+    outputEng("ivi")
+return
+:B0*?:myn::
+    outputEng("myn")
+return
+:B0*?:fag::
+    outputEng("fag")
+return
+:B0*?:gui::
+    outputEng("gui")
+return
+:B0*?:tea::
+    outputEng("tea")
+return
+:B0*?:gry::
+    outputEng("gry")
+return
+:B0*?:etn::
+    outputEng("etn")
+return
+:B0*?:niv::
+    outputEng("niv")
+return
+:B0*?:foa::
+    outputEng("foa")
+return
+:B0*?:tnt::
+    outputEng("tnt")
+return
+:B0*?:uni::
+    outputEng("uni")
+return
+:B0*?:sci::
+    outputEng("sci")
+return
+:B0*?:bry::
+    outputEng("bry")
+return
+:B0*?:est::
+    outputEng("est")
+return
+:B0*?:tho::
+    outputEng("tho")
+return
+:B0*?:avu::
+    outputEng("avu")
+return
+:B0*?:fan::
+    outputEng("fan")
+return
+:B0*?:exq::
+    outputEng("exq")
+return
+:B0*?:olf::
+    outputEng("olf")
+return
+:B0*?:aps::
+    outputEng("aps")
+return
+:B0*?:dad::
+    outputEng("dad")
+return
+:B0*?:mye::
+    outputEng("mye")
+return
+:B0*?:kee::
+    outputEng("kee")
+return
+:B0*?:tub::
+    outputEng("tub")
+return
+:B0*?:usu::
+    outputEng("usu")
+return
+:B0*?:asb::
+    outputEng("asb")
+return
+:B0*?:mcf::
+    outputEng("mcf")
+return
+:B0*?:abs::
+    outputEng("abs")
+return
+:B0*?:ana::
+    outputEng("ana")
+return
+:B0*?:dwi::
+    outputEng("dwi")
+return
+:B0*?:iti::
+    outputEng("iti")
+return
+:B0*?:acu::
+    outputEng("acu")
+return
+:B0*?:auk::
+    outputEng("auk")
+return
+:B0*?:iow::
+    outputEng("iow")
+return
+:B0*?:oro::
+    outputEng("oro")
+return
+:B0*?:nos::
+    outputEng("nos")
+return
+:B0*?:rhe::
+    outputEng("rhe")
+return
+:B0*?:ast::
+    outputEng("ast")
+return
+:B0*?:uku::
+    outputEng("uku")
+return
+:B0*?:piu::
+    outputEng("piu")
+return
+:B0*?:woz::
+    outputEng("woz")
+return
+:B0*?:soh::
+    outputEng("soh")
+return
+:B0*?:lju::
+    outputEng("lju")
+return
+:B0*?:mud::
+    outputEng("mud")
+return
+:B0*?:wei::
+    outputEng("wei")
+return
+:B0*?:kod::
+    outputEng("kod")
+return
+:B0*?:cap::
+    outputEng("cap")
+return
+:B0*?:lia::
+    outputEng("lia")
+return
+:B0*?:caf::
+    outputEng("caf")
+return
+:B0*?:ban::
+    outputEng("ban")
+return
+:B0*?:dze::
+    outputEng("dze")
+return
+:B0*?:eig::
+    outputEng("eig")
+return
+:B0*?:cab::
+    outputEng("cab")
+return
+:B0*?:exe::
+    outputEng("exe")
+return
+:B0*?:ecg::
+    outputEng("ecg")
+return
+:B0*?:wus::
+    outputEng("wus")
+return
+:B0*?:edg::
+    outputEng("edg")
+return
+:B0*?:eif::
+    outputEng("eif")
+return
+:B0*?:ibo::
+    outputEng("ibo")
+return
+:B0*?:din::
+    outputEng("din")
+return
+:B0*?:omb::
+    outputEng("omb")
+return
+:B0*?:onl::
+    outputEng("onl")
+return
+:B0*?:nga::
+    outputEng("nga")
+return
+:B0*?:bef::
+    outputEng("bef")
+return
+:B0*?:pan::
+    outputEng("pan")
+return
+:B0*?:rum::
+    outputEng("rum")
+return
+:B0*?:uri::
+    outputEng("uri")
+return
+:B0*?:jag::
+    outputEng("jag")
+return
+:B0*?:heg::
+    outputEng("heg")
+return
+:B0*?:cey::
+    outputEng("cey")
+return
+:B0*?:rus::
+    outputEng("rus")
+return
+:B0*?:laj::
+    outputEng("laj")
+return
+:B0*?:kea::
+    outputEng("kea")
+return
+:B0*?:per::
+    outputEng("per")
+return
+:B0*?:win::
+    outputEng("win")
+return
+:B0*?:wro::
+    outputEng("wro")
+return
+:B0*?:buo::
+    outputEng("buo")
+return
+:B0*?:lut::
+    outputEng("lut")
+return
+:B0*?:gim::
+    outputEng("gim")
+return
+:B0*?:mia::
+    outputEng("mia")
+return
+:B0*?:xyl::
+    outputEng("xyl")
+return
+:B0*?:alr::
+    outputEng("alr")
+return
+:B0*?:noe::
+    outputEng("noe")
+return
+:B0*?:rei::
+    outputEng("rei")
+return
+:B0*?:abm::
+    outputEng("abm")
+return
+:B0*?:jet::
+    outputEng("jet")
+return
+:B0*?:amn::
+    outputEng("amn")
+return
+:B0*?:fuj::
+    outputEng("fuj")
+return
+:B0*?:rav::
+    outputEng("rav")
+return
+:B0*?:fem::
+    outputEng("fem")
+return
+:B0*?:vit::
+    outputEng("vit")
+return
+:B0*?:wif::
+    outputEng("wif")
+return
+:B0*?:ryu::
+    outputEng("ryu")
+return
+:B0*?:upm::
+    outputEng("upm")
+return
+:B0*?:teh::
+    outputEng("teh")
+return
+:B0*?:veh::
+    outputEng("veh")
+return
+:B0*?:voo::
+    outputEng("voo")
+return
+:B0*?:lim::
+    outputEng("lim")
+return
+:B0*?:sad::
+    outputEng("sad")
+return
+:B0*?:bah::
+    outputEng("bah")
+return
+:B0*?:ped::
+    outputEng("ped")
+return
+:B0*?:dry::
+    outputEng("dry")
+return
+:B0*?:zhe::
+    outputEng("zhe")
+return
+:B0*?:sny::
+    outputEng("sny")
+return
+:B0*?:sri::
+    outputEng("sri")
+return
+:B0*?:sub::
+    outputEng("sub")
+return
+:B0*?:our::
+    outputEng("our")
+return
+:B0*?:ral::
+    outputEng("ral")
+return
+:B0*?:dap::
+    outputEng("dap")
+return
+:B0*?:ois::
+    outputEng("ois")
+return
+:B0*?:soc::
+    outputEng("soc")
+return
+:B0*?:tom::
+    outputEng("tom")
+return
+:B0*?:ino::
+    outputEng("ino")
+return
+:B0*?:bay::
+    outputEng("bay")
+return
+:B0*?:dur::
+    outputEng("dur")
+return
+:B0*?:ble::
+    outputEng("ble")
+return
+:B0*?:adi::
+    outputEng("adi")
+return
+:B0*?:isl::
+    outputEng("isl")
+return
+:B0*?:tax::
+    outputEng("tax")
+return
+:B0*?:pix::
+    outputEng("pix")
+return
+:B0*?:rio::
+    outputEng("rio")
+return
+:B0*?:eur::
+    outputEng("eur")
+return
+:B0*?:zod::
+    outputEng("zod")
+return
+:B0*?:orp::
+    outputEng("orp")
+return
+:B0*?:bot::
+    outputEng("bot")
+return
+:B0*?:woe::
+    outputEng("woe")
+return
+:B0*?:biv::
+    outputEng("biv")
+return
+:B0*?:psa::
+    outputEng("psa")
+return
+:B0*?:sys::
+    outputEng("sys")
+return
+:B0*?:mst::
+    outputEng("mst")
+return
+:B0*?:dop::
+    outputEng("dop")
+return
+:B0*?:mid::
+    outputEng("mid")
+return
+:B0*?:glu::
+    outputEng("glu")
+return
+:B0*?:nub::
+    outputEng("nub")
+return
+:B0*?:unb::
+    outputEng("unb")
+return
+:B0*?:nih::
+    outputEng("nih")
+return
+:B0*?:moj::
+    outputEng("moj")
+return
+:B0*?:kaz::
+    outputEng("kaz")
+return
+:B0*?:lub::
+    outputEng("lub")
+return
+:B0*?:alp::
+    outputEng("alp")
+return
+:B0*?:fuz::
+    outputEng("fuz")
+return
+:B0*?:oki::
+    outputEng("oki")
+return
+:B0*?:eus::
+    outputEng("eus")
+return
+:B0*?:ras::
+    outputEng("ras")
+return
+:B0*?:rhu::
+    outputEng("rhu")
+return
+:B0*?:atr::
+    outputEng("atr")
+return
+:B0*?:tyl::
+    outputEng("tyl")
+return
+:B0*?:gae::
+    outputEng("gae")
+return
+:B0*?:tox::
+    outputEng("tox")
+return
+:B0*?:jon::
+    outputEng("jon")
+return
+:B0*?:aur::
+    outputEng("aur")
+return
+:B0*?:ott::
+    outputEng("ott")
+return
+:B0*?:tan::
+    outputEng("tan")
+return
+:B0*?:mup::
+    outputEng("mup")
+return
+:B0*?:uph::
+    outputEng("uph")
+return
+:B0*?:aar::
+    outputEng("aar")
+return
+:B0*?:bev::
+    outputEng("bev")
+return
+:B0*?:agh::
+    outputEng("agh")
+return
+:B0*?:shi::
+    outputEng("shi")
+return
+:B0*?:jeo::
+    outputEng("jeo")
+return
+:B0*?:jiv::
+    outputEng("jiv")
+return
+:B0*?:hac::
+    outputEng("hac")
+return
+:B0*?:unn::
+    outputEng("unn")
+return
+:B0*?:ogb::
+    outputEng("ogb")
+return
+:B0*?:yet::
+    outputEng("yet")
+return
+:B0*?:zol::
+    outputEng("zol")
+return
+:B0*?:poz::
+    outputEng("poz")
+return
+:B0*?:mca::
+    outputEng("mca")
+return
+:B0*?:axi::
+    outputEng("axi")
+return
+:B0*?:lum::
+    outputEng("lum")
+return
+:B0*?:kni::
+    outputEng("kni")
+return
+:B0*?:xia::
+    outputEng("xia")
+return
+:B0*?:zac::
+    outputEng("zac")
+return
+:B0*?:pif::
+    outputEng("pif")
+return
+:B0*?:aik::
+    outputEng("aik")
+return
+:B0*?:agg::
+    outputEng("agg")
+return
+:B0*?:dil::
+    outputEng("dil")
+return
+:B0*?:sph::
+    outputEng("sph")
+return
+:B0*?:ore::
+    outputEng("ore")
+return
+:B0*?:jep::
+    outputEng("jep")
+return
+:B0*?:wra::
+    outputEng("wra")
+return
+:B0*?:fig::
+    outputEng("fig")
+return
+:B0*?:ibu::
+    outputEng("ibu")
+return
+:B0*?:gwe::
+    outputEng("gwe")
+return
+:B0*?:tla::
+    outputEng("tla")
+return
+:B0*?:rhi::
+    outputEng("rhi")
+return
+:B0*?:wya::
+    outputEng("wya")
+return
+:B0*?:gri::
+    outputEng("gri")
+return
+:B0*?:daz::
+    outputEng("daz")
+return
+:B0*?:hep::
+    outputEng("hep")
+return
+:B0*?:eey::
+    outputEng("eey")
+return
+:B0*?:spu::
+    outputEng("spu")
+return
+:B0*?:wis::
+    outputEng("wis")
+return
+:B0*?:iam::
+    outputEng("iam")
+return
+:B0*?:net::
+    outputEng("net")
+return
+:B0*?:dus::
+    outputEng("dus")
+return
+:B0*?:hat::
+    outputEng("hat")
+return
+:B0*?:run::
+    outputEng("run")
+return
+:B0*?:con::
+    outputEng("con")
+return
+:B0*?:pia::
+    outputEng("pia")
+return
+:B0*?:wol::
+    outputEng("wol")
+return
+:B0*?:ael::
+    outputEng("ael")
+return
+:B0*?:koa::
+    outputEng("koa")
+return
+:B0*?:ern::
+    outputEng("ern")
+return
+:B0*?:unv::
+    outputEng("unv")
+return
+:B0*?:lus::
+    outputEng("lus")
+return
+:B0*?:hom::
+    outputEng("hom")
+return
+:B0*?:ust::
+    outputEng("ust")
+return
+:B0*?:ace::
+    outputEng("ace")
+return
+:B0*?:kar::
+    outputEng("kar")
+return
+:B0*?:req::
+    outputEng("req")
+return
+:B0*?:gen::
+    outputEng("gen")
+return
+:B0*?:blv::
+    outputEng("blv")
+return
+:B0*?:cae::
+    outputEng("cae")
+return
+:B0*?:dod::
+    outputEng("dod")
+return
+:B0*?:isu::
+    outputEng("isu")
+return
+:B0*?:pei::
+    outputEng("pei")
+return
+:B0*?:obf::
+    outputEng("obf")
+return
+:B0*?:mai::
+    outputEng("mai")
+return
+:B0*?:zek::
+    outputEng("zek")
+return
+:B0*?:scl::
+    outputEng("scl")
+return
+:B0*?:cop::
+    outputEng("cop")
+return
+:B0*?:hun::
+    outputEng("hun")
+return
+:B0*?:sof::
+    outputEng("sof")
+return
+:B0*?:ruk::
+    outputEng("ruk")
+return
+:B0*?:uba::
+    outputEng("uba")
+return
+:B0*?:kei::
+    outputEng("kei")
+return
+:B0*?:elb::
+    outputEng("elb")
+return
+:B0*?:phd::
+    outputEng("phd")
+return
+:B0*?:ces::
+    outputEng("ces")
+return
+:B0*?:lel::
+    outputEng("lel")
+return
+:B0*?:zim::
+    outputEng("zim")
+return
+:B0*?:lef::
+    outputEng("lef")
+return
+:B0*?:had::
+    outputEng("had")
+return
+:B0*?:nex::
+    outputEng("nex")
+return
+:B0*?:oke::
+    outputEng("oke")
+return
+:B0*?:loy::
+    outputEng("loy")
+return
+:B0*?:wie::
+    outputEng("wie")
+return
+:B0*?:fey::
+    outputEng("fey")
+return
+:B0*?:vil::
+    outputEng("vil")
+return
+:B0*?:oah::
+    outputEng("oah")
+return
+:B0*?:sen::
+    outputEng("sen")
+return
+:B0*?:vot::
+    outputEng("vot")
+return
+:B0*?:diz::
+    outputEng("diz")
+return
+:B0*?:may::
+    outputEng("may")
+return
+:B0*?:cox::
+    outputEng("cox")
+return
+:B0*?:imh::
+    outputEng("imh")
+return
+:B0*?:elu::
+    outputEng("elu")
+return
+:B0*?:aut::
+    outputEng("aut")
+return
+:B0*?:nim::
+    outputEng("nim")
+return
+:B0*?:ado::
+    outputEng("ado")
+return
+:B0*?:vex::
+    outputEng("vex")
+return
+:B0*?:jat::
+    outputEng("jat")
+return
+:B0*?:olg::
+    outputEng("olg")
+return
+:B0*?:nee::
+    outputEng("nee")
+return
+:B0*?:neu::
+    outputEng("neu")
+return
+:B0*?:maw::
+    outputEng("maw")
+return
+:B0*?:zen::
+    outputEng("zen")
+return
+:B0*?:vau::
+    outputEng("vau")
+return
+:B0*?:wez::
+    outputEng("wez")
+return
+:B0*?:mik::
+    outputEng("mik")
+return
+:B0*?:uhf::
+    outputEng("uhf")
+return
+:B0*?:taf::
+    outputEng("taf")
+return
+:B0*?:pru::
+    outputEng("pru")
+return
+:B0*?:hul::
+    outputEng("hul")
+return
+:B0*?:dja::
+    outputEng("dja")
+return
+:B0*?:boc::
+    outputEng("boc")
+return
+:B0*?:hie::
+    outputEng("hie")
+return
+:B0*?:cus::
+    outputEng("cus")
+return
+:B0*?:yes::
+    outputEng("yes")
+return
+:B0*?:jui::
+    outputEng("jui")
+return
+:B0*?:inu::
+    outputEng("inu")
+return
+:B0*?:fow::
+    outputEng("fow")
+return
+:B0*?:mvp::
+    outputEng("mvp")
+return
+:B0*?:rae::
+    outputEng("rae")
+return
+:B0*?:inn::
+    outputEng("inn")
+return
+:B0*?:oph::
+    outputEng("oph")
+return
+:B0*?:thw::
+    outputEng("thw")
+return
+:B0*?:dna::
+    outputEng("dna")
+return
+:B0*?:twi::
+    outputEng("twi")
+return
+:B0*?:dag::
+    outputEng("dag")
+return
+:B0*?:iqu::
+    outputEng("iqu")
+return
+:B0*?:bia::
+    outputEng("bia")
+return
+:B0*?:foe::
+    outputEng("foe")
+return
+:B0*?:vic::
+    outputEng("vic")
+return
+:B0*?:eys::
+    outputEng("eys")
+return
+:B0*?:upc::
+    outputEng("upc")
+return
+:B0*?:deh::
+    outputEng("deh")
+return
+:B0*?:amo::
+    outputEng("amo")
+return
+:B0*?:oma::
+    outputEng("oma")
+return
+:B0*?:fer::
+    outputEng("fer")
+return
+:B0*?:val::
+    outputEng("val")
+return
+:B0*?:rte::
+    outputEng("rte")
+return
+:B0*?:byr::
+    outputEng("byr")
+return
+:B0*?:pue::
+    outputEng("pue")
+return
+:B0*?:zyu::
+    outputEng("zyu")
+return
+:B0*?:cax::
+    outputEng("cax")
+return
+:B0*?:khw::
+    outputEng("khw")
+return
+:B0*?:caj::
+    outputEng("caj")
+return
+:B0*?:sne::
+    outputEng("sne")
+return
+:B0*?:ler::
+    outputEng("ler")
+return
+:B0*?:oxb::
+    outputEng("oxb")
+return
+:B0*?:unu::
+    outputEng("unu")
+return
+:B0*?:lyd::
+    outputEng("lyd")
+return
+:B0*?:mcc::
+    outputEng("mcc")
+return
+:B0*?:che::
+    outputEng("che")
+return
+:B0*?:lur::
+    outputEng("lur")
+return
+:B0*?:lox::
+    outputEng("lox")
+return
+:B0*?:ang::
+    outputEng("ang")
+return
+:B0*?:axo::
+    outputEng("axo")
+return
+:B0*?:nai::
+    outputEng("nai")
+return
+:B0*?:end::
+    outputEng("end")
+return
+:B0*?:quo::
+    outputEng("quo")
+return
+:B0*?:uta::
+    outputEng("uta")
+return
+:B0*?:syn::
+    outputEng("syn")
+return
+:B0*?:mis::
+    outputEng("mis")
+return
+:B0*?:cym::
+    outputEng("cym")
+return
+:B0*?:klo::
+    outputEng("klo")
+return
+:B0*?:bas::
+    outputEng("bas")
+return
+:B0*?:pyo::
+    outputEng("pyo")
+return
+:B0*?:ili::
+    outputEng("ili")
+return
+:B0*?:sko::
+    outputEng("sko")
+return
+:B0*?:oth::
+    outputEng("oth")
+return
+:B0*?:buj::
+    outputEng("buj")
+return
+:B0*?:sot::
+    outputEng("sot")
+return
+:B0*?:loc::
+    outputEng("loc")
+return
+:B0*?:irm::
+    outputEng("irm")
+return
+:B0*?:esp::
+    outputEng("esp")
+return
+:B0*?:byg::
+    outputEng("byg")
+return
+:B0*?:cru::
+    outputEng("cru")
+return
+:B0*?:aol::
+    outputEng("aol")
+return
+:B0*?:awa::
+    outputEng("awa")
+return
+:B0*?:kah::
+    outputEng("kah")
+return
+:B0*?:biz::
+    outputEng("biz")
+return
+:B0*?:jew::
+    outputEng("jew")
+return
+:B0*?:alu::
+    outputEng("alu")
+return
+:B0*?:fum::
+    outputEng("fum")
+return
+:B0*?:gie::
+    outputEng("gie")
+return
+:B0*?:elt::
+    outputEng("elt")
+return
+:B0*?:sac::
+    outputEng("sac")
+return
+:B0*?:orr::
+    outputEng("orr")
+return
+:B0*?:eri::
+    outputEng("eri")
+return
+:B0*?:eki::
+    outputEng("eki")
+return
+:B0*?:stu::
+    outputEng("stu")
+return
+:B0*?:gal::
+    outputEng("gal")
+return
+:B0*?:lha::
+    outputEng("lha")
+return
+:B0*?:uly::
+    outputEng("uly")
+return
+:B0*?:spo::
+    outputEng("spo")
+return
+:B0*?:sel::
+    outputEng("sel")
+return
+:B0*?:yok::
+    outputEng("yok")
+return
+:B0*?:cos::
+    outputEng("cos")
+return
+:B0*?:zoo::
+    outputEng("zoo")
+return
+:B0*?:eel::
+    outputEng("eel")
+return
+:B0*?:wig::
+    outputEng("wig")
+return
+:B0*?:him::
+    outputEng("him")
+return
+:B0*?:arc::
+    outputEng("arc")
+return
+:B0*?:aim::
+    outputEng("aim")
+return
+:B0*?:zec::
+    outputEng("zec")
+return
+:B0*?:inl::
+    outputEng("inl")
+return
+:B0*?:yem::
+    outputEng("yem")
+return
+:B0*?:iag::
+    outputEng("iag")
+return
+:B0*?:loz::
+    outputEng("loz")
+return
+:B0*?:dev::
+    outputEng("dev")
+return
+:B0*?:maa::
+    outputEng("maa")
+return
+:B0*?:inp::
+    outputEng("inp")
+return
+:B0*?:mne::
+    outputEng("mne")
+return
+:B0*?:okh::
+    outputEng("okh")
+return
+:B0*?:str::
+    outputEng("str")
+return
+:B0*?:acm::
+    outputEng("acm")
+return
+:B0*?:pil::
+    outputEng("pil")
+return
+:B0*?:lic::
+    outputEng("lic")
+return
+:B0*?:ona::
+    outputEng("ona")
+return
+:B0*?:hud::
+    outputEng("hud")
+return
+:B0*?:sum::
+    outputEng("sum")
+return
+:B0*?:wha::
+    outputEng("wha")
+return
+:B0*?:cog::
+    outputEng("cog")
+return
+:B0*?:ned::
+    outputEng("ned")
+return
+:B0*?:cli::
+    outputEng("cli")
+return
+:B0*?:fax::
+    outputEng("fax")
+return
+:B0*?:ree::
+    outputEng("ree")
+return
+:B0*?:yuk::
+    outputEng("yuk")
+return
+:B0*?:uzi::
+    outputEng("uzi")
+return
+:B0*?:kne::
+    outputEng("kne")
+return
+:B0*?:rag::
+    outputEng("rag")
+return
+:B0*?:cim::
+    outputEng("cim")
+return
+:B0*?:joc::
+    outputEng("joc")
+return
+:B0*?:osc::
+    outputEng("osc")
+return
+:B0*?:oua::
+    outputEng("oua")
+return
+:B0*?:kli::
+    outputEng("kli")
+return
+:B0*?:cya::
+    outputEng("cya")
+return
+:B0*?:una::
+    outputEng("una")
+return
+:B0*?:iba::
+    outputEng("iba")
+return
+:B0*?:buz::
+    outputEng("buz")
+return
+:B0*?:fae::
+    outputEng("fae")
+return
+:B0*?:tay::
+    outputEng("tay")
+return
+:B0*?:noi::
+    outputEng("noi")
+return
+:B0*?:gaw::
+    outputEng("gaw")
+return
+:B0*?:ohm::
+    outputEng("ohm")
+return
+:B0*?:bac::
+    outputEng("bac")
+return
+:B0*?:bye::
+    outputEng("bye")
+return
+:B0*?:zos::
+    outputEng("zos")
+return
+:B0*?:rod::
+    outputEng("rod")
+return
+:B0*?:nem::
+    outputEng("nem")
+return
+:B0*?:api::
+    outputEng("api")
+return
+:B0*?:wam::
+    outputEng("wam")
+return
+:B0*?:jug::
+    outputEng("jug")
+return
+:B0*?:kin::
+    outputEng("kin")
+return
+:B0*?:idl::
+    outputEng("idl")
+return
+:B0*?:mob::
+    outputEng("mob")
+return
+:B0*?:pos::
+    outputEng("pos")
+return
+:B0*?:lla::
+    outputEng("lla")
+return
+:B0*?:mel::
+    outputEng("mel")
+return
+:B0*?:pyl::
+    outputEng("pyl")
+return
+:B0*?:cei::
+    outputEng("cei")
+return
+:B0*?:paa::
+    outputEng("paa")
+return
+:B0*?:lui::
+    outputEng("lui")
+return
+:B0*?:swu::
+    outputEng("swu")
+return
+:B0*?:dic::
+    outputEng("dic")
+return
+:B0*?:nio::
+    outputEng("nio")
+return
+:B0*?:vui::
+    outputEng("vui")
+return
+:B0*?:guj::
+    outputEng("guj")
+return
+:B0*?:vla::
+    outputEng("vla")
+return
+:B0*?:gey::
+    outputEng("gey")
+return
+:B0*?:ont::
+    outputEng("ont")
+return
+:B0*?:oks::
+    outputEng("oks")
+return
+:B0*?:mei::
+    outputEng("mei")
+return
+:B0*?:dyk::
+    outputEng("dyk")
+return
+:B0*?:kob::
+    outputEng("kob")
+return
+:B0*?:san::
+    outputEng("san")
+return
+:B0*?:fuk::
+    outputEng("fuk")
+return
+:B0*?:yam::
+    outputEng("yam")
+return
+:B0*?:isr::
+    outputEng("isr")
+return
+:B0*?:yer::
+    outputEng("yer")
+return
+:B0*?:mal::
+    outputEng("mal")
+return
+:B0*?:lup::
+    outputEng("lup")
+return
+:B0*?:noh::
+    outputEng("noh")
+return
+:B0*?:nif::
+    outputEng("nif")
+return
+:B0*?:dam::
+    outputEng("dam")
+return
+:B0*?:kro::
+    outputEng("kro")
+return
+:B0*?:moc::
+    outputEng("moc")
+return
+:B0*?:wav::
+    outputEng("wav")
+return
+:B0*?:bur::
+    outputEng("bur")
+return
+:B0*?:kel::
+    outputEng("kel")
+return
+:B0*?:ipa::
+    outputEng("ipa")
+return
+:B0*?:kre::
+    outputEng("kre")
+return
+:B0*?:vlf::
+    outputEng("vlf")
+return
+:B0*?:iza::
+    outputEng("iza")
+return
+:B0*?:wic::
+    outputEng("wic")
+return
+:B0*?:cas::
+    outputEng("cas")
+return
+:B0*?:pec::
+    outputEng("pec")
+return
+:B0*?:awk::
+    outputEng("awk")
+return
+:B0*?:lle::
+    outputEng("lle")
+return
+:B0*?:eru::
+    outputEng("eru")
+return
+:B0*?:ser::
+    outputEng("ser")
+return
+:B0*?:ush::
+    outputEng("ush")
+return
+:B0*?:anx::
+    outputEng("anx")
+return
+:B0*?:abb::
+    outputEng("abb")
+return
+:B0*?:lak::
+    outputEng("lak")
+return
+:B0*?:mhz::
+    outputEng("mhz")
+return
+:B0*?:eer::
+    outputEng("eer")
+return
+:B0*?:boj::
+    outputEng("boj")
+return
+:B0*?:sia::
+    outputEng("sia")
+return
+:B0*?:aeg::
+    outputEng("aeg")
+return
+:B0*?:aeo::
+    outputEng("aeo")
+return
+:B0*?:ate::
+    outputEng("ate")
+return
+:B0*?:mcg::
+    outputEng("mcg")
+return
+:B0*?:iya::
+    outputEng("iya")
+return
+:B0*?:hua::
+    outputEng("hua")
+return
+:B0*?:obs::
+    outputEng("obs")
+return
+:B0*?:kal::
+    outputEng("kal")
+return
+:B0*?:osb::
+    outputEng("osb")
+return
+:B0*?:lep::
+    outputEng("lep")
+return
+:B0*?:pac::
+    outputEng("pac")
+return
+:B0*?:yum::
+    outputEng("yum")
+return
+:B0*?:wag::
+    outputEng("wag")
+return
+:B0*?:osm::
+    outputEng("osm")
+return
+:B0*?:fon::
+    outputEng("fon")
+return
+:B0*?:nyq::
+    outputEng("nyq")
+return
+:B0*?:red::
+    outputEng("red")
+return
+:B0*?:reg::
+    outputEng("reg")
+return
+:B0*?:voy::
+    outputEng("voy")
+return
+:B0*?:sup::
+    outputEng("sup")
+return
+:B0*?:ori::
+    outputEng("ori")
+return
+:B0*?:ubu::
+    outputEng("ubu")
+return
+:B0*?:eph::
+    outputEng("eph")
+return
+:B0*?:yap::
+    outputEng("yap")
+return
+:B0*?:poi::
+    outputEng("poi")
+return
+:B0*?:syc::
+    outputEng("syc")
+return
+:B0*?:ozy::
+    outputEng("ozy")
+return
+:B0*?:evo::
+    outputEng("evo")
+return
+:B0*?:pul::
+    outputEng("pul")
+return
+:B0*?:urs::
+    outputEng("urs")
+return
+:B0*?:rid::
+    outputEng("rid")
+return
+:B0*?:gem::
+    outputEng("gem")
+return
+:B0*?:cri::
+    outputEng("cri")
+return
+:B0*?:onw::
+    outputEng("onw")
+return
+:B0*?:ira::
+    outputEng("ira")
+return
+:B0*?:tau::
+    outputEng("tau")
+return
+:B0*?:mor::
+    outputEng("mor")
+return
+:B0*?:bew::
+    outputEng("bew")
+return
+:B0*?:zun::
+    outputEng("zun")
+return
+:B0*?:gec::
+    outputEng("gec")
+return
+:B0*?:bon::
+    outputEng("bon")
+return
+:B0*?:gul::
+    outputEng("gul")
+return
+:B0*?:gon::
+    outputEng("gon")
+return
+:B0*?:pub::
+    outputEng("pub")
+return
+:B0*?:knu::
+    outputEng("knu")
+return
+:B0*?:blu::
+    outputEng("blu")
+return
+:B0*?:cin::
+    outputEng("cin")
+return
+:B0*?:dal::
+    outputEng("dal")
+return
+:B0*?:yan::
+    outputEng("yan")
+return
+:B0*?:fij::
+    outputEng("fij")
+return
+:B0*?:eat::
+    outputEng("eat")
+return
+:B0*?:tre::
+    outputEng("tre")
+return
+:B0*?:tur::
+    outputEng("tur")
+return
+:B0*?:nig::
+    outputEng("nig")
+return
+:B0*?:tis::
+    outputEng("tis")
+return
+:B0*?:wac::
+    outputEng("wac")
+return
+:B0*?:son::
+    outputEng("son")
+return
+:B0*?:awr::
+    outputEng("awr")
+return
+:B0*?:bib::
+    outputEng("bib")
+return
+:B0*?:psy::
+    outputEng("psy")
+return
+:B0*?:cpi::
+    outputEng("cpi")
+return
+:B0*?:hen::
+    outputEng("hen")
+return
+:B0*?:dee::
+    outputEng("dee")
+return
+:B0*?:tra::
+    outputEng("tra")
+return
+:B0*?:pms::
+    outputEng("pms")
+return
+:B0*?:ama::
+    outputEng("ama")
+return
+:B0*?:ucl::
+    outputEng("ucl")
+return
+:B0*?:lho::
+    outputEng("lho")
+return
+:B0*?:egr::
+    outputEng("egr")
+return
+:B0*?:wom::
+    outputEng("wom")
+return
+:B0*?:fbi::
+    outputEng("fbi")
+return
+:B0*?:tue::
+    outputEng("tue")
+return
+:B0*?:mck::
+    outputEng("mck")
+return
+:B0*?:pur::
+    outputEng("pur")
+return
+:B0*?:nec::
+    outputEng("nec")
+return
+:B0*?:zet::
+    outputEng("zet")
+return
+:B0*?:khu::
+    outputEng("khu")
+return
+:B0*?:abu::
+    outputEng("abu")
+return
+:B0*?:eye::
+    outputEng("eye")
+return
+:B0*?:pov::
+    outputEng("pov")
+return
+:B0*?:ano::
+    outputEng("ano")
+return
+:B0*?:ezr::
+    outputEng("ezr")
+return
+:B0*?:now::
+    outputEng("now")
+return
+:B0*?:wey::
+    outputEng("wey")
+return
+:B0*?:lul::
+    outputEng("lul")
+return
+:B0*?:tel::
+    outputEng("tel")
+return
+:B0*?:rya::
+    outputEng("rya")
+return
+:B0*?:was::
+    outputEng("was")
+return
+:B0*?:asg::
+    outputEng("asg")
+return
+:B0*?:cub::
+    outputEng("cub")
+return
+:B0*?:avi::
+    outputEng("avi")
+return
+:B0*?:teq::
+    outputEng("teq")
+return
+:B0*?:ten::
+    outputEng("ten")
+return
+:B0*?:ani::
+    outputEng("ani")
+return
+:B0*?:bul::
+    outputEng("bul")
+return
+:B0*?:doa::
+    outputEng("doa")
+return
+:B0*?:ash::
+    outputEng("ash")
+return
+:B0*?:dov::
+    outputEng("dov")
+return
+:B0*?:beh::
+    outputEng("beh")
+return
+:B0*?:pte::
+    outputEng("pte")
+return
+:B0*?:cpu::
+    outputEng("cpu")
+return
+:B0*?:ebb::
+    outputEng("ebb")
+return
+:B0*?:zig::
+    outputEng("zig")
+return
+:B0*?:koj::
+    outputEng("koj")
+return
+:B0*?:foi::
+    outputEng("foi")
+return
+:B0*?:ror::
+    outputEng("ror")
+return
+:B0*?:kis::
+    outputEng("kis")
+return
+:B0*?:ril::
+    outputEng("ril")
+return
+:B0*?:tid::
+    outputEng("tid")
+return
+:B0*?:pot::
+    outputEng("pot")
+return
+:B0*?:sep::
+    outputEng("sep")
+return
+:B0*?:pod::
+    outputEng("pod")
+return
+:B0*?:put::
+    outputEng("put")
+return
+:B0*?:luc::
+    outputEng("luc")
+return
+:B0*?:cau::
+    outputEng("cau")
+return
+:B0*?:upd::
+    outputEng("upd")
+return
+:B0*?:boa::
+    outputEng("boa")
+return
+:B0*?:toi::
+    outputEng("toi")
+return
+:B0*?:huc::
+    outputEng("huc")
+return
+:B0*?:oug::
+    outputEng("oug")
+return
+:B0*?:irw::
+    outputEng("irw")
+return
+:B0*?:uno::
+    outputEng("uno")
+return
+:B0*?:giv::
+    outputEng("giv")
+return
+:B0*?:wen::
+    outputEng("wen")
+return
+:B0*?:hoo::
+    outputEng("hoo")
+return
+:B0*?:lav::
+    outputEng("lav")
+return
+:B0*?:ene::
+    outputEng("ene")
+return
+:B0*?:poe::
+    outputEng("poe")
+return
+:B0*?:akh::
+    outputEng("akh")
+return
+:B0*?:acc::
+    outputEng("acc")
+return
+:B0*?:lvo::
+    outputEng("lvo")
+return
+:B0*?:gew::
+    outputEng("gew")
+return
+:B0*?:big::
+    outputEng("big")
+return
+:B0*?:bel::
+    outputEng("bel")
+return
+:B0*?:jit::
+    outputEng("jit")
+return
+:B0*?:dep::
+    outputEng("dep")
+return
+:B0*?:lyn::
+    outputEng("lyn")
+return
+:B0*?:nam::
+    outputEng("nam")
+return
+:B0*?:goo::
+    outputEng("goo")
+return
+:B0*?:yaq::
+    outputEng("yaq")
+return
+:B0*?:nuk::
+    outputEng("nuk")
+return
+:B0*?:duc::
+    outputEng("duc")
+return
+:B0*?:kfc::
+    outputEng("kfc")
+return
+:B0*?:bro::
+    outputEng("bro")
+return
+:B0*?:euc::
+    outputEng("euc")
+return
+:B0*?:let::
+    outputEng("let")
+return
+:B0*?:oxo::
+    outputEng("oxo")
+return
+:B0*?:koe::
+    outputEng("koe")
+return
+:B0*?:bap::
+    outputEng("bap")
+return
+:B0*?:laf::
+    outputEng("laf")
+return
+:B0*?:fob::
+    outputEng("fob")
+return
+:B0*?:bag::
+    outputEng("bag")
+return
+:B0*?:tru::
+    outputEng("tru")
+return
+:B0*?:fiz::
+    outputEng("fiz")
+return
+:B0*?:fom::
+    outputEng("fom")
+return
+:B0*?:vel::
+    outputEng("vel")
+return
+:B0*?:tat::
+    outputEng("tat")
+return
+:B0*?:ago::
+    outputEng("ago")
+return
+:B0*?:vie::
+    outputEng("vie")
+return
+:B0*?:fle::
+    outputEng("fle")
+return
+:B0*?:bae::
+    outputEng("bae")
+return
+:B0*?:sym::
+    outputEng("sym")
+return
+:B0*?:obn::
+    outputEng("obn")
+return
+:B0*?:awf::
+    outputEng("awf")
+return
+:B0*?:fac::
+    outputEng("fac")
+return
+:B0*?:ups::
+    outputEng("ups")
+return
+:B0*?:sin::
+    outputEng("sin")
+return
+:B0*?:arm::
+    outputEng("arm")
+return
+:B0*?:elk::
+    outputEng("elk")
+return
+:B0*?:jen::
+    outputEng("jen")
+return
+:B0*?:kno::
+    outputEng("kno")
+return
+:B0*?:all::
+    outputEng("all")
+return
+:B0*?:dum::
+    outputEng("dum")
+return
+:B0*?:fdi::
+    outputEng("fdi")
+return
+:B0*?:pio::
+    outputEng("pio")
+return
+:B0*?:teg::
+    outputEng("teg")
+return
+:B0*?:hei::
+    outputEng("hei")
+return
+:B0*?:ide::
+    outputEng("ide")
+return
+:B0*?:atl::
+    outputEng("atl")
+return
+:B0*?:ogr::
+    outputEng("ogr")
+return
+:B0*?:sid::
+    outputEng("sid")
+return
+:B0*?:ina::
+    outputEng("ina")
+return
+:B0*?:dvo::
+    outputEng("dvo")
+return
+:B0*?:oun::
+    outputEng("oun")
+return
+:B0*?:eda::
+    outputEng("eda")
+return
+:B0*?:wad::
+    outputEng("wad")
+return
+:B0*?:eup::
+    outputEng("eup")
+return
+:B0*?:jil::
+    outputEng("jil")
+return
+:B0*?:bys::
+    outputEng("bys")
+return
+:B0*?:seu::
+    outputEng("seu")
+return
+:B0*?:fnm::
+    outputEng("fnm")
+return
+:B0*?:taj::
+    outputEng("taj")
+return
+:B0*?:ava::
+    outputEng("ava")
+return
+:B0*?:urn::
+    outputEng("urn")
+return
+:B0*?:yve::
+    outputEng("yve")
+return
+:B0*?:mya::
+    outputEng("mya")
+return
+:B0*?:wot::
+    outputEng("wot")
+return
+:B0*?:plo::
+    outputEng("plo")
+return
+:B0*?:lyi::
+    outputEng("lyi")
+return
+:B0*?:puk::
+    outputEng("puk")
+return
+:B0*?:lon::
+    outputEng("lon")
+return
+:B0*?:zag::
+    outputEng("zag")
+return
+:B0*?:sos::
+    outputEng("sos")
+return
+:B0*?:daw::
+    outputEng("daw")
+return
+:B0*?:dzu::
+    outputEng("dzu")
+return
+:B0*?:pra::
+    outputEng("pra")
+return
+:B0*?:fun::
+    outputEng("fun")
+return
+:B0*?:waf::
+    outputEng("waf")
+return
+:B0*?:rog::
+    outputEng("rog")
+return
+:B0*?:fuc::
+    outputEng("fuc")
+return
+:B0*?:bmw::
+    outputEng("bmw")
+return
+:B0*?:cry::
+    outputEng("cry")
+return
+:B0*?:yid::
+    outputEng("yid")
+return
+:B0*?:gat::
+    outputEng("gat")
+return
+:B0*?:afr::
+    outputEng("afr")
+return
+:B0*?:keg::
+    outputEng("keg")
+return
+:B0*?:dyn::
+    outputEng("dyn")
+return
+:B0*?:wel::
+    outputEng("wel")
+return
+:B0*?:bou::
+    outputEng("bou")
+return
+:B0*?:sim::
+    outputEng("sim")
+return
+:B0*?:gin::
+    outputEng("gin")
+return
+:B0*?:ols::
+    outputEng("ols")
+return
+:B0*?:mat::
+    outputEng("mat")
+return
+:B0*?:xho::
+    outputEng("xho")
+return
+:B0*?:ayr::
+    outputEng("ayr")
+return
+:B0*?:mez::
+    outputEng("mez")
+return
+:B0*?:nao::
+    outputEng("nao")
+return
+:B0*?:cis::
+    outputEng("cis")
+return
+:B0*?:jol::
+    outputEng("jol")
+return
+:B0*?:hoa::
+    outputEng("hoa")
+return
+:B0*?:ers::
+    outputEng("ers")
+return
+:B0*?:zul::
+    outputEng("zul")
+return
+:B0*?:dah::
+    outputEng("dah")
+return
+:B0*?:thr::
+    outputEng("thr")
+return
+:B0*?:ven::
+    outputEng("ven")
+return
+:B0*?:joi::
+    outputEng("joi")
+return
+:B0*?:bov::
+    outputEng("bov")
+return
+:B0*?:hya::
+    outputEng("hya")
+return
+:B0*?:bub::
+    outputEng("bub")
+return
+:B0*?:juk::
+    outputEng("juk")
+return
+:B0*?:hec::
+    outputEng("hec")
+return
+:B0*?:ery::
+    outputEng("ery")
+return
+:B0*?:yew::
+    outputEng("yew")
+return
+:B0*?:rex::
+    outputEng("rex")
+return
+:B0*?:mas::
+    outputEng("mas")
+return
+:B0*?:nui::
+    outputEng("nui")
+return
+:B0*?:own::
+    outputEng("own")
+return
+:B0*?:rul::
+    outputEng("rul")
+return
+:B0*?:hus::
+    outputEng("hus")
+return
+:B0*?:sha::
+    outputEng("sha")
+return
+:B0*?:umb::
+    outputEng("umb")
+return
+:B0*?:wye::
+    outputEng("wye")
+return
+:B0*?:fou::
+    outputEng("fou")
+return
+:B0*?:wyc::
+    outputEng("wyc")
+return
+:B0*?:hap::
+    outputEng("hap")
+return
+:B0*?:saw::
+    outputEng("saw")
+return
+:B0*?:coq::
+    outputEng("coq")
+return
+:B0*?:kus::
+    outputEng("kus")
+return
+:B0*?:dre::
+    outputEng("dre")
+return
+:B0*?:gag::
+    outputEng("gag")
+return
+:B0*?:eco::
+    outputEng("eco")
+return
+:B0*?:occ::
+    outputEng("occ")
+return
+:B0*?:tit::
+    outputEng("tit")
+return
+:B0*?:fut::
+    outputEng("fut")
+return
+:B0*?:tch::
+    outputEng("tch")
+return
+:B0*?:cen::
+    outputEng("cen")
+return
+:B0*?:alz::
+    outputEng("alz")
+return
+:B0*?:pen::
+    outputEng("pen")
+return
+:B0*?:leg::
+    outputEng("leg")
+return
+:B0*?:gos::
+    outputEng("gos")
+return
+:B0*?:nau::
+    outputEng("nau")
+return
+:B0*?:wil::
+    outputEng("wil")
+return
+:B0*?:amu::
+    outputEng("amu")
+return
+:B0*?:ocu::
+    outputEng("ocu")
+return
+:B0*?:ses::
+    outputEng("ses")
+return
+:B0*?:duh::
+    outputEng("duh")
+return
+:B0*?:blo::
+    outputEng("blo")
+return
+:B0*?:sme::
+    outputEng("sme")
+return
+:B0*?:equ::
+    outputEng("equ")
+return
+:B0*?:tao::
+    outputEng("tao")
+return
+:B0*?:ais::
+    outputEng("ais")
+return
+:B0*?:dip::
+    outputEng("dip")
+return
+:B0*?:pig::
+    outputEng("pig")
+return
+:B0*?:gea::
+    outputEng("gea")
+return
+:B0*?:ogd::
+    outputEng("ogd")
+return
+:B0*?:jee::
+    outputEng("jee")
+return
+:B0*?:wiv::
+    outputEng("wiv")
+return
+:B0*?:wid::
+    outputEng("wid")
+return
+:B0*?:cyn::
+    outputEng("cyn")
+return
+:B0*?:hyd::
+    outputEng("hyd")
+return
+:B0*?:gug::
+    outputEng("gug")
+return
+:B0*?:kop::
+    outputEng("kop")
+return
+:B0*?:tuf::
+    outputEng("tuf")
+return
+:B0*?:rey::
+    outputEng("rey")
+return
+:B0*?:eug::
+    outputEng("eug")
+return
+:B0*?:kay::
+    outputEng("kay")
+return
+:B0*?:yul::
+    outputEng("yul")
+return
+:B0*?:siv::
+    outputEng("siv")
+return
+:B0*?:her::
+    outputEng("her")
+return
+:B0*?:buy::
+    outputEng("buy")
+return
+:B0*?:bes::
+    outputEng("bes")
+return
+:B0*?:pvc::
+    outputEng("pvc")
+return
+:B0*?:not::
+    outputEng("not")
+return
+:B0*?:abj::
+    outputEng("abj")
+return
+:B0*?:ive::
+    outputEng("ive")
+return
+:B0*?:zuk::
+    outputEng("zuk")
+return
+:B0*?:men::
+    outputEng("men")
+return
+:B0*?:dub::
+    outputEng("dub")
+return
+:B0*?:izm::
+    outputEng("izm")
+return
+:B0*?:aug::
+    outputEng("aug")
+return
+:B0*?:biw::
+    outputEng("biw")
+return
+:B0*?:apa::
+    outputEng("apa")
+return
+:B0*?:rna::
+    outputEng("rna")
+return
+:B0*?:dan::
+    outputEng("dan")
+return
+:B0*?:mow::
+    outputEng("mow")
+return
+:B0*?:ora::
+    outputEng("ora")
+return
+:B0*?:pog::
+    outputEng("pog")
+return
+:B0*?:arb::
+    outputEng("arb")
+return
+:B0*?:nur::
+    outputEng("nur")
+return
+:B0*?:ext::
+    outputEng("ext")
+return
+:B0*?:hak::
+    outputEng("hak")
+return
+:B0*?:ket::
+    outputEng("ket")
+return
+:B0*?:oft::
+    outputEng("oft")
+return
+:B0*?:jad::
+    outputEng("jad")
+return
+:B0*?:unr::
+    outputEng("unr")
+return
+:B0*?:osh::
+    outputEng("osh")
+return
+:B0*?:bra::
+    outputEng("bra")
+return
+:B0*?:haa::
+    outputEng("haa")
+return
+:B0*?:ono::
+    outputEng("ono")
+return
+:B0*?:riv::
+    outputEng("riv")
+return
+:B0*?:lad::
+    outputEng("lad")
+return
+:B0*?:ufa::
+    outputEng("ufa")
+return
+:B0*?:cui::
+    outputEng("cui")
+return
+:B0*?:omn::
+    outputEng("omn")
+return
+:B0*?:fed::
+    outputEng("fed")
+return
+:B0*?:fra::
+    outputEng("fra")
+return
+:B0*?:myo::
+    outputEng("myo")
+return
+:B0*?:dia::
+    outputEng("dia")
+return
+:B0*?:lom::
+    outputEng("lom")
+return
+:B0*?:nak::
+    outputEng("nak")
+return
+:B0*?:urc::
+    outputEng("urc")
+return
+:B0*?:ooz::
+    outputEng("ooz")
+return
+:B0*?:tak::
+    outputEng("tak")
+return
+:B0*?:guf::
+    outputEng("guf")
+return
+:B0*?:gro::
+    outputEng("gro")
+return
+:B0*?:mug::
+    outputEng("mug")
+return
+:B0*?:oza::
+    outputEng("oza")
+return
+:B0*?:wea::
+    outputEng("wea")
+return
+:B0*?:hik::
+    outputEng("hik")
+return
+:B0*?:kag::
+    outputEng("kag")
+return
+:B0*?:ind::
+    outputEng("ind")
+return
+:B0*?:cur::
+    outputEng("cur")
+return
+:B0*?:unw::
+    outputEng("unw")
+return
+:B0*?:doz::
+    outputEng("doz")
+return
+:B0*?:mut::
+    outputEng("mut")
+return
+:B0*?:bat::
+    outputEng("bat")
+return
+:B0*?:dor::
+    outputEng("dor")
+return
+:B0*?:atp::
+    outputEng("atp")
+return
+:B0*?:wan::
+    outputEng("wan")
+return
+:B0*?:ruc::
+    outputEng("ruc")
+return
+:B0*?:anz::
+    outputEng("anz")
+return
+:B0*?:ald::
+    outputEng("ald")
+return
+:B0*?:nat::
+    outputEng("nat")
+return
+:B0*?:gli::
+    outputEng("gli")
+return
+:B0*?:zib::
+    outputEng("zib")
+return
+:B0*?:slo::
+    outputEng("slo")
+return
+:B0*?:awn::
+    outputEng("awn")
+return
+:B0*?:asy::
+    outputEng("asy")
+return
+:B0*?:ord::
+    outputEng("ord")
+return
+:B0*?:ede::
+    outputEng("ede")
+return
+:B0*?:doe::
+    outputEng("doe")
+return
+:B0*?:ouc::
+    outputEng("ouc")
+return
+:B0*?:pej::
+    outputEng("pej")
+return
+:B0*?:cla::
+    outputEng("cla")
+return
+:B0*?:saa::
+    outputEng("saa")
+return
+:B0*?:sug::
+    outputEng("sug")
+return
+:B0*?:zam::
+    outputEng("zam")
+return
+:B0*?:fee::
+    outputEng("fee")
+return
+:B0*?:meo::
+    outputEng("meo")
+return
+:B0*?:pol::
+    outputEng("pol")
+return
+:B0*?:res::
+    outputEng("res")
+return
+:B0*?:cal::
+    outputEng("cal")
+return
+:B0*?:inm::
+    outputEng("inm")
+return
+:B0*?:crt::
+    outputEng("crt")
+return
+:B0*?:eyc::
+    outputEng("eyc")
+return
+:B0*?:hag::
+    outputEng("hag")
+return
+:B0*?:bun::
+    outputEng("bun")
+return
+:B0*?:sir::
+    outputEng("sir")
+return
+:B0*?:khm::
+    outputEng("khm")
+return
+:B0*?:abo::
+    outputEng("abo")
+return
+:B0*?:wov::
+    outputEng("wov")
+return
+:B0*?:cle::
+    outputEng("cle")
+return
+:B0*?:wou::
+    outputEng("wou")
+return
+:B0*?:sni::
+    outputEng("sni")
+return
+:B0*?:gel::
+    outputEng("gel")
+return
+:B0*?:atm::
+    outputEng("atm")
+return
+:B0*?:bee::
+    outputEng("bee")
+return
+:B0*?:nye::
+    outputEng("nye")
+return
+:B0*?:tal::
+    outputEng("tal")
+return
+:B0*?:sue::
+    outputEng("sue")
+return
+:B0*?:emu::
+    outputEng("emu")
+return
+:B0*?:osi::
+    outputEng("osi")
+return
+:B0*?:oji::
+    outputEng("oji")
+return
+:B0*?:two::
+    outputEng("two")
+return
+:B0*?:hov::
+    outputEng("hov")
+return
+:B0*?:tys::
+    outputEng("tys")
+return
+:B0*?:cec::
+    outputEng("cec")
+return
+:B0*?:ime::
+    outputEng("ime")
+return
+:B0*?:imo::
+    outputEng("imo")
+return
+:B0*?:gra::
+    outputEng("gra")
+return
+:B0*?:cob::
+    outputEng("cob")
+return
+:B0*?:aal::
+    outputEng("aal")
+return
+:B0*?:nay::
+    outputEng("nay")
+return
+:B0*?:lof::
+    outputEng("lof")
+return
+:B0*?:eje::
+    outputEng("eje")
+return
+:B0*?:fos::
+    outputEng("fos")
+return
+:B0*?:bis::
+    outputEng("bis")
+return
+:B0*?:osl::
+    outputEng("osl")
+return
+:B0*?:epc::
+    outputEng("epc")
+return
+:B0*?:une::
+    outputEng("une")
+return
+:B0*?:vik::
+    outputEng("vik")
+return
+:B0*?:nin::
+    outputEng("nin")
+return
+:B0*?:oly::
+    outputEng("oly")
+return
+:B0*?:kib::
+    outputEng("kib")
+return
+:B0*?:alg::
+    outputEng("alg")
+return
+:B0*?:hex::
+    outputEng("hex")
+return
+:B0*?:ely::
+    outputEng("ely")
+return
+:B0*?:suk::
+    outputEng("suk")
+return
+:B0*?:emb::
+    outputEng("emb")
+return
+:B0*?:lab::
+    outputEng("lab")
+return
+:B0*?:leh::
+    outputEng("leh")
+return
+:B0*?:lac::
+    outputEng("lac")
+return
+:B0*?:gei::
+    outputEng("gei")
+return
+:B0*?:rot::
+    outputEng("rot")
+return
+:B0*?:any::
+    outputEng("any")
+return
+:B0*?:ave::
+    outputEng("ave")
+return
+:B0*?:ala::
+    outputEng("ala")
+return
+:B0*?:ebo::
+    outputEng("ebo")
+return
+:B0*?:uig::
+    outputEng("uig")
+return
+:B0*?:nar::
+    outputEng("nar")
+return
+:B0*?:roc::
+    outputEng("roc")
+return
+:B0*?:sty::
+    outputEng("sty")
+return
+:B0*?:fez::
+    outputEng("fez")
+return
+:B0*?:bhu::
+    outputEng("bhu")
+return
+:B0*?:moo::
+    outputEng("moo")
+return
+:B0*?:bho::
+    outputEng("bho")
+return
+:B0*?:nut::
+    outputEng("nut")
+return
+:B0*?:sak::
+    outputEng("sak")
+return
+:B0*?:rat::
+    outputEng("rat")
+return
+:B0*?:vol::
+    outputEng("vol")
+return
+:B0*?:ebe::
+    outputEng("ebe")
+return
+:B0*?:lag::
+    outputEng("lag")
+return
+:B0*?:zor::
+    outputEng("zor")
+return
+:B0*?:upw::
+    outputEng("upw")
+return
+:B0*?:vas::
+    outputEng("vas")
+return
+:B0*?:yor::
+    outputEng("yor")
+return
+:B0*?:kuz::
+    outputEng("kuz")
+return
+:B0*?:awo::
+    outputEng("awo")
+return
+:B0*?:aho::
+    outputEng("aho")
+return
+:B0*?:lev::
+    outputEng("lev")
+return
+:B0*?:unq::
+    outputEng("unq")
+return
+:B0*?:egl::
+    outputEng("egl")
+return
+:B0*?:sod::
+    outputEng("sod")
+return
+:B0*?:mic::
+    outputEng("mic")
+return
+:B0*?:ibe::
+    outputEng("ibe")
+return
+:B0*?:hij::
+    outputEng("hij")
+return
+:B0*?:eps::
+    outputEng("eps")
+return
+:B0*?:app::
+    outputEng("app")
+return
+:B0*?:yow::
+    outputEng("yow")
+return
+:B0*?:ant::
+    outputEng("ant")
+return
+:B0*?:luz::
+    outputEng("luz")
+return
+:B0*?:eum::
+    outputEng("eum")
+return
+:B0*?:mep::
+    outputEng("mep")
+return
+:B0*?:env::
+    outputEng("env")
+return
+:B0*?:moz::
+    outputEng("moz")
+return
+:B0*?:fil::
+    outputEng("fil")
+return
+:B0*?:nob::
+    outputEng("nob")
+return
+:B0*?:ale::
+    outputEng("ale")
+return
+:B0*?:cyb::
+    outputEng("cyb")
+return
+:B0*?:raz::
+    outputEng("raz")
+return
+:B0*?:bak::
+    outputEng("bak")
+return
+:B0*?:lex::
+    outputEng("lex")
+return
+:B0*?:clu::
+    outputEng("clu")
+return
+:B0*?:ink::
+    outputEng("ink")
+return
+:B0*?:obt::
+    outputEng("obt")
+return
+:B0*?:ute::
+    outputEng("ute")
+return
+:B0*?:eis::
+    outputEng("eis")
+return
+:B0*?:bui::
+    outputEng("bui")
+return
+:B0*?:fau::
+    outputEng("fau")
+return
+:B0*?:haz::
+    outputEng("haz")
+return
+:B0*?:piv::
+    outputEng("piv")
+return
+:B0*?:hir::
+    outputEng("hir")
+return
+:B0*?:tup::
+    outputEng("tup")
+return
+:B0*?:fry::
+    outputEng("fry")
+return
+:B0*?:met::
+    outputEng("met")
+return
+:B0*?:urg::
+    outputEng("urg")
+return
+:B0*?:zes::
+    outputEng("zes")
+return
+:B0*?:emi::
+    outputEng("emi")
+return
+:B0*?:whe::
+    outputEng("whe")
+return
+:B0*?:mcn::
+    outputEng("mcn")
+return
+:B0*?:oas::
+    outputEng("oas")
+return
+:B0*?:adk::
+    outputEng("adk")
+return
+:B0*?:urq::
+    outputEng("urq")
+return
+:B0*?:toq::
+    outputEng("toq")
+return
+:B0*?:uda::
+    outputEng("uda")
+return
+:B0*?:ted::
+    outputEng("ted")
+return
+:B0*?:ask::
+    outputEng("ask")
+return
+:B0*?:key::
+    outputEng("key")
+return
+:B0*?:wet::
+    outputEng("wet")
+return
+:B0*?:sut::
+    outputEng("sut")
+return
+:B0*?:luv::
+    outputEng("luv")
+return
+:B0*?:jib::
+    outputEng("jib")
+return
+:B0*?:aha::
+    outputEng("aha")
+return
+:B0*?:baa::
+    outputEng("baa")
+return
+:B0*?:emc::
+    outputEng("emc")
+return
+:B0*?:sul::
+    outputEng("sul")
+return
+:B0*?:sja::
+    outputEng("sja")
+return
+:B0*?:edw::
+    outputEng("edw")
+return
+:B0*?:myc::
+    outputEng("myc")
+return
+:B0*?:mun::
+    outputEng("mun")
+return
+:B0*?:boy::
+    outputEng("boy")
+return
+:B0*?:dac::
+    outputEng("dac")
+return
+:B0*?:kim::
+    outputEng("kim")
+return
+:B0*?:hue::
+    outputEng("hue")
+return
+:B0*?:unz::
+    outputEng("unz")
+return
+:B0*?:cro::
+    outputEng("cro")
+return
+:B0*?:mog::
+    outputEng("mog")
+return
+:B0*?:mus::
+    outputEng("mus")
+return
+:B0*?:eeg::
+    outputEng("eeg")
+return
+:B0*?:mos::
+    outputEng("mos")
+return
+:B0*?:ish::
+    outputEng("ish")
+return
+:B0*?:spy::
+    outputEng("spy")
+return
+:B0*?:jin::
+    outputEng("jin")
+return
+:B0*?:egi::
+    outputEng("egi")
+return
+:B0*?:hye::
+    outputEng("hye")
+return
+:B0*?:nix::
+    outputEng("nix")
+return
+:B0*?:lar::
+    outputEng("lar")
+return
+:B0*?:zio::
+    outputEng("zio")
+return
+:B0*?:ett::
+    outputEng("ett")
+return
+:B0*?:tij::
+    outputEng("tij")
+return
+:B0*?:smu::
+    outputEng("smu")
+return
+:B0*?:sai::
+    outputEng("sai")
+return
+:B0*?:llo::
+    outputEng("llo")
+return
+:B0*?:see::
+    outputEng("see")
+return
+:B0*?:bla::
+    outputEng("bla")
+return
+:B0*?:aln::
+    outputEng("aln")
+return
+:B0*?:dox::
+    outputEng("dox")
+return
+:B0*?:axe::
+    outputEng("axe")
+return
+:B0*?:eil::
+    outputEng("eil")
+return
+:B0*?:nua::
+    outputEng("nua")
+return
+:B0*?:web::
+    outputEng("web")
+return
+:B0*?:inc::
+    outputEng("inc")
+return
+:B0*?:aga::
+    outputEng("aga")
+return
+:B0*?:dua::
+    outputEng("dua")
+return
+:B0*?:afa::
+    outputEng("afa")
+return
+:B0*?:kaf::
+    outputEng("kaf")
+return
+:B0*?:ewi::
+    outputEng("ewi")
+return
+:B0*?:mcp::
+    outputEng("mcp")
+return
+:B0*?:dol::
+    outputEng("dol")
+return
+:B0*?:plu::
+    outputEng("plu")
+return
+:B0*?:ker::
+    outputEng("ker")
+return
+:B0*?:irk::
+    outputEng("irk")
+return
+:B0*?:tec::
+    outputEng("tec")
+return
+:B0*?:pok::
+    outputEng("pok")
+return
+:B0*?:jac::
+    outputEng("jac")
+return
+:B0*?:fly::
+    outputEng("fly")
+return
+:B0*?:lbj::
+    outputEng("lbj")
+return
+:B0*?:oxu::
+    outputEng("oxu")
+return
+:B0*?:gte::
+    outputEng("gte")
+return
+:B0*?:wai::
+    outputEng("wai")
+return
+:B0*?:bim::
+    outputEng("bim")
+return
+:B0*?:vir::
+    outputEng("vir")
+return
+:B0*?:brn::
+    outputEng("brn")
+return
+:B0*?:spr::
+    outputEng("spr")
+return
+:B0*?:qom::
+    outputEng("qom")
+return
+:B0*?:cod::
+    outputEng("cod")
+return
+:B0*?:ekg::
+    outputEng("ekg")
+return
+:B0*?:vec::
+    outputEng("vec")
+return
+:B0*?:nox::
+    outputEng("nox")
+return
+:B0*?:fix::
+    outputEng("fix")
+return
+:B0*?:apu::
+    outputEng("apu")
+return
+:B0*?:goe::
+    outputEng("goe")
+return
+:B0*?:inr::
+    outputEng("inr")
+return
+:B0*?:bje::
+    outputEng("bje")
+return
+:B0*?:doo::
+    outputEng("doo")
+return
+:B0*?:ork::
+    outputEng("ork")
+return
+:B0*?:cid::
+    outputEng("cid")
+return
+:B0*?:edn::
+    outputEng("edn")
+return
+:B0*?:foo::
+    outputEng("foo")
+return
+:B0*?:dik::
+    outputEng("dik")
+return
+:B0*?:dwa::
+    outputEng("dwa")
+return
+:B0*?:cuf::
+    outputEng("cuf")
+return
+:B0*?:awl::
+    outputEng("awl")
+return
+:B0*?:hes::
+    outputEng("hes")
+return
+:B0*?:pep::
+    outputEng("pep")
+return
+:B0*?:arj::
+    outputEng("arj")
+return
+:B0*?:dne::
+    outputEng("dne")
+return
+:B0*?:vid::
+    outputEng("vid")
+return
+:B0*?:vis::
+    outputEng("vis")
+return
+:B0*?:ans::
+    outputEng("ans")
+return
+:B0*?:muj::
+    outputEng("muj")
+return
+:B0*?:pro::
+    outputEng("pro")
+return
+:B0*?:map::
+    outputEng("map")
+return
+:B0*?:baf::
+    outputEng("baf")
+return
+:B0*?:orv::
+    outputEng("orv")
+return
+:B0*?:pee::
+    outputEng("pee")
+return
+:B0*?:aca::
+    outputEng("aca")
+return
+:B0*?:ric::
+    outputEng("ric")
+return
+:B0*?:pek::
+    outputEng("pek")
+return
+:B0*?:gre::
+    outputEng("gre")
+return
+:B0*?:bea::
+    outputEng("bea")
+return
+:B0*?:sua::
+    outputEng("sua")
+return
+:B0*?:sna::
+    outputEng("sna")
+return
+:B0*?:liv::
+    outputEng("liv")
+return
+:B0*?:soo::
+    outputEng("soo")
+return
+:B0*?:haf::
+    outputEng("haf")
+return
+:B0*?:ath::
+    outputEng("ath")
+return
+:B0*?:hit::
+    outputEng("hit")
+return
+:B0*?:obv::
+    outputEng("obv")
+return
+:B0*?:nap::
+    outputEng("nap")
+return
+:B0*?:wax::
+    outputEng("wax")
+return
+:B0*?:mfu::
+    outputEng("mfu")
+return
+:B0*?:dir::
+    outputEng("dir")
+return
+:B0*?:ill::
+    outputEng("ill")
+return
+:B0*?:hem::
+    outputEng("hem")
+return
+:B0*?:cyr::
+    outputEng("cyr")
+return
+:B0*?:eyr::
+    outputEng("eyr")
+return
+:B0*?:iou::
+    outputEng("iou")
+return
+:B0*?:zhi::
+    outputEng("zhi")
+return
+:B0*?:asa::
+    outputEng("asa")
+return
+:B0*?:ome::
+    outputEng("ome")
+return
+:B0*?:oil::
+    outputEng("oil")
+return
+:B0*?:peq::
+    outputEng("peq")
+return
+:B0*?:gut::
+    outputEng("gut")
+return
+:B0*?:toy::
+    outputEng("toy")
+return
+:B0*?:ems::
+    outputEng("ems")
+return
+:B0*?:sip::
+    outputEng("sip")
+return
+:B0*?:iod::
+    outputEng("iod")
+return
+:B0*?:enn::
+    outputEng("enn")
+return
+:B0*?:sih::
+    outputEng("sih")
+return
+:B0*?:akb::
+    outputEng("akb")
+return
+:B0*?:tex::
+    outputEng("tex")
+return
+:B0*?:afl::
+    outputEng("afl")
+return
+:B0*?:zep::
+    outputEng("zep")
+return
+:B0*?:lym::
+    outputEng("lym")
+return
+:B0*?:lec::
+    outputEng("lec")
+return
+:B0*?:elm::
+    outputEng("elm")
+return
+:B0*?:fox::
+    outputEng("fox")
+return
+:B0*?:gis::
+    outputEng("gis")
+return
+:B0*?:eta::
+    outputEng("eta")
+return
+:B0*?:tot::
+    outputEng("tot")
+return
+:B0*?:fat::
+    outputEng("fat")
+return
+:B0*?:jek::
+    outputEng("jek")
+return
+:B0*?:emp::
+    outputEng("emp")
+return
+:B0*?:wip::
+    outputEng("wip")
+return
+:B0*?:coo::
+    outputEng("coo")
+return
+:B0*?:nir::
+    outputEng("nir")
+return
+:B0*?:wir::
+    outputEng("wir")
+return
+:B0*?:jog::
+    outputEng("jog")
+return
+:B0*?:yel::
+    outputEng("yel")
+return
+:B0*?:sar::
+    outputEng("sar")
+return
+:B0*?:myr::
+    outputEng("myr")
+return
+:B0*?:qum::
+    outputEng("qum")
+return
+:B0*?:goy::
+    outputEng("goy")
+return
+:B0*?:kry::
+    outputEng("kry")
+return
+:B0*?:xan::
+    outputEng("xan")
+return
+:B0*?:wat::
+    outputEng("wat")
+return
+:B0*?:pha::
+    outputEng("pha")
+return
+:B0*?:cul::
+    outputEng("cul")
+return
+:B0*?:feb::
+    outputEng("feb")
+return
+:B0*?:old::
+    outputEng("old")
+return
+:B0*?:dho::
+    outputEng("dho")
+return
+:B0*?:cyg::
+    outputEng("cyg")
+return
+:B0*?:tuv::
+    outputEng("tuv")
+return
+:B0*?:vac::
+    outputEng("vac")
+return
+:B0*?:top::
+    outputEng("top")
+return
+:B0*?:dif::
+    outputEng("dif")
+return
+:B0*?:ere::
+    outputEng("ere")
+return
+:B0*?:aus::
+    outputEng("aus")
+return
+:B0*?:ber::
+    outputEng("ber")
+return
+:B0*?:ile::
+    outputEng("ile")
+return
+:B0*?:aqu::
+    outputEng("aqu")
+return
+:B0*?:uti::
+    outputEng("uti")
+return
+:B0*?:ves::
+    outputEng("ves")
+return
+:B0*?:gig::
+    outputEng("gig")
+return
+:B0*?:fru::
+    outputEng("fru")
+return
+:B0*?:guy::
+    outputEng("guy")
+return
+:B0*?:gap::
+    outputEng("gap")
+return
+:B0*?:tef::
+    outputEng("tef")
+return
+:B0*?:dio::
+    outputEng("dio")
+return
+:B0*?:giu::
+    outputEng("giu")
+return
+:B0*?:vig::
+    outputEng("vig")
+return
+:B0*?:lou::
+    outputEng("lou")
+return
+:B0*?:veb::
+    outputEng("veb")
+return
+:B0*?:hug::
+    outputEng("hug")
+return
+:B0*?:joh::
+    outputEng("joh")
+return
+:B0*?:way::
+    outputEng("way")
+return
+:B0*?:gav::
+    outputEng("gav")
+return
+:B0*?:hal::
+    outputEng("hal")
+return
+:B0*?:rep::
+    outputEng("rep")
+return
+:B0*?:guo::
+    outputEng("guo")
+return
+:B0*?:ovu::
+    outputEng("ovu")
+return
+:B0*?:kig::
+    outputEng("kig")
+return
+:B0*?:ret::
+    outputEng("ret")
+return
+:B0*?:inf::
+    outputEng("inf")
+return
+:B0*?:ucc::
+    outputEng("ucc")
+return
+:B0*?:cat::
+    outputEng("cat")
+return
+:B0*?:tyc::
+    outputEng("tyc")
+return
+:B0*?:civ::
+    outputEng("civ")
+return
+:B0*?:voi::
+    outputEng("voi")
+return
+:B0*?:ros::
+    outputEng("ros")
+return
+:B0*?:tiz::
+    outputEng("tiz")
+return
+:B0*?:gup::
+    outputEng("gup")
+return
+:B0*?:for::
+    outputEng("for")
+return
+:B0*?:oak::
+    outputEng("oak")
+return
+:B0*?:are::
+    outputEng("are")
+return
+:B0*?:udd::
+    outputEng("udd")
+return
+:B0*?:esa::
+    outputEng("esa")
+return
+:B0*?:ase::
+    outputEng("ase")
+return
+:B0*?:vee::
+    outputEng("vee")
+return
+:B0*?:hro::
+    outputEng("hro")
+return
+:B0*?:igu::
+    outputEng("igu")
+return
+:B0*?:dye::
+    outputEng("dye")
+return
+:B0*?:yur::
+    outputEng("yur")
+return
+:B0*?:ada::
+    outputEng("ada")
+return
+:B0*?:lov::
+    outputEng("lov")
+return
+:B0*?:bob::
+    outputEng("bob")
+return
+:B0*?:nas::
+    outputEng("nas")
+return
+:B0*?:seo::
+    outputEng("seo")
+return
+:B0*?:but::
+    outputEng("but")
+return
+:B0*?:ing::
+    outputEng("ing")
+return
+:B0*?:fel::
+    outputEng("fel")
+return
+:B0*?:owl::
+    outputEng("owl")
+return
+:B0*?:orn::
+    outputEng("orn")
+return
+:B0*?:mab::
+    outputEng("mab")
+return
+:B0*?:ugh::
+    outputEng("ugh")
+return
+:B0*?:phi::
+    outputEng("phi")
+return
+:B0*?:uru::
+    outputEng("uru")
+return
+:B0*?:tob::
+    outputEng("tob")
+return
+:B0*?:beg::
+    outputEng("beg")
+return
+:B0*?:reb::
+    outputEng("reb")
+return
+:B0*?:gaz::
+    outputEng("gaz")
+return
+:B0*?:pat::
+    outputEng("pat")
+return
+:B0*?:syl::
+    outputEng("syl")
+return
+:B0*?:sem::
+    outputEng("sem")
+return
+:B0*?:ovo::
+    outputEng("ovo")
+return
+:B0*?:khz::
+    outputEng("khz")
+return
+:B0*?:alt::
+    outputEng("alt")
+return
+:B0*?:pom::
+    outputEng("pom")
+return
+:B0*?:vat::
+    outputEng("vat")
+return
+:B0*?:ola::
+    outputEng("ola")
+return
+:B0*?:wob::
+    outputEng("wob")
+return
+:B0*?:pam::
+    outputEng("pam")
+return
+:B0*?:eit::
+    outputEng("eit")
+return
+:B0*?:sog::
+    outputEng("sog")
+return
+:B0*?:alc::
+    outputEng("alc")
+return
+:B0*?:lye::
+    outputEng("lye")
+return
+:B0*?:jef::
+    outputEng("jef")
+return
+:B0*?:vul::
+    outputEng("vul")
+return
+:B0*?:ebr::
+    outputEng("ebr")
+return
+:B0*?:bow::
+    outputEng("bow")
+return
+:B0*?:nei::
+    outputEng("nei")
+return
+:B0*?:lop::
+    outputEng("lop")
+return
+:B0*?:duf::
+    outputEng("duf")
+return
+:B0*?:nuz::
+    outputEng("nuz")
+return
+:B0*?:loa::
+    outputEng("loa")
+return
+:B0*?:van::
+    outputEng("van")
+return
+:B0*?:erm::
+    outputEng("erm")
+return
+:B0*?:ism::
+    outputEng("ism")
+return
+:B0*?:jaw::
+    outputEng("jaw")
+return
+:B0*?:hah::
+    outputEng("hah")
+return
+:B0*?:sco::
+    outputEng("sco")
+return
+:B0*?:var::
+    outputEng("var")
+return
+:B0*?:cly::
+    outputEng("cly")
+return
+:B0*?:icy::
+    outputEng("icy")
+return
+:B0*?:byp::
+    outputEng("byp")
+return
+:B0*?:olm::
+    outputEng("olm")
+return
+:B0*?:pho::
+    outputEng("pho")
+return
+:B0*?:amb::
+    outputEng("amb")
+return
+:B0*?:ong::
+    outputEng("ong")
+return
+:B0*?:boe::
+    outputEng("boe")
+return
+:B0*?:toj::
+    outputEng("toj")
+return
+:B0*?:out::
+    outputEng("out")
+return
+:B0*?:ghi::
+    outputEng("ghi")
+return
+:B0*?:dig::
+    outputEng("dig")
+return
+:B0*?:fit::
+    outputEng("fit")
+return
+:B0*?:ste::
+    outputEng("ste")
+return
+:B0*?:ikh::
+    outputEng("ikh")
+return
+:B0*?:pap::
+    outputEng("pap")
+return
+:B0*?:teu::
+    outputEng("teu")
+return
+:B0*?:sat::
+    outputEng("sat")
+return
+:B0*?:sze::
+    outputEng("sze")
+return
+:B0*?:kik::
+    outputEng("kik")
+return
+:B0*?:tog::
+    outputEng("tog")
+return
+:B0*?:kud::
+    outputEng("kud")
+return
+:B0*?:asu::
+    outputEng("asu")
+return
+:B0*?:von::
+    outputEng("von")
+return
+:B0*?:dun::
+    outputEng("dun")
+return
+:B0*?:nug::
+    outputEng("nug")
+return
+:B0*?:ign::
+    outputEng("ign")
+return
+:B0*?:bir::
+    outputEng("bir")
+return
+:B0*?:tok::
+    outputEng("tok")
+return
+:B0*?:vip::
+    outputEng("vip")
+return
+:B0*?:pem::
+    outputEng("pem")
+return
+:B0*?:peb::
+    outputEng("peb")
+return
+:B0*?:wiz::
+    outputEng("wiz")
+return
+:B0*?:yep::
+    outputEng("yep")
+return
+:B0*?:noy::
+    outputEng("noy")
+return
+:B0*?:hab::
+    outputEng("hab")
+return
+:B0*?:gac::
+    outputEng("gac")
+return
+:B0*?:sli::
+    outputEng("sli")
+return
+:B0*?:jih::
+    outputEng("jih")
+return
+:B0*?:ipe::
+    outputEng("ipe")
+return
+:B0*?:isp::
+    outputEng("isp")
+return
+:B0*?:dyi::
+    outputEng("dyi")
+return
+:B0*?:fal::
+    outputEng("fal")
+return
+:B0*?:pet::
+    outputEng("pet")
+return
+:B0*?:tos::
+    outputEng("tos")
+return
+:B0*?:dos::
+    outputEng("dos")
+return
+:B0*?:gid::
+    outputEng("gid")
+return
+:B0*?:mub::
+    outputEng("mub")
+return
+:B0*?:fak::
+    outputEng("fak")
+return
+:B0*?:nef::
+    outputEng("nef")
+return
+:B0*?:vib::
+    outputEng("vib")
+return
+:B0*?:axl::
+    outputEng("axl")
+return
+:B0*?:wak::
+    outputEng("wak")
+return
+:B0*?:rip::
+    outputEng("rip")
+return
+:B0*?:amw::
+    outputEng("amw")
+return
+:B0*?:kla::
+    outputEng("kla")
+return
+:B0*?:aen::
+    outputEng("aen")
+return
+:B0*?:squ::
+    outputEng("squ")
+return
+:B0*?:tza::
+    outputEng("tza")
+return
+:B0*?:boi::
+    outputEng("boi")
+return
+:B0*?:she::
+    outputEng("she")
+return
+:B0*?:ceo::
+    outputEng("ceo")
+return
+:B0*?:def::
+    outputEng("def")
+return
+:B0*?:sgt::
+    outputEng("sgt")
+return
+:B0*?:chu::
+    outputEng("chu")
+return
+:B0*?:rea::
+    outputEng("rea")
+return
+:B0*?:asi::
+    outputEng("asi")
+return
+:B0*?:vhf::
+    outputEng("vhf")
+return
+:B0*?:lpn::
+    outputEng("lpn")
+return
+:B0*?:bab::
+    outputEng("bab")
+return
+:B0*?:tas::
+    outputEng("tas")
+return
+:B0*?:pow::
+    outputEng("pow")
+return
+:B0*?:viv::
+    outputEng("viv")
+return
+:B0*?:moa::
+    outputEng("moa")
+return
+:B0*?:eba::
+    outputEng("eba")
+return
+:B0*?:eut::
+    outputEng("eut")
+return
+:B0*?:nit::
+    outputEng("nit")
+return
+:B0*?:mba::
+    outputEng("mba")
+return
+:B0*?:hos::
+    outputEng("hos")
+return
+:B0*?:cag::
+    outputEng("cag")
+return
+:B0*?:kec::
+    outputEng("kec")
+return
+:B0*?:aym::
+    outputEng("aym")
+return
+:B0*?:lyc::
+    outputEng("lyc")
+return
+:B0*?:muf::
+    outputEng("muf")
+return
+:B0*?:eti::
+    outputEng("eti")
+return
+:B0*?:okl::
+    outputEng("okl")
+return
+:B0*?:cpa::
+    outputEng("cpa")
+return
+:B0*?:max::
+    outputEng("max")
+return
+:B0*?:aza::
+    outputEng("aza")
+return
+:B0*?:imm::
+    outputEng("imm")
+return
+:B0*?:efr::
+    outputEng("efr")
+return
+:B0*?:maf::
+    outputEng("maf")
+return
+:B0*?:tym::
+    outputEng("tym")
+return
+:B0*?:xuz::
+    outputEng("xuz")
+return
+:B0*?:tsa::
+    outputEng("tsa")
+return
+:B0*?:bjo::
+    outputEng("bjo")
+return
+:B0*?:geo::
+    outputEng("geo")
+return
+:B0*?:rur::
+    outputEng("rur")
+return
+:B0*?:fot::
+    outputEng("fot")
+return
+:B0*?:eir::
+    outputEng("eir")
+return
+:B0*?:mac::
+    outputEng("mac")
+return
+:B0*?:auc::
+    outputEng("auc")
+return
+:B0*?:diu::
+    outputEng("diu")
+return
+:B0*?:gay::
+    outputEng("gay")
+return
+:B0*?:neh::
+    outputEng("neh")
+return
+:B0*?:sik::
+    outputEng("sik")
+return
+:B0*?:lsd::
+    outputEng("lsd")
+return
+:B0*?:nad::
+    outputEng("nad")
+return
+:B0*?:aco::
+    outputEng("aco")
+return
+:B0*?:get::
+    outputEng("get")
+return
+:B0*?:log::
+    outputEng("log")
+return
+:B0*?:nab::
+    outputEng("nab")
+return
+:B0*?:oli::
+    outputEng("oli")
+return
+:B0*?:abl::
+    outputEng("abl")
+return
+:B0*?:bom::
+    outputEng("bom")
+return
+:B0*?:jif::
+    outputEng("jif")
+return
+:B0*?:kna::
+    outputEng("kna")
+return
+:B0*?:lcd::
+    outputEng("lcd")
+return
+:B0*?:edm::
+    outputEng("edm")
+return
+:B0*?:rui::
+    outputEng("rui")
+return
+:B0*?:och::
+    outputEng("och")
+return
+:B0*?:sig::
+    outputEng("sig")
+return
+:B0*?:mie::
+    outputEng("mie")
+return
+:B0*?:box::
+    outputEng("box")
+return
+:B0*?:byw::
+    outputEng("byw")
+return
+:B0*?:nik::
+    outputEng("nik")
+return
+:B0*?:die::
+    outputEng("die")
+return
+:B0*?:cot::
+    outputEng("cot")
+return
+:B0*?:cam::
+    outputEng("cam")
+return
+:B0*?:nah::
+    outputEng("nah")
+return
+:B0*?:wim::
+    outputEng("wim")
+return
+:B0*?:loq::
+    outputEng("loq")
+return
+:B0*?:isa::
+    outputEng("isa")
+return
+:B0*?:aub::
+    outputEng("aub")
+return
+:B0*?:vyi::
+    outputEng("vyi")
+return
+:B0*?:aud::
+    outputEng("aud")
+return
+:B0*?:fre::
+    outputEng("fre")
+return
+:B0*?:pug::
+    outputEng("pug")
+return
+:B0*?:its::
+    outputEng("its")
+return
+:B0*?:gus::
+    outputEng("gus")
+return
+:B0*?:erw::
+    outputEng("erw")
+return
+:B0*?:jid::
+    outputEng("jid")
+return
+:B0*?:rob::
+    outputEng("rob")
+return
+:B0*?:muc::
+    outputEng("muc")
+return
+:B0*?:woo::
+    outputEng("woo")
+return
+:B0*?:roz::
+    outputEng("roz")
+return
+:B0*?:cuz::
+    outputEng("cuz")
+return
+:B0*?:sil::
+    outputEng("sil")
+return
+:B0*?:aba::
+    outputEng("aba")
+return
+:B0*?:vix::
+    outputEng("vix")
+return
+:B0*?:nie::
+    outputEng("nie")
+return
+:B0*?:ame::
+    outputEng("ame")
+return
+:B0*?:isn::
+    outputEng("isn")
+return
+:B0*?:tam::
+    outputEng("tam")
+return
+:B0*?:zuc::
+    outputEng("zuc")
+return
+:B0*?:unf::
+    outputEng("unf")
+return
+:B0*?:ken::
+    outputEng("ken")
+return
+:B0*?:oni::
+    outputEng("oni")
+return
+:B0*?:eac::
+    outputEng("eac")
+return
+:B0*?:nup::
+    outputEng("nup")
+return
+:B0*?:sce::
+    outputEng("sce")
+return
+:B0*?:thu::
+    outputEng("thu")
+return
+:B0*?:hub::
+    outputEng("hub")
+return
+:B0*?:dui::
+    outputEng("dui")
+return
+:B0*?:did::
+    outputEng("did")
+return
+:B0*?:ben::
+    outputEng("ben")
+return
+:B0*?:kan::
+    outputEng("kan")
+return
+:B0*?:axu::
+    outputEng("axu")
+return
+:B0*?:bly::
+    outputEng("bly")
+return
+:B0*?:spe::
+    outputEng("spe")
+return
+:B0*?:eds::
+    outputEng("eds")
+return
+:B0*?:rue::
+    outputEng("rue")
+return
+:B0*?:uju::
+    outputEng("uju")
+return
+:B0*?:pag::
+    outputEng("pag")
+return
+:B0*?:kha::
+    outputEng("kha")
+return
+:B0*?:anv::
+    outputEng("anv")
+return
+:B0*?:ulc::
+    outputEng("ulc")
+return
+:B0*?:dav::
+    outputEng("dav")
+return
+:B0*?:klu::
+    outputEng("klu")
+return
+:B0*?:gyr::
+    outputEng("gyr")
+return
+:B0*?:snu::
+    outputEng("snu")
+return
+:B0*?:rit::
+    outputEng("rit")
+return
+:B0*?:doh::
+    outputEng("doh")
+return
+:B0*?:flo::
+    outputEng("flo")
+return
+:B0*?:yog::
+    outputEng("yog")
+return
+:B0*?:enz::
+    outputEng("enz")
+return
+:B0*?:alb::
+    outputEng("alb")
+return
+:B0*?:und::
+    outputEng("und")
+return
+:B0*?:wyn::
+    outputEng("wyn")
+return
+:B0*?:tus::
+    outputEng("tus")
+return
+:B0*?:rin::
+    outputEng("rin")
+return
+:B0*?:sab::
+    outputEng("sab")
+return
+:B0*?:xim::
+    outputEng("xim")
+return
+:B0*?:mrs::
+    outputEng("mrs")
+return
+:B0*?:sit::
+    outputEng("sit")
+return
+:B0*?:omd::
+    outputEng("omd")
+return
+:B0*?:sag::
+    outputEng("sag")
+return
+:B0*?:azi::
+    outputEng("azi")
+return
+:B0*?:ort::
+    outputEng("ort")
+return
+:B0*?:mov::
+    outputEng("mov")
+return
+:B0*?:los::
+    outputEng("los")
+return
+:B0*?:oys::
+    outputEng("oys")
+return
+:B0*?:caw::
+    outputEng("caw")
+return
+:B0*?:dvi::
+    outputEng("dvi")
+return
+:B0*?:heu::
+    outputEng("heu")
+return
+:B0*?:smi::
+    outputEng("smi")
+return
+:B0*?:dob::
+    outputEng("dob")
+return
+:B0*?:jov::
+    outputEng("jov")
+return
+:B0*?:pak::
+    outputEng("pak")
+return
+:B0*?:yun::
+    outputEng("yun")
+return
+:B0*?:rud::
+    outputEng("rud")
+return
+:B0*?:eva::
+    outputEng("eva")
+return
+:B0*?:coy::
+    outputEng("coy")
+return
+:B0*?:zit::
+    outputEng("zit")
+return
+:B0*?:nod::
+    outputEng("nod")
+return
+:B0*?:zoe::
+    outputEng("zoe")
+return
+:B0*?:umi::
+    outputEng("umi")
+return
+:B0*?:sam::
+    outputEng("sam")
+return
+:B0*?:rig::
+    outputEng("rig")
+return
+:B0*?:fod::
+    outputEng("fod")
+return
+:B0*?:faz::
+    outputEng("faz")
+return
+:B0*?:ubi::
+    outputEng("ubi")
+return
+:B0*?:pli::
+    outputEng("pli")
+return
+:B0*?:dib::
+    outputEng("dib")
+return
+:B0*?:hef::
+    outputEng("hef")
+return
+:B0*?:zeb::
+    outputEng("zeb")
+return
+:B0*?:osa::
+    outputEng("osa")
+return
+:B0*?:til::
+    outputEng("til")
+return
+:B0*?:gob::
+    outputEng("gob")
+return
+:B0*?:nul::
+    outputEng("nul")
+return
+:B0*?:exu::
+    outputEng("exu")
+return
+:B0*?:hoh::
+    outputEng("hoh")
+return
+:B0*?:gir::
+    outputEng("gir")
+return
+:B0*?:fri::
+    outputEng("fri")
+return
+:B0*?:ici::
+    outputEng("ici")
+return
+:B0*?:new::
+    outputEng("new")
+return
+:B0*?:dem::
+    outputEng("dem")
+return
+:B0*?:bog::
+    outputEng("bog")
+return
+:B0*?:ita::
+    outputEng("ita")
+return
+:B0*?:cez::
+    outputEng("cez")
+return
+:B0*?:hok::
+    outputEng("hok")
+return
+:B0*?:gau::
+    outputEng("gau")
+return
+:B0*?:luk::
+    outputEng("luk")
+return
+:B0*?:ygg::
+    outputEng("ygg")
+return
+:B0*?:gnp::
+    outputEng("gnp")
+return
+:B0*?:agi::
+    outputEng("agi")
+return
+:B0*?:oxn::
+    outputEng("oxn")
+return
+:B0*?:eag::
+    outputEng("eag")
+return
+:B0*?:aru::
+    outputEng("aru")
+return
+:B0*?:dul::
+    outputEng("dul")
+return
+:B0*?:edi::
+    outputEng("edi")
+return
+:B0*?:mcv::
+    outputEng("mcv")
+return
+:B0*?:pik::
+    outputEng("pik")
+return
+:B0*?:jap::
+    outputEng("jap")
+return
+:B0*?:tae::
+    outputEng("tae")
+return
+:B0*?:dya::
+    outputEng("dya")
+return
+:B0*?:fas::
+    outputEng("fas")
+return
+:B0*?:tia::
+    outputEng("tia")
+return
+:B0*?:wer::
+    outputEng("wer")
+return
+:B0*?:yie::
+    outputEng("yie")
+return
+:B0*?:joe::
+    outputEng("joe")
+return
+:B0*?:esq::
+    outputEng("esq")
+return
+:B0*?:ebu::
+    outputEng("ebu")
+return
+:B0*?:rel::
+    outputEng("rel")
+return
+:B0*?:upo::
+    outputEng("upo")
+return
+:B0*?:kil::
+    outputEng("kil")
+return
+:B0*?:aly::
+    outputEng("aly")
+return
+:B0*?:rok::
+    outputEng("rok")
+return
+:B0*?:egy::
+    outputEng("egy")
+return
+:B0*?:alh::
+    outputEng("alh")
+return
+:B0*?:nog::
+    outputEng("nog")
+return
+:B0*?:sev::
+    outputEng("sev")
+return
+:B0*?:lok::
+    outputEng("lok")
+return
+:B0*?:ofe::
+    outputEng("ofe")
+return
+:B0*?:ter::
+    outputEng("ter")
+return
+:B0*?:mul::
+    outputEng("mul")
+return
+:B0*?:inq::
+    outputEng("inq")
+return
+:B0*?:jur::
+    outputEng("jur")
+return
+:B0*?:hic::
+    outputEng("hic")
+return
+:B0*?:try::
+    outputEng("try")
+return
+:B0*?:awi::
+    outputEng("awi")
+return
+:B0*?:lyr::
+    outputEng("lyr")
+return
+:B0*?:acq::
+    outputEng("acq")
+return
+:B0*?:ody::
+    outputEng("ody")
+return
+:B0*?:upb::
+    outputEng("upb")
+return
+:B0*?:oxf::
+    outputEng("oxf")
+return
+:B0*?:lue::
+    outputEng("lue")
+return
+:B0*?:rox::
+    outputEng("rox")
+return
+:B0*?:col::
+    outputEng("col")
+return
+:B0*?:pew::
+    outputEng("pew")
+return
+:B0*?:dix::
+    outputEng("dix")
+return
+:B0*?:hon::
+    outputEng("hon")
+return
+:B0*?:nea::
+    outputEng("nea")
+return
+:B0*?:upk::
+    outputEng("upk")
+return
+:B0*?:tbi::
+    outputEng("tbi")
+return
+:B0*?:reo::
+    outputEng("reo")
+return
+:B0*?:imi::
+    outputEng("imi")
+return
+:B0*?:vet::
+    outputEng("vet")
+return
+:B0*?:etr::
+    outputEng("etr")
+return
+:B0*?:rif::
+    outputEng("rif")
+return
+:B0*?:eak::
+    outputEng("eak")
+return
+:B0*?:twa::
+    outputEng("twa")
+return
+:B0*?:cay::
+    outputEng("cay")
+return
+:B0*?:gog::
+    outputEng("gog")
+return
+:B0*?:seb::
+    outputEng("seb")
+return
+:B0*?:afo::
+    outputEng("afo")
+return
+:B0*?:sur::
+    outputEng("sur")
+return
+:B0*?:loi::
+    outputEng("loi")
+return
+:B0*?:puz::
+    outputEng("puz")
+return
+:B0*?:fah::
+    outputEng("fah")
+return
+:B0*?:dab::
+    outputEng("dab")
+return
+:B0*?:mol::
+    outputEng("mol")
+return
+:B0*?:huh::
+    outputEng("huh")
+return
+:B0*?:iva::
+    outputEng("iva")
+return
+:B0*?:erv::
+    outputEng("erv")
+return
+:B0*?:tuc::
+    outputEng("tuc")
+return
+:B0*?:iso::
+    outputEng("iso")
+return
+:B0*?:ram::
+    outputEng("ram")
+return
+:B0*?:agl::
+    outputEng("agl")
+return
+:B0*?:ank::
+    outputEng("ank")
+return
+:B0*?:cte::
+    outputEng("cte")
+return
+:B0*?:kut::
+    outputEng("kut")
+return
+:B0*?:ess::
+    outputEng("ess")
+return
+:B0*?:lee::
+    outputEng("lee")
+return
+:B0*?:roj::
+    outputEng("roj")
+return
+:B0*?:eld::
+    outputEng("eld")
+return
+:B0*?:keo::
+    outputEng("keo")
+return
+:B0*?:der::
+    outputEng("der")
+return
+:B0*?:cow::
+    outputEng("cow")
+return
+:B0*?:moi::
+    outputEng("moi")
+return
+:B0*?:dou::
+    outputEng("dou")
+return
+:B0*?:asp::
+    outputEng("asp")
+return
+:B0*?:oka::
+    outputEng("oka")
+return
+:B0*?:azo::
+    outputEng("azo")
+return
+:B0*?:yac::
+    outputEng("yac")
+return
+:B0*?:akk::
+    outputEng("akk")
+return
+:B0*?:roq::
+    outputEng("roq")
+return
+:B0*?:kol::
+    outputEng("kol")
+return
+:B0*?:cso::
+    outputEng("cso")
+return
+:B0*?:urd::
+    outputEng("urd")
+return
+:B0*?:kap::
+    outputEng("kap")
+return
+:B0*?:unl::
+    outputEng("unl")
+return
+:B0*?:erg::
+    outputEng("erg")
+return
+:B0*?:far::
+    outputEng("far")
+return
+:B0*?:adh::
+    outputEng("adh")
+return
+:B0*?:sio::
+    outputEng("sio")
+return
+:B0*?:xen::
+    outputEng("xen")
+return
+:B0*?:adm::
+    outputEng("adm")
+return
+:B0*?:tui::
+    outputEng("tui")
+return
+:B0*?:lyx::
+    outputEng("lyx")
+return
+:B0*?:pin::
+    outputEng("pin")
+return
+:B0*?:jun::
+    outputEng("jun")
+return
+:B0*?:nun::
+    outputEng("nun")
+return
+:B0*?:ghe::
+    outputEng("ghe")
+return
+:B0*?:oxe::
+    outputEng("oxe")
+return
+:B0*?:obj::
+    outputEng("obj")
+return
+:B0*?:ibl::
+    outputEng("ibl")
+return
+:B0*?:tyn::
+    outputEng("tyn")
+return
+:B0*?:leu::
+    outputEng("leu")
+return
+:B0*?:eme::
+    outputEng("eme")
+return
+:B0*?:suc::
+    outputEng("suc")
+return
+:B0*?:saf::
+    outputEng("saf")
+return
+:B0*?:spa::
+    outputEng("spa")
+return
+:B0*?:jou::
+    outputEng("jou")
+return
+:B0*?:mcl::
+    outputEng("mcl")
+return
+:B0*?:cth::
+    outputEng("cth")
+return
+:B0*?:uzb::
+    outputEng("uzb")
+return
+:B0*?:pfi::
+    outputEng("pfi")
+return
+:B0*?:gor::
+    outputEng("gor")
+return
+:B0*?:evi::
+    outputEng("evi")
+return
+:B0*?:miz::
+    outputEng("miz")
+return
+:B0*?:fab::
+    outputEng("fab")
+return
+:B0*?:raf::
+    outputEng("raf")
+return
+:B0*?:roo::
+    outputEng("roo")
+return
+:B0*?:kul::
+    outputEng("kul")
+return
+:B0*?:kes::
+    outputEng("kes")
+return
+:B0*?:cia::
+    outputEng("cia")
+return
+:B0*?:boz::
+    outputEng("boz")
+return
+:B0*?:voc::
+    outputEng("voc")
+return
+:B0*?:bid::
+    outputEng("bid")
+return
+:B0*?:ami::
+    outputEng("ami")
+return
+:B0*?:ayu::
+    outputEng("ayu")
+return
+:B0*?:tli::
+    outputEng("tli")
+return
+:B0*?:tor::
+    outputEng("tor")
+return
+:B0*?:jod::
+    outputEng("jod")
+return
+:B0*?:ibi::
+    outputEng("ibi")
+return
+:B0*?:orm::
+    outputEng("orm")
+return
+:B0*?:duv::
+    outputEng("duv")
+return
+:B0*?:akr::
+    outputEng("akr")
+return
+:B0*?:nth::
+    outputEng("nth")
+return
+:B0*?:eln::
+    outputEng("eln")
+return
+:B0*?:abh::
+    outputEng("abh")
+return
+:B0*?:wre::
+    outputEng("wre")
+return
+:B0*?:jez::
+    outputEng("jez")
+return
+:B0*?:lew::
+    outputEng("lew")
+return
+:B0*?:hin::
+    outputEng("hin")
+return
+:B0*?:neg::
+    outputEng("neg")
+return
+:B0*?:sto::
+    outputEng("sto")
+return
+:B0*?:ved::
+    outputEng("ved")
+return
+:B0*?:fai::
+    outputEng("fai")
+return
+:B0*?:jea::
+    outputEng("jea")
+return
+:B0*?:meu::
+    outputEng("meu")
+return
+:B0*?:jav::
+    outputEng("jav")
+return
+:B0*?:due::
+    outputEng("due")
+return
+:B0*?:tha::
+    outputEng("tha")
+return
+:B0*?:apr::
+    outputEng("apr")
+return
+:B0*?:mem::
+    outputEng("mem")
+return
+:B0*?:nel::
+    outputEng("nel")
+return
+:B0*?:fif::
+    outputEng("fif")
+return
+:B0*?:pip::
+    outputEng("pip")
+return
+:B0*?:tah::
+    outputEng("tah")
+return
+:B0*?:mae::
+    outputEng("mae")
+return
+:B0*?:muu::
+    outputEng("muu")
+return
+:B0*?:tul::
+    outputEng("tul")
+return
+:B0*?:ske::
+    outputEng("ske")
+return
+:B0*?:pai::
+    outputEng("pai")
+return
+:B0*?:eav::
+    outputEng("eav")
+return
+:B0*?:ipo::
+    outputEng("ipo")
+return
+:B0*?:gif::
+    outputEng("gif")
+return
+:B0*?:mui::
+    outputEng("mui")
+return
+:B0*?:pas::
+    outputEng("pas")
+return
+:B0*?:cyc::
+    outputEng("cyc")
+return
+:B0*?:bux::
+    outputEng("bux")
+return
+:B0*?:hyg::
+    outputEng("hyg")
+return
+:B0*?:gab::
+    outputEng("gab")
+return
+:B0*?:syk::
+    outputEng("syk")
+return
+:B0*?:fok::
+    outputEng("fok")
+return
+:B0*?:bal::
+    outputEng("bal")
+return
+:B0*?:sej::
+    outputEng("sej")
+return
+:B0*?:ass::
+    outputEng("ass")
+return
+:B0*?:alf::
+    outputEng("alf")
+return
+:B0*?:byz::
+    outputEng("byz")
+return
+:B0*?:ove::
+    outputEng("ove")
+return
+:B0*?:mou::
+    outputEng("mou")
+return
+:B0*?:iap::
+    outputEng("iap")
+return
+:B0*?:act::
+    outputEng("act")
+return
+:B0*?:viz::
+    outputEng("viz")
+return
+:B0*?:del::
+    outputEng("del")
+return
+:B0*?:yod::
+    outputEng("yod")
+return
+:B0*?:piz::
+    outputEng("piz")
+return
+:B0*?:vai::
+    outputEng("vai")
+return
+:B0*?:vea::
+    outputEng("vea")
+return
+:B0*?:arn::
+    outputEng("arn")
+return
+:B0*?:tua::
+    outputEng("tua")
+return
+:B0*?:uny::
+    outputEng("uny")
+return
+:B0*?:bol::
+    outputEng("bol")
+return
+:B0*?:tin::
+    outputEng("tin")
+return
+:B0*?:dds::
+    outputEng("dds")
+return
+:B0*?:dis::
+    outputEng("dis")
+return
+:B0*?:paj::
+    outputEng("paj")
+return
+:B0*?:hee::
+    outputEng("hee")
+return
+:B0*?:sed::
+    outputEng("sed")
+return
+:B0*?:lin::
+    outputEng("lin")
+return
+:B0*?:wru::
+    outputEng("wru")
+return
+:B0*?:nuc::
+    outputEng("nuc")
+return
+:B0*?:oss::
+    outputEng("oss")
+return
+:B0*?:nis::
+    outputEng("nis")
+return
+:B0*?:ara::
+    outputEng("ara")
+return
+:B0*?:eul::
+    outputEng("eul")
+return
+:B0*?:rad::
+    outputEng("rad")
+return
+:B0*?:law::
+    outputEng("law")
+return
+:B0*?:sis::
+    outputEng("sis")
+return
+:B0*?:syp::
+    outputEng("syp")
+return
+:B0*?:kor::
+    outputEng("kor")
+return
+:B0*?:diw::
+    outputEng("diw")
+return
+:B0*?:abi::
+    outputEng("abi")
+return
+:B0*?:rec::
+    outputEng("rec")
+return
+:B0*?:ids::
+    outputEng("ids")
+return
+:B0*?:bit::
+    outputEng("bit")
+return
+:B0*?:gym::
+    outputEng("gym")
+return
+:B0*?:cum::
+    outputEng("cum")
+return
+:B0*?:ite::
+    outputEng("ite")
+return
+:B0*?:odo::
+    outputEng("odo")
+return
+:B0*?:acn::
+    outputEng("acn")
+return
+:B0*?:tof::
+    outputEng("tof")
+return
+:B0*?:jal::
+    outputEng("jal")
+return
+:B0*?:boo::
+    outputEng("boo")
+return
+:B0*?:len::
+    outputEng("len")
+return
+:B0*?:puf::
+    outputEng("puf")
+return
+:B0*?:riz::
+    outputEng("riz")
+return
+:B0*?:hey::
+    outputEng("hey")
+return
+:B0*?:rew::
+    outputEng("rew")
+return
+:B0*?:coa::
+    outputEng("coa")
+return
+:B0*?:goa::
+    outputEng("goa")
+return
+:B0*?:gia::
+    outputEng("gia")
+return
+:B0*?:pii::
+    outputEng("pii")
+return
+:B0*?:tun::
+    outputEng("tun")
+return
+:B0*?:inb::
+    outputEng("inb")
+return
+:B0*?:kem::
+    outputEng("kem")
+return
+:B0*?:fic::
+    outputEng("fic")
+return
+:B0*?:byt::
+    outputEng("byt")
+return
+:B0*?:suw::
+    outputEng("suw")
+return
+:B0*?:fop::
+    outputEng("fop")
+return
+:B0*?:lod::
+    outputEng("lod")
+return
+:B0*?:syd::
+    outputEng("syd")
+return
+:B0*?:pou::
+    outputEng("pou")
+return
+:B0*?:oxy::
+    outputEng("oxy")
+return
+:B0*?:pym::
+    outputEng("pym")
+return
+:B0*?:uga::
+    outputEng("uga")
+return
+:B0*?:idy::
+    outputEng("idy")
+return
+:B0*?:uls::
+    outputEng("uls")
+return
+:B0*?:upp::
+    outputEng("upp")
+return
+:B0*?:itc::
+    outputEng("itc")
+return
+:B0*?:tif::
+    outputEng("tif")
+return
+:B0*?:tip::
+    outputEng("tip")
+return
+:B0*?:arg::
+    outputEng("arg")
+return
+:B0*?:alk::
+    outputEng("alk")
+return
+:B0*?:puc::
+    outputEng("puc")
+return
+:B0*?:fro::
+    outputEng("fro")
+return
+:B0*?:oca::
+    outputEng("oca")
+return
+:B0*?:rol::
+    outputEng("rol")
+return
+:B0*?:fei::
+    outputEng("fei")
+return
+:B0*?:den::
+    outputEng("den")
+return
+:B0*?:vam::
+    outputEng("vam")
+return
+:B0*?:sui::
+    outputEng("sui")
+return
+:B0*?:pud::
+    outputEng("pud")
+return
+:B0*?:tab::
+    outputEng("tab")
+return
+:B0*?:dit::
+    outputEng("dit")
+return
+:B0*?:mur::
+    outputEng("mur")
+return
+:B0*?:uln::
+    outputEng("uln")
+return
+:B0*?:tyi::
+    outputEng("tyi")
+return
+:B0*?:gun::
+    outputEng("gun")
+return
+:B0*?:lau::
+    outputEng("lau")
+return
+:B0*?:scr::
+    outputEng("scr")
+return
+:B0*?:eid::
+    outputEng("eid")
+return
+:B0*?:beq::
+    outputEng("beq")
+return
+:B0*?:lat::
+    outputEng("lat")
+return
+:B0*?:huf::
+    outputEng("huf")
+return
+:B0*?:pum::
+    outputEng("pum")
+return
+:B0*?:day::
+    outputEng("day")
+return
+:B0*?:opr::
+    outputEng("opr")
+return
+:B0*?:nij::
+    outputEng("nij")
+return
+:B0*?:jed::
+    outputEng("jed")
+return
+:B0*?:bre::
+    outputEng("bre")
+return
+:B0*?:ear::
+    outputEng("ear")
+return
+:B0*?:asq::
+    outputEng("asq")
+return
+:B0*?:jau::
+    outputEng("jau")
+return
+:B0*?:aya::
+    outputEng("aya")
+return
+:B0*?:arp::
+    outputEng("arp")
+return
+:B0*?:dec::
+    outputEng("dec")
+return
+:B0*?:rho::
+    outputEng("rho")
+return
+:B0*?:oce::
+    outputEng("oce")
+return
+:B0*?:apl::
+    outputEng("apl")
+return
+:B0*?:ams::
+    outputEng("ams")
+return
+:B0*?:myt::
+    outputEng("myt")
+return
+:B0*?:irr::
+    outputEng("irr")
+return
+:B0*?:bod::
+    outputEng("bod")
+return
+:B0*?:syr::
+    outputEng("syr")
+return
+:B0*?:iro::
+    outputEng("iro")
+return
+:B0*?:hut::
+    outputEng("hut")
+return
+:B0*?:ode::
+    outputEng("ode")
+return
+:B0*?:bax::
+    outputEng("bax")
+return
+:B0*?:yar::
+    outputEng("yar")
+return
+:B0*?:gha::
+    outputEng("gha")
+return
+:B0*?:mci::
+    outputEng("mci")
+return
+:B0*?:ura::
+    outputEng("ura")
+return
+:B0*?:sie::
+    outputEng("sie")
+return
+:B0*?:avo::
+    outputEng("avo")
+return
+:B0*?:ecc::
+    outputEng("ecc")
+return
+:B0*?:imf::
+    outputEng("imf")
+return
+:B0*?:tet::
+    outputEng("tet")
+return
+:B0*?:ple::
+    outputEng("ple")
+return
+:B0*?:adz::
+    outputEng("adz")
+return
+:B0*?:ens::
+    outputEng("ens")
+return
+:B0*?:kep::
+    outputEng("kep")
+return
+:B0*?:ion::
+    outputEng("ion")
+return
+:B0*?:lor::
+    outputEng("lor")
+return
+:B0*?:shy::
+    outputEng("shy")
+return
+:B0*?:epi::
+    outputEng("epi")
+return
+:B0*?:eec::
+    outputEng("eec")
+return
+:B0*?:qat::
+    outputEng("qat")
+return
+:B0*?:daf::
+    outputEng("daf")
+return
+:B0*?:xem::
+    outputEng("xem")
+return
+:B0*?:ilk::
+    outputEng("ilk")
+return
+:B0*?:rou::
+    outputEng("rou")
+return
+:B0*?:haw::
+    outputEng("haw")
+return
+:B0*?:lys::
+    outputEng("lys")
+return
+:B0*?:ref::
+    outputEng("ref")
+return
+:B0*?:lik::
+    outputEng("lik")
+return
+:B0*?:ski::
+    outputEng("ski")
+return
+:B0*?:irt::
+    outputEng("irt")
+return
+:B0*?:duk::
+    outputEng("duk")
+return
+:B0*?:ein::
+    outputEng("ein")
+return
+:B0*?:nic::
+    outputEng("nic")
+return
+:B0*?:mim::
+    outputEng("mim")
+return
+:B0*?:irv::
+    outputEng("irv")
+return
+:B0*?:fud::
+    outputEng("fud")
+return
+:B0*?:his::
+    outputEng("his")
+return
+:B0*?:tsi::
+    outputEng("tsi")
+return
+:B0*?:dot::
+    outputEng("dot")
+return
+:B0*?:sus::
+    outputEng("sus")
+return
+:B0*?:bau::
+    outputEng("bau")
+return
+:B0*?:kui::
+    outputEng("kui")
+return
+:B0*?:lyl::
+    outputEng("lyl")
+return
+:B0*?:suh::
+    outputEng("suh")
+return
+:B0*?:pad::
+    outputEng("pad")
+return
+:B0*?:ard::
+    outputEng("ard")
+return
+:B0*?:ena::
+    outputEng("ena")
+return
+:B0*?:pae::
+    outputEng("pae")
+return
+:B0*?:bar::
+    outputEng("bar")
+return
+:B0*?:yea::
+    outputEng("yea")
+return
+:B0*?:eni::
+    outputEng("eni")
+return
+:B0*?:ini::
+    outputEng("ini")
+return
+:B0*?:hea::
+    outputEng("hea")
+return
+:B0*?:pey::
+    outputEng("pey")
+return
+:B0*?:kow::
+    outputEng("kow")
+return
+:B0*?:fis::
+    outputEng("fis")
+return
+:B0*?:zeu::
+    outputEng("zeu")
+return
+:B0*?:poo::
+    outputEng("poo")
+return
+:B0*?:jig::
+    outputEng("jig")
+return
+:B0*?:off::
+    outputEng("off")
+return
+:B0*?:slu::
+    outputEng("slu")
+return
+:B0*?:sew::
+    outputEng("sew")
+return
+:B0*?:cyp::
+    outputEng("cyp")
+return
+:B0*?:odi::
+    outputEng("odi")
+return
+:B0*?:zil::
+    outputEng("zil")
+return
+:B0*?:the::
+    outputEng("the")
+return
+:B0*?:ubs::
+    outputEng("ubs")
+return
+:B0*?:dak::
+    outputEng("dak")
+return
+:B0*?:iff::
+    outputEng("iff")
+return
+:B0*?:yek::
+    outputEng("yek")
+return
+:B0*?:hmo::
+    outputEng("hmo")
+return
+:B0*?:tar::
+    outputEng("tar")
+return
+:B0*?:enq::
+    outputEng("enq")
+return
+:B0*?:onu::
+    outputEng("onu")
+return
+:B0*?:fec::
+    outputEng("fec")
+return
+:B0*?:yos::
+    outputEng("yos")
+return
+:B0*?:des::
+    outputEng("des")
+return
+:B0*?:cac::
+    outputEng("cac")
+return
+:B0*?:sma::
+    outputEng("sma")
+return
+:B0*?:kat::
+    outputEng("kat")
+return
+:B0*?:ung::
+    outputEng("ung")
+return
+:B0*?:als::
+    outputEng("als")
+return
+:B0*?:hyp::
+    outputEng("hyp")
+return
+:B0*?:luf::
+    outputEng("luf")
+return
+:B0*?:tou::
+    outputEng("tou")
+return
+:B0*?:ulu::
+    outputEng("ulu")
+return
+:B0*?:uto::
+    outputEng("uto")
+return
+:B0*?:pss::
+    outputEng("pss")
+return
+:B0*?:yak::
+    outputEng("yak")
+return
+:B0*?:nyl::
+    outputEng("nyl")
+return
+:B0*?:boh::
+    outputEng("boh")
+return
+:B0*?:iot::
+    outputEng("iot")
+return
+:B0*?:raj::
+    outputEng("raj")
+return
+:B0*?:dru::
+    outputEng("dru")
+return
+:B0*?:dha::
+    outputEng("dha")
+return
+:B0*?:hoy::
+    outputEng("hoy")
+return
+:B0*?:fen::
+    outputEng("fen")
+return
+:B0*?:mcb::
+    outputEng("mcb")
+return
+:B0*?:hui::
+    outputEng("hui")
+return
+:B0*?:dim::
+    outputEng("dim")
+return
+:B0*?:air::
+    outputEng("air")
+return
+:B0*?:gwa::
+    outputEng("gwa")
+return
+:B0*?:tro::
+    outputEng("tro")
+return
+:B0*?:peg::
+    outputEng("peg")
+return
+:B0*?:neo::
+    outputEng("neo")
+return
+:B0*?:mak::
+    outputEng("mak")
+return
+:B0*?:sea::
+    outputEng("sea")
+return
+:B0*?:sho::
+    outputEng("sho")
+return
+:B0*?:koh::
+    outputEng("koh")
+return
+:B0*?:ohi::
+    outputEng("ohi")
+return
+:B0*?:upf::
+    outputEng("upf")
+return
+:B0*?:gai::
+    outputEng("gai")
+return
+:B0*?:kyo::
+    outputEng("kyo")
+return
+:B0*?:yvo::
+    outputEng("yvo")
+return
+:B0*?:lay::
+    outputEng("lay")
+return
+:B0*?:omi::
+    outputEng("omi")
+return
+:B0*?:sec::
+    outputEng("sec")
+return
+:B0*?:uml::
+    outputEng("uml")
+return
+:B0*?:ane::
+    outputEng("ane")
+return
+:B0*?:vag::
+    outputEng("vag")
+return
+:B0*?:gua::
+    outputEng("gua")
+return
+:B0*?:kew::
+    outputEng("kew")
+return
+:B0*?:que::
+    outputEng("que")
+return
+:B0*?:suf::
+    outputEng("suf")
+return
+:B0*?:poc::
+    outputEng("poc")
+return
+:B0*?:hyb::
+    outputEng("hyb")
+return
+:B0*?:yuc::
+    outputEng("yuc")
+return
+:B0*?:zie::
+    outputEng("zie")
+return
+:B0*?:khr::
+    outputEng("khr")
+return
+:B0*?:set::
+    outputEng("set")
+return
+:B0*?:fog::
+    outputEng("fog")
+return
+:B0*?:low::
+    outputEng("low")
+return
+:B0*?:ats::
+    outputEng("ats")
+return
+:B0*?:wau::
+    outputEng("wau")
+return
+:B0*?:kid::
+    outputEng("kid")
+return
+:B0*?:rug::
+    outputEng("rug")
+return
+:B0*?:kwa::
+    outputEng("kwa")
+return
+:B0*?:ecr::
+    outputEng("ecr")
+return
+:B0*?:myl::
+    outputEng("myl")
+return
+:B0*?:job::
+    outputEng("job")
+return
+:B0*?:maz::
+    outputEng("maz")
+return
+:B0*?:ark::
+    outputEng("ark")
+return
+:B0*?:jus::
+    outputEng("jus")
+return
+:B0*?:lam::
+    outputEng("lam")
+return
+:B0*?:jub::
+    outputEng("jub")
+return
+:B0*?:zin::
+    outputEng("zin")
+return
+:B0*?:arl::
+    outputEng("arl")
+return
+:B0*?:xer::
+    outputEng("xer")
+return
+:B0*?:pir::
+    outputEng("pir")
+return
+:B0*?:mad::
+    outputEng("mad")
+return
+:B0*?:bos::
+    outputEng("bos")
+return
+:B0*?:pah::
+    outputEng("pah")
+return
+:B0*?:heb::
+    outputEng("heb")
+return
+:B0*?:pri::
+    outputEng("pri")
+return
+:B0*?:sly::
+    outputEng("sly")
+return
+:B0*?:yat::
+    outputEng("yat")
+return
+:B0*?:fol::
+    outputEng("fol")
+return
+:B0*?:pit::
+    outputEng("pit")
+return
+:B0*?:can::
+    outputEng("can")
+return
+:B0*?:gyn::
+    outputEng("gyn")
+return
+:B0*?:deu::
+    outputEng("deu")
+return
+:B0*?:mgm::
+    outputEng("mgm")
+return
+:B0*?:abd::
+    outputEng("abd")
+return
+:B0*?:isc::
+    outputEng("isc")
+return
+:B0*?:spi::
+    outputEng("spi")
+return
+:B0*?:err::
+    outputEng("err")
+return
+:B0*?:sas::
+    outputEng("sas")
+return
+:B0*?:eto::
+    outputEng("eto")
+return
+:B0*?:xav::
+    outputEng("xav")
+return
+:B0*?:por::
+    outputEng("por")
+return
+:B0*?:vaz::
+    outputEng("vaz")
+return
+:B0*?:bus::
+    outputEng("bus")
+return
+:B0*?:roa::
+    outputEng("roa")
+return
+:B0*?:awe::
+    outputEng("awe")
+return
+:B0*?:enl::
+    outputEng("enl")
+return
+:B0*?:gmt::
+    outputEng("gmt")
+return
+:B0*?:mec::
+    outputEng("mec")
+return
+:B0*?:yon::
+    outputEng("yon")
+return
+:B0*?:fug::
+    outputEng("fug")
+return
+:B0*?:emo::
+    outputEng("emo")
+return
+:B0*?:noo::
+    outputEng("noo")
+return
+:B0*?:toe::
+    outputEng("toe")
+return
+:B0*?:rib::
+    outputEng("rib")
+return
+:B0*?:aci::
+    outputEng("aci")
+return
+:B0*?:zir::
+    outputEng("zir")
+return
+:B0*?:jeh::
+    outputEng("jeh")
+return
+:B0*?:nou::
+    outputEng("nou")
+return
+:B0*?:dys::
+    outputEng("dys")
+return
+:B0*?:mek::
+    outputEng("mek")
+return
+:B0*?:jar::
+    outputEng("jar")
+return
+:B0*?:ply::
+    outputEng("ply")
+return
+:B0*?:ogl::
+    outputEng("ogl")
+return
+:B0*?:wit::
+    outputEng("wit")
+return
+:B0*?:div::
+    outputEng("div")
+return
+:B0*?:lai::
+    outputEng("lai")
+return
+:B0*?:gum::
+    outputEng("gum")
+return
+:B0*?:deb::
+    outputEng("deb")
+return
+:B0*?:wyl::
+    outputEng("wyl")
+return
+:B0*?:sun::
+    outputEng("sun")
+return
+:B0*?:num::
+    outputEng("num")
+return
+:B0*?:ham::
+    outputEng("ham")
+return
+:B0*?:kun::
+    outputEng("kun")
+return
+:B0*?:raw::
+    outputEng("raw")
+return
+:B0*?:dud::
+    outputEng("dud")
+return
+:B0*?:eja::
+    outputEng("eja")
+return
+:B0*?:mua::
+    outputEng("mua")
+return
+:B0*?:sex::
+    outputEng("sex")
+return
+:B0*?:pla::
+    outputEng("pla")
+return
+:B0*?:rub::
+    outputEng("rub")
+return
+:B0*?:vod::
+    outputEng("vod")
+return
+:B0*?:rac::
+    outputEng("rac")
+return
+:B0*?:tud::
+    outputEng("tud")
+return
+:B0*?:anu::
+    outputEng("anu")
+return
+:B0*?:phr::
+    outputEng("phr")
+return
+:B0*?:dij::
+    outputEng("dij")
+return
+:B0*?:rek::
+    outputEng("rek")
+return
+:B0*?:mbi::
+    outputEng("mbi")
+return
+:B0*?:ost::
+    outputEng("ost")
+return
+:B0*?:ltd::
+    outputEng("ltd")
+return
+:B0*?:mes::
+    outputEng("mes")
+return
+:B0*?:kkk::
+    outputEng("kkk")
+return
+:B0*?:cza::
+    outputEng("cza")
+return
+:B0*?:wok::
+    outputEng("wok")
+return
+:B0*?:azt::
+    outputEng("azt")
+return
+:B0*?:cre::
+    outputEng("cre")
+return
+:B0*?:osp::
+    outputEng("osp")
+return
+:B0*?:yug::
+    outputEng("yug")
+return
+:B0*?:awh::
+    outputEng("awh")
+return
+:B0*?:muh::
+    outputEng("muh")
+return
+:B0*?:bud::
+    outputEng("bud")
+return
+:B0*?:zip::
+    outputEng("zip")
+return
+:B0*?:mah::
+    outputEng("mah")
+return
+:B0*?:vom::
+    outputEng("vom")
+return
+:B0*?:shu::
+    outputEng("shu")
+return
+:B0*?:wuh::
+    outputEng("wuh")
+return
+:B0*?:ary::
+    outputEng("ary")
+return
+:B0*?:izh::
+    outputEng("izh")
+return
+:B0*?:cai::
+    outputEng("cai")
+return
+:B0*?:gno::
+    outputEng("gno")
+return
+:B0*?:thy::
+    outputEng("thy")
+return
+:B0*?:zel::
+    outputEng("zel")
+return
+:B0*?:twe::
+    outputEng("twe")
+return
+:B0*?:kuh::
+    outputEng("kuh")
+return
+:B0*?:tut::
+    outputEng("tut")
+return
+:B0*?:isi::
+    outputEng("isi")
+return
+:B0*?:bed::
+    outputEng("bed")
+return
+:B0*?:hoc::
+    outputEng("hoc")
+return
+:B0*?:upl::
+    outputEng("upl")
+return
+:B0*?:ima::
+    outputEng("ima")
+return
+:B0*?:one::
+    outputEng("one")
+return
+:B0*?:yah::
+    outputEng("yah")
+return
+:B0*?:tir::
+    outputEng("tir")
+return
+:B0*?:deo::
+    outputEng("deo")
+return
+:B0*?:nan::
+    outputEng("nan")
+return
+:B0*?:zer::
+    outputEng("zer")
+return
+:B0*?:hez::
+    outputEng("hez")
+return
+:B0*?:swe::
+    outputEng("swe")
+return
+:B0*?:par::
+    outputEng("par")
+return
+:B0*?:tim::
+    outputEng("tim")
+return
+:B0*?:kit::
+    outputEng("kit")
+return
+:B0*?:ick::
+    outputEng("ick")
+return
+:B0*?:wii::
+    outputEng("wii")
+return
+:B0*?:kon::
+    outputEng("kon")
+return
+:B0*?:gyb::
+    outputEng("gyb")
+return
+:B0*?:opt::
+    outputEng("opt")
+return
+:B0*?:pyt::
+    outputEng("pyt")
+return
+:B0*?:age::
+    outputEng("age")
+return
+:B0*?:pbs::
+    outputEng("pbs")
+return
+:B0*?:sop::
+    outputEng("sop")
+return
+:B0*?:wik::
+    outputEng("wik")
+return
