@@ -15,7 +15,7 @@ Modify Input Type Automatically 自動切換輸入法程式
 
 > Thu, Sep 27, 2018 5:48 PM  
 > 新增 autohotkey 版本：  
-> 如果有裝 [autohotkey](https://autohotkey.com/)，可直接使用_changer.ahk_這個檔。  
+> 如果有裝 [autohotkey](https://autohotkey.com/)，可直接使用 _changer.ahk_ 這個檔。  
 > 跟原本差異: 
 > 1. 是輸入一個中文字就會自動轉，而非兩個
 > 2. 英文部分則是輸入三個字母時就會轉(為節省判斷時間及檔案大小)
